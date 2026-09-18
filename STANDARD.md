@@ -1,9 +1,9 @@
 # CRLN-TRG-001
-## CRLN Clinical Research Competency Framework — Version 1.1
+## CRLN Clinical Research Competency Framework — Version 1.7
 
 **Publisher:** CRLN — Clinical Research Learning Network · crln-learn.com  
 **Author:** Joshua Webber, Founder — ORCID [0009-0005-2538-8333](https://orcid.org/0009-0005-2538-8333)  
-**Version:** 1.1 · **Release:** 1.1.3 (2026-09-01) · **Type:** Standard / Documentation  
+**Version:** 1.7 · **Release:** 1.7.0 (2026-09-18) · **Type:** Standard / Documentation  
 **Concept DOI (all versions):** [10.5281/zenodo.22049549](https://doi.org/10.5281/zenodo.22049549)
 
 **License:** This framework and the standards crosswalk herein are licensed **Creative Commons Attribution 4.0 International (CC BY 4.0)**. The CRLN Readiness Index measurement engine, item parameters, calibrations, and underlying data are proprietary and are **not** licensed hereunder.
@@ -13,7 +13,24 @@
 ---
 
 ## 1. Purpose & scope
-CRLN-TRG-001 defines a common, openly-published competency framework for the global clinical-research workforce. Its purpose is to make clinical-research competency **measurable, comparable, and portable** across countries, languages, and roles — anchored to the recognized global standard (ICH E6(R3) Good Clinical Practice) and aligned to the industry-recognized Joint Task Force (JTF) Clinical Trial Competency Framework. It defines eight role tracks — Clinical Research Coordinator, Clinical Research Associate, Clinical Trial Administrator, Clinical Data Manager, Clinical Trial / Project Manager, Regulatory Affairs Specialist, Pharmacovigilance / Drug Safety Associate, and Principal Investigator — and is delivered free to learners worldwide.
+CRLN-TRG-001 defines a common, openly-published competency framework for the global clinical-research workforce. Its purpose is to make clinical-research competency **measurable, comparable, and portable** across countries, languages, and roles — anchored to the recognized global standard (ICH E6(R3) Good Clinical Practice) and aligned to the industry-recognized Joint Task Force (JTF) Clinical Trial Competency Framework. It defines **fourteen role tracks** and is delivered free to learners worldwide:
+
+| role | track |
+|---|---|
+| CRC | Clinical Research Coordinator |
+| CRA | Clinical Research Associate |
+| CTA | Clinical Trial Administrator |
+| CDM | Clinical Data Manager |
+| PM | Clinical Trial / Project Manager |
+| RA | Regulatory Affairs Specialist |
+| PV | Pharmacovigilance / Drug Safety Associate |
+| PI | Principal Investigator |
+| SUBI | Sub-Investigator |
+| RN | Research Nurse |
+| PHARM | Clinical Trial Pharmacist |
+| DCT | Decentralized Trial Coordinator |
+| ASSIST | Research Assistant / Study Coordinator I |
+| LAB | Specimen Processing / Laboratory Technician |
 
 ## 2. Canonical competency taxonomy (10 domains)
 CRLN-TRG-001 organizes clinical-research competency into ten canonical domains (D-01…D-10), aligned to the ICH E6(R3) structure:
@@ -31,7 +48,7 @@ CRLN-TRG-001 organizes clinical-research competency into ten canonical domains (
 | D-09 | Site Oversight & Monitoring |
 | D-10 | Pharmacovigilance & Regulatory Submissions |
 
-*(As of version 1.1 the framework comprises **48 competency statements** — eight role tracks by six domains each — across **2 published versions** (1.0 and 1.1). Domain codes D1–D6 are positional within a role: `D1` for a CRA and `D1` for a Clinical Data Manager are different competencies, so comparisons must use the fully-qualified id `CRLN-<ROLE>-<Dn>`. Full item-level detail is maintained in the CRLN methodology registry.)*
+*(As of version 1.7 the framework comprises **84 competency statements** — fourteen role tracks by six domains each — across **8 published versions** (1.0 through 1.7). Domain codes D1–D6 are positional within a role: `D1` for a CRA and `D1` for a Clinical Data Manager are different competencies, so comparisons must use the fully-qualified id `CRLN-<ROLE>-<Dn>`. Full item-level detail is maintained in the CRLN methodology registry.)*
 
 > *Correction, 2026-08-31: this paragraph previously read "56 competency statements … and 3 tracked framework versions." Both figures were produced by counting the methodology registry without filtering, so they included the eight JTF v3.1 reference statements that CRLN-TRG-001 is crosswalked **to** rather than composed of. The framework's own content is 48 statements across 2 versions.*
 

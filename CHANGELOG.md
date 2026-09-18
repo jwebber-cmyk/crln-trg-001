@@ -20,6 +20,82 @@ place: [CRLN-TRG-001-GOVERNANCE.md](CRLN-TRG-001-GOVERNANCE.md)
 
 ---
 
+## 1.7.0 — 2026-09-18 (the published standard catches up with what is applied)
+
+**This release publishes five versions that had been applied and never written down.**
+
+Between 2026-09-01 and 2026-09-18 the framework moved from eight role tracks to
+fourteen. The engine, the safety table and the version stamp all moved with it;
+the published standard and this changelog did not. Every competency signal CRLN
+emitted in that period was stamped `CRLN-TRG-001 v1.7`, and a reader who looked
+up v1.7 found a document describing v1.1 — eight roles, 48 competency statements.
+
+A version stamp that cannot be looked up is worse than no stamp, because it is
+trusted. The same reasoning corrected the stamp itself on 2026-08-31; this is
+that correction applied to the document rather than to the constant.
+
+**What actually changed, per version, all of it additive.** The 1–4 scale, the
+safety rule and the composite are untouched throughout, so scores remain
+comparable across every version. Assessments keep the stamp they were scored
+under and are never restamped.
+
+| version | date | adds | role tracks | competency statements |
+|---|---|---|---|---|
+| 1.2 | 2026-09-01 | RN, Research Nurse | 9 | 54 |
+| 1.3 | 2026-09-01 | PHARM, Clinical Trial Pharmacist | 10 | 60 |
+| 1.4 | 2026-09-01 | DCT, Decentralized Trial Coordinator | 11 | 66 |
+| 1.5 | 2026-09-01 | ASSIST, Research Assistant / Study Coordinator I | 12 | 72 |
+| 1.6 | 2026-09-01 | LAB, Specimen Processing / Laboratory Technician | 13 | 78 |
+| 1.7 | 2026-09-01 | SUBI, Sub-Investigator | 14 | **84** |
+
+Each was released as its own point version rather than folded together, even
+where several landed the same day, because the stamp records what was applied
+**at the time of scoring**. An assessment scored under 1.2 was scored by an
+engine with nine roles; restamping it to claim ten would make the provenance
+record a convenience rather than a fact.
+
+**Why each role was added.**
+
+- **RN (1.2).** Modelled at ~128,000 FTE across 120 countries, the largest role
+  the framework did not cover. Its domains are not a re-cut of the coordinator's:
+  the coordinator owns eligibility, consent logistics and the source record; the
+  nurse owns assessment, administration and specimens, and is usually the first
+  person to see an adverse event.
+- **PHARM (1.3).** ~80,000 FTE modelled. Holds custody of the investigational
+  product from arrival to destruction, which is a different competency from
+  administering it: the nurse gives what the pharmacist releases.
+- **DCT (1.4).** Defined by distance rather than by a subject: the same
+  competencies as a site role, each made harder by the participant not being in
+  the room. Its crosswalk spreads across the canonical spine rather than
+  clustering.
+- **ASSIST (1.5).** The first track that goes *down* rather than sideways. Every
+  other role assumes the learner is already in clinical research; this one does
+  not. Its weights are deliberately unlike the others, with escalation at 0.25,
+  because an assistant's defining competency is knowing the edge of their own
+  authority.
+- **LAB (1.6).** The bench, and the first role whose harm route does not run
+  through touching a participant. It runs through the *result*. A trial's primary
+  endpoint is very often a number produced at a bench, and the ways that number
+  goes wrong were invisible to the other twelve roles. Four of six domains map
+  onto records entry (D-06), which is the honest crosswalk.
+- **SUBI (1.7).** Delegated medical oversight, distinct from the Principal
+  Investigator who delegates it.
+
+**How this was reconstructed.** The role set, domain labels, weights,
+safety-critical flags and regulatory references in this release were extracted
+directly from the scoring implementation rather than re-authored, and the
+resulting counts were checked independently: 14 roles, 84 statements, every
+role's weights summing to 1.00. The published form is now generated from the
+thing that scores assessments, which is what should have prevented this drift and
+will now.
+
+**Known gap, stated rather than left to be found.** The standards crosswalk
+remains marked provisional. One independent reviewer has completed all ten
+canonical domain mappings; the Methodology Review Board that would ratify them
+holds one seat of five. "Provisional" is the accurate word until that changes.
+
+---
+
 ## 1.2.1 — 2026-09-09 (governance stated honestly)
 
 Published: [10.5281/zenodo.22681637](https://doi.org/10.5281/zenodo.22681637)
