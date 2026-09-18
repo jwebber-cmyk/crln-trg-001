@@ -1,0 +1,58 @@
+{
+  "name": "CRLN-TRG-001",
+  "aliases": [
+    "CRLN Clinical Research Competency Framework"
+  ],
+  "description": "CRLN-TRG-001 is an openly licensed competency framework for the global clinical research workforce. ICH E6(R3) requires that trial staff be qualified by education, training and experience, but does not define qualification in a measurable form, so the field evidences it with course-completion certificates that record attendance rather than capability. The framework supplies the missing half: eight role tracks, ten canonical competency domains, 48 weighted competency statements, a four-level rating scale, scoring rules, and a crosswalk to ICH E6(R3) and the Joint Task Force Clinical Trial Competency Framework. It is a specification rather than a product. It contains no personal data, has no users, hosts no content and enables no interaction between people, and any provider, university, site network or ministry may implement it without permission or cost, including in competition with its publisher.",
+  "website": "https://doi.org/10.5281/zenodo.22049549",
+  "license": [
+    {
+      "spdx": "CC-BY-4.0",
+      "licenseURL": "https://github.com/jwebber-cmyk/crln-trg-001/blob/main/LICENSE"
+    }
+  ],
+  "SDGs": [
+    {
+      "SDGNumber": 3,
+      "evidenceText": "Target 3.c, health workforce. Clinical trials are conducted by people who must recognise an adverse event, take consent properly and escalate a safety concern. The framework makes those competencies measurable and comparable, so a country can see where its trial workforce is capable and where it is not. WHO benchmarking finds roughly three quarters of national regulators at sub-optimal maturity, concentrated in low- and middle-income countries, which are the same countries hosting a growing share of trials.",
+      "evidenceURL": "https://doi.org/10.5281/zenodo.22049549"
+    },
+    {
+      "SDGNumber": 4,
+      "evidenceText": "Target 4.4, relevant skills. The framework is published openly so any provider, university or ministry can map existing training to it rather than build a competency model from nothing. It is the measurement layer, not a course.",
+      "evidenceURL": "https://doi.org/10.5281/zenodo.22049549"
+    },
+    {
+      "SDGNumber": 8,
+      "evidenceText": "Target 8.5. Competency described in one portable vocabulary makes a person's capability legible to an employer in another country. A coordinator's experience does not currently travel across borders; a shared open standard is what allows it to.",
+      "evidenceURL": "https://doi.org/10.5281/zenodo.22049549"
+    },
+    {
+      "SDGNumber": 10,
+      "evidenceText": "Target 10.3. Clinical research training is overwhelmingly published in English and priced per seat. Both are barriers falling hardest on the workforce trials increasingly depend on. An openly licensed standard removes the licensing barrier for every downstream provider, including in languages its publisher will never publish in itself. Spanish, Portuguese and Simplified Chinese translations of the adoptable core are published in the repository, marked unofficial with English authoritative.",
+      "evidenceURL": "https://github.com/jwebber-cmyk/crln-trg-001/tree/main/translations"
+    }
+  ],
+  "sectors": [
+    "Health"
+  ],
+  "type": [
+    "standard"
+  ],
+  "repositories": [
+    {
+      "name": "main",
+      "url": "https://github.com/jwebber-cmyk/crln-trg-001"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Clinical Research Learning Network LLC",
+      "website": "https://crln-learn.com",
+      "org_type": "owner",
+      "contact_name": "Joshua Webber",
+      "contact_email": "standard@crln-learn.com"
+    }
+  ],
+  "stage": "nominee"
+}

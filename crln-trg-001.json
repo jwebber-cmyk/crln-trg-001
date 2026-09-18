@@ -1,0 +1,658 @@
+{
+  "$schema": "https://crln-learn.com/schemas/competency-framework/v1.json",
+  "framework_id": "CRLN-TRG-001",
+  "framework_name": "CRLN Clinical Research Competency & Assessment Framework",
+  "version": "1.1.3",
+  "status": "published-provisional",
+  "publisher": "Clinical Research Learning Network LLC",
+  "license": "CC-BY-4.0",
+  "readiness_index": "CRLN-RUB-1.1",
+  "description": "A role-specific, behaviorally-anchored competency assessment framework for entry-level clinical research roles, crosswalked to ICH E6(R3) Good Clinical Practice and 21 CFR, and aligned to the Joint Task Force for Clinical Trial Competency (JTF) domains. Operationalized through scenario-based simulation that scores applied decision-making rather than knowledge recall.",
+  "alignment": {
+    "ich_gcp": "ICH E6(R3) (adopted 2025-01-06)",
+    "regulatory": [
+      "21 CFR Parts 11/50/54/56/312",
+      "ICH E2A",
+      "ALCOA+",
+      "DIA TMF Reference Model v3.0"
+    ],
+    "competency_reference": "Joint Task Force for Clinical Trial Competency (JTF) — CRLN domains map to JTF competency domains; JTF is an independent framework and is credited, not claimed.",
+    "validation_status": "CRLN-authored rubric (weights, anchors, safety rules, thresholds) is production-in-use. The standards-citation crosswalk is undergoing subject-matter-expert validation; items not yet SME-signed are flagged provisional. Do not represent as an accredited standard until SME validation is complete.",
+    "standards_alignment": {
+      "standards": [
+        "TransCelerate GCP Mutual Recognition minimum criteria",
+        "ICH E6(R3)",
+        "Joint Task Force (JTF) competency domains"
+      ],
+      "basis": "Documented mapping of CRLN-TRG-001 competencies to published standards",
+      "audited_by_third_party": false,
+      "statement": "CRLN-TRG-001 is aligned with the TransCelerate GCP Mutual Recognition minimum criteria and mapped to ICH E6(R3) and the Joint Task Force competency domains. This is a documented alignment to published standards authored by CRLN, not a third-party audit or validation of CRLN."
+    }
+  },
+  "scale": [
+    {
+      "level": 1,
+      "label": "Critical Gap",
+      "description": "Does Not Meet — regulatory violation or subject-safety risk; would constitute a GCP audit finding."
+    },
+    {
+      "level": 2,
+      "label": "Developing",
+      "description": "Needs Coaching — core task performed with notable gaps; supervisor prompting required."
+    },
+    {
+      "level": 3,
+      "label": "Meets Standard",
+      "description": "Industry Ready — performs all critical behaviours independently; meets GCP minimum standard."
+    },
+    {
+      "level": 4,
+      "label": "Exceeds",
+      "description": "Expert / Leader — Level 3 plus proactive systemic-issue detection, beyond-minimum documentation, and peer coaching."
+    }
+  ],
+  "scoring": {
+    "pass_threshold": 3.0,
+    "conditional_pass_threshold": 2.5,
+    "safety_rule": "A score of 1 in any safety-critical domain forces an overall FAIL regardless of composite score.",
+    "composite": "Weighted mean of covered domain scores, re-normalized against actual covered weight so partial assessments are not penalized (CRLN-RUB-1.1 §5.2).",
+    "readiness_index": "Composite (1–4) mapped to a 0–100 Readiness Index via CRLN-RUB-1.1 rubricScoreToPercent."
+  },
+  "roles": {
+    "CRC": {
+      "title": "Clinical Research Coordinator — Site Operations & Subject Management",
+      "domains": [
+        {
+          "id": "CRLN-CRC-D1",
+          "code": "D1",
+          "label": "Protocol Adherence & Eligibility",
+          "weight": 0.2,
+          "safety_critical": false,
+          "refs": [
+            "ICH E6(R3) Annex 1 §2.5",
+            "§3.12",
+            "21 CFR 312.62"
+          ]
+        },
+        {
+          "id": "CRLN-CRC-D2",
+          "code": "D2",
+          "label": "Informed Consent Process",
+          "weight": 0.2,
+          "safety_critical": true,
+          "refs": [
+            "ICH E6(R3) Annex 1 §2.8",
+            "21 CFR Part 50"
+          ]
+        },
+        {
+          "id": "CRLN-CRC-D3",
+          "code": "D3",
+          "label": "Source Documentation & ALCOA+",
+          "weight": 0.2,
+          "safety_critical": false,
+          "refs": [
+            "ICH E6(R3) Annex 1 §2.12",
+            "ALCOA+",
+            "21 CFR Part 11"
+          ]
+        },
+        {
+          "id": "CRLN-CRC-D4",
+          "code": "D4",
+          "label": "Investigational Product Management",
+          "weight": 0.15,
+          "safety_critical": false,
+          "refs": [
+            "ICH E6(R3) Annex 1 §2.10",
+            "§3.15",
+            "21 CFR 312.59/61"
+          ]
+        },
+        {
+          "id": "CRLN-CRC-D5",
+          "code": "D5",
+          "label": "AE Recognition & Reporting",
+          "weight": 0.15,
+          "safety_critical": true,
+          "refs": [
+            "ICH E6(R3) Annex 1 §2.7.2",
+            "ICH E2A"
+          ]
+        },
+        {
+          "id": "CRLN-CRC-D6",
+          "code": "D6",
+          "label": "Communication & Escalation",
+          "weight": 0.1,
+          "safety_critical": false,
+          "refs": [
+            "ICH E6(R3) Annex 1 §2",
+            "Principles"
+          ]
+        }
+      ]
+    },
+    "CRA": {
+      "title": "Clinical Research Associate — Monitoring, Site Oversight & Compliance",
+      "domains": [
+        {
+          "id": "CRLN-CRA-D1",
+          "code": "D1",
+          "label": "Site Qualification & Feasibility",
+          "weight": 0.1,
+          "safety_critical": false,
+          "refs": [
+            "ICH E6(R3) Annex 1 §3.11.4",
+            "21 CFR 312.53"
+          ]
+        },
+        {
+          "id": "CRLN-CRA-D2",
+          "code": "D2",
+          "label": "On-Site Monitoring · SDV/SDR",
+          "weight": 0.25,
+          "safety_critical": false,
+          "refs": [
+            "ICH E6(R3) Annex 1 §3.11.4",
+            "FDA RBM Guidance"
+          ]
+        },
+        {
+          "id": "CRLN-CRA-D3",
+          "code": "D3",
+          "label": "Protocol Deviation Assessment",
+          "weight": 0.2,
+          "safety_critical": true,
+          "refs": [
+            "ICH E6(R3) Annex 1 §2.5",
+            "§3.12",
+            "21 CFR 312.62"
+          ]
+        },
+        {
+          "id": "CRLN-CRA-D4",
+          "code": "D4",
+          "label": "IP Accountability Verification",
+          "weight": 0.15,
+          "safety_critical": false,
+          "refs": [
+            "ICH E6(R3) Annex 1 §2.10",
+            "§3.15",
+            "21 CFR 312.59"
+          ]
+        },
+        {
+          "id": "CRLN-CRA-D5",
+          "code": "D5",
+          "label": "Site Communication & Visit Reporting",
+          "weight": 0.2,
+          "safety_critical": false,
+          "refs": [
+            "ICH E6(R3) Annex 1 Appendix C",
+            "TransCelerate"
+          ]
+        },
+        {
+          "id": "CRLN-CRA-D6",
+          "code": "D6",
+          "label": "Risk-Based Monitoring & Remote Oversight",
+          "weight": 0.1,
+          "safety_critical": false,
+          "refs": [
+            "ICH E6(R3) Annex 1 §3.11.4",
+            "FDA RBM Guidance 2023"
+          ]
+        }
+      ]
+    },
+    "CTA": {
+      "title": "Clinical Trial Assistant — Regulatory Operations, TMF & Study Start-Up",
+      "domains": [
+        {
+          "id": "CRLN-CTA-D1",
+          "code": "D1",
+          "label": "Trial Master File Management",
+          "weight": 0.25,
+          "safety_critical": false,
+          "refs": [
+            "ICH E6(R3) Annex 1 Appendix C",
+            "DIA TMF Ref Model v3.0"
+          ]
+        },
+        {
+          "id": "CRLN-CTA-D2",
+          "code": "D2",
+          "label": "Regulatory Submissions & IRB/IEC",
+          "weight": 0.2,
+          "safety_critical": false,
+          "refs": [
+            "ICH E6(R3) Annex 1 §1",
+            "21 CFR 312",
+            "21 CFR 56"
+          ]
+        },
+        {
+          "id": "CRLN-CTA-D3",
+          "code": "D3",
+          "label": "Study Start-Up & CTMS",
+          "weight": 0.2,
+          "safety_critical": false,
+          "refs": [
+            "ICH E6(R3) Annex 1 Appendix C",
+            "CTMS Governance"
+          ]
+        },
+        {
+          "id": "CRLN-CTA-D4",
+          "code": "D4",
+          "label": "Data Integrity & 21 CFR Part 11",
+          "weight": 0.15,
+          "safety_critical": false,
+          "refs": [
+            "ICH E6(R3) Annex 1 §2.12",
+            "ALCOA+",
+            "21 CFR Part 11"
+          ]
+        },
+        {
+          "id": "CRLN-CTA-D5",
+          "code": "D5",
+          "label": "Safety Reporting Administration",
+          "weight": 0.1,
+          "safety_critical": true,
+          "refs": [
+            "ICH E6(R3) Annex 1 §3.13",
+            "ICH E2A/E2D",
+            "ICH E2A",
+            "21 CFR 312.32"
+          ]
+        },
+        {
+          "id": "CRLN-CTA-D6",
+          "code": "D6",
+          "label": "Quality, Audit Readiness & CAPA",
+          "weight": 0.1,
+          "safety_critical": false,
+          "refs": [
+            "ICH E6(R3) Annex 1 §2",
+            "Principles",
+            "21 CFR 312.68"
+          ]
+        }
+      ]
+    },
+    "CDM": {
+      "title": "Clinical Data Manager — Data Management, EDC & Database Lock",
+      "domains": [
+        {
+          "id": "CRLN-CDM-D1",
+          "code": "D1",
+          "label": "Data Management Plan & CRF Design",
+          "weight": 0.15,
+          "safety_critical": false,
+          "refs": [
+            "ICH E6(R3) Annex 1 §2.12",
+            "ALCOA+",
+            "GCDMP",
+            "CDISC CDASH"
+          ]
+        },
+        {
+          "id": "CRLN-CDM-D2",
+          "code": "D2",
+          "label": "EDC Build & Validation",
+          "weight": 0.15,
+          "safety_critical": false,
+          "refs": [
+            "ICH E6(R3) Annex 1 §2.12",
+            "ALCOA+",
+            "21 CFR Part 11"
+          ]
+        },
+        {
+          "id": "CRLN-CDM-D3",
+          "code": "D3",
+          "label": "Data Entry, Query Management & Cleaning",
+          "weight": 0.2,
+          "safety_critical": false,
+          "refs": [
+            "ICH E6(R3) Annex 1 §2.12",
+            "ALCOA+",
+            "GCDMP"
+          ]
+        },
+        {
+          "id": "CRLN-CDM-D4",
+          "code": "D4",
+          "label": "Medical Coding (MedDRA/WHODrug)",
+          "weight": 0.15,
+          "safety_critical": false,
+          "refs": [
+            "MedDRA MSSO",
+            "WHODrug",
+            "ICH E2A"
+          ]
+        },
+        {
+          "id": "CRLN-CDM-D5",
+          "code": "D5",
+          "label": "Database Lock & SAE Reconciliation",
+          "weight": 0.2,
+          "safety_critical": true,
+          "refs": [
+            "ICH E6(R3) Annex 1 §2.7.2",
+            "ICH E2A"
+          ]
+        },
+        {
+          "id": "CRLN-CDM-D6",
+          "code": "D6",
+          "label": "CDISC Standards & 21 CFR Part 11",
+          "weight": 0.15,
+          "safety_critical": false,
+          "refs": [
+            "CDISC SDTM/ADaM",
+            "21 CFR Part 11"
+          ]
+        }
+      ]
+    },
+    "PM": {
+      "title": "Clinical Trial / Project Manager — Study Oversight, Site & Vendor Management, Risk",
+      "domains": [
+        {
+          "id": "CRLN-PM-D1",
+          "code": "D1",
+          "label": "Study Planning & Timelines",
+          "weight": 0.15,
+          "safety_critical": false,
+          "refs": [
+            "ICH E6(R3) Annex 1 §3.11.4"
+          ]
+        },
+        {
+          "id": "CRLN-PM-D2",
+          "code": "D2",
+          "label": "Site Management & Oversight",
+          "weight": 0.2,
+          "safety_critical": false,
+          "refs": [
+            "ICH E6(R3) Annex 1 §3.11.4"
+          ]
+        },
+        {
+          "id": "CRLN-PM-D3",
+          "code": "D3",
+          "label": "Vendor / CRO Oversight",
+          "weight": 0.15,
+          "safety_critical": false,
+          "refs": [
+            "ICH E6(R3) Annex 1 §3.11.4"
+          ]
+        },
+        {
+          "id": "CRLN-PM-D4",
+          "code": "D4",
+          "label": "Risk Management & Mitigation",
+          "weight": 0.2,
+          "safety_critical": true,
+          "refs": [
+            "ICH E6(R3) Annex 1 §2.5",
+            "§3.12",
+            "FDA RBM"
+          ]
+        },
+        {
+          "id": "CRLN-PM-D5",
+          "code": "D5",
+          "label": "Budget & Resource Management",
+          "weight": 0.1,
+          "safety_critical": false,
+          "refs": [
+            "ICH E6(R3) Annex 1 §3.11.4"
+          ]
+        },
+        {
+          "id": "CRLN-PM-D6",
+          "code": "D6",
+          "label": "Sponsor Communication & Reporting",
+          "weight": 0.2,
+          "safety_critical": false,
+          "refs": [
+            "ICH E6(R3) Annex 1 Appendix C"
+          ]
+        }
+      ]
+    },
+    "RA": {
+      "title": "Regulatory Affairs Specialist — Regulatory Submissions, IRB/IEC & Safety Reporting",
+      "domains": [
+        {
+          "id": "CRLN-RA-D1",
+          "code": "D1",
+          "label": "Regulatory Submissions (IND/CTA)",
+          "weight": 0.2,
+          "safety_critical": false,
+          "refs": [
+            "21 CFR 312",
+            "EU CTR 536/2014"
+          ]
+        },
+        {
+          "id": "CRLN-RA-D2",
+          "code": "D2",
+          "label": "IRB / IEC Interactions",
+          "weight": 0.2,
+          "safety_critical": false,
+          "refs": [
+            "ICH E6(R3) Annex 1 §1",
+            "21 CFR 56"
+          ]
+        },
+        {
+          "id": "CRLN-RA-D3",
+          "code": "D3",
+          "label": "Protocol Amendments",
+          "weight": 0.15,
+          "safety_critical": false,
+          "refs": [
+            "ICH E6(R3) Annex 1 §2.5",
+            "§3.12",
+            "21 CFR 312.30"
+          ]
+        },
+        {
+          "id": "CRLN-RA-D4",
+          "code": "D4",
+          "label": "Regulatory Intelligence & Compliance",
+          "weight": 0.15,
+          "safety_critical": false,
+          "refs": [
+            "ICH E6(R3) Annex 1 §2",
+            "Principles"
+          ]
+        },
+        {
+          "id": "CRLN-RA-D5",
+          "code": "D5",
+          "label": "Safety Reporting to Authorities",
+          "weight": 0.2,
+          "safety_critical": true,
+          "refs": [
+            "21 CFR 312.32",
+            "ICH E2A"
+          ]
+        },
+        {
+          "id": "CRLN-RA-D6",
+          "code": "D6",
+          "label": "Essential Documents & Submissions Filing",
+          "weight": 0.1,
+          "safety_critical": false,
+          "refs": [
+            "ICH E6(R3) Annex 1 Appendix C"
+          ]
+        }
+      ]
+    },
+    "PV": {
+      "title": "Pharmacovigilance / Drug-Safety Associate — Case Processing, Causality & Expedited Reporting",
+      "domains": [
+        {
+          "id": "CRLN-PV-D1",
+          "code": "D1",
+          "label": "Case Intake & Triage",
+          "weight": 0.15,
+          "safety_critical": false,
+          "refs": [
+            "ICH E2A",
+            "21 CFR 314.80"
+          ]
+        },
+        {
+          "id": "CRLN-PV-D2",
+          "code": "D2",
+          "label": "Case Processing & Assessment",
+          "weight": 0.2,
+          "safety_critical": false,
+          "refs": [
+            "ICH E2A",
+            "ICH E2D"
+          ]
+        },
+        {
+          "id": "CRLN-PV-D3",
+          "code": "D3",
+          "label": "Seriousness / Causality / Expectedness",
+          "weight": 0.2,
+          "safety_critical": true,
+          "refs": [
+            "ICH E2A",
+            "21 CFR 312.32"
+          ]
+        },
+        {
+          "id": "CRLN-PV-D4",
+          "code": "D4",
+          "label": "Expedited & Periodic Reporting",
+          "weight": 0.2,
+          "safety_critical": true,
+          "refs": [
+            "21 CFR 312.32",
+            "ICH E2A",
+            "ICH E2C"
+          ]
+        },
+        {
+          "id": "CRLN-PV-D5",
+          "code": "D5",
+          "label": "MedDRA Coding & Narrative Writing",
+          "weight": 0.15,
+          "safety_critical": false,
+          "refs": [
+            "MedDRA MSSO",
+            "ICH E2B"
+          ]
+        },
+        {
+          "id": "CRLN-PV-D6",
+          "code": "D6",
+          "label": "Signal Detection & Risk Management",
+          "weight": 0.1,
+          "safety_critical": false,
+          "refs": [
+            "ICH E2E",
+            "GVP Module IX"
+          ]
+        }
+      ]
+    },
+    "PI": {
+      "title": "Principal Investigator / Sub-Investigator — Investigator Oversight, Consent & Medical Safety",
+      "domains": [
+        {
+          "id": "CRLN-PI-D1",
+          "code": "D1",
+          "label": "Investigator Oversight & Delegation",
+          "weight": 0.2,
+          "safety_critical": false,
+          "refs": [
+            "ICH E6(R3) Annex 1 §2",
+            "Principles"
+          ]
+        },
+        {
+          "id": "CRLN-PI-D2",
+          "code": "D2",
+          "label": "Informed Consent Oversight",
+          "weight": 0.15,
+          "safety_critical": true,
+          "refs": [
+            "ICH E6(R3) Annex 1 §2.8",
+            "21 CFR 50"
+          ]
+        },
+        {
+          "id": "CRLN-PI-D3",
+          "code": "D3",
+          "label": "Protocol Conduct & Eligibility",
+          "weight": 0.15,
+          "safety_critical": false,
+          "refs": [
+            "ICH E6(R3) Annex 1 §2.5",
+            "§3.12"
+          ]
+        },
+        {
+          "id": "CRLN-PI-D4",
+          "code": "D4",
+          "label": "Medical Safety & AE Assessment",
+          "weight": 0.2,
+          "safety_critical": true,
+          "refs": [
+            "ICH E6(R3) Annex 1 §2.7.2",
+            "ICH E2A"
+          ]
+        },
+        {
+          "id": "CRLN-PI-D5",
+          "code": "D5",
+          "label": "Source Documentation & Data Integrity",
+          "weight": 0.15,
+          "safety_critical": false,
+          "refs": [
+            "ICH E6(R3) Annex 1 §2.12",
+            "ALCOA+"
+          ]
+        },
+        {
+          "id": "CRLN-PI-D6",
+          "code": "D6",
+          "label": "Regulatory & Ethical Compliance",
+          "weight": 0.15,
+          "safety_critical": false,
+          "refs": [
+            "ICH E6(R3) Annex 1 §2",
+            "Principles",
+            "Declaration of Helsinki"
+          ]
+        }
+      ]
+    }
+  },
+  "notes": [
+    "18 competency IDs total (3 roles × 6 domains). These IDs are the stable anchors that CRLN-issued verifiable credentials reference (moat build #1).",
+    "Domain weights sum to 1.00 within each role and reflect regulatory significance and frequency of GCP findings.",
+    "This JSON is the machine-readable form of the CRLN-TRG-001 v1.0 specification; the human-readable spec and change log live alongside it."
+  ],
+  "domain_code_semantics": "Domain codes D1-D6 are POSITIONAL WITHIN A ROLE. D1 for a CRA and D1 for a CDM are different competencies. Compare using the fully-qualified id (CRLN-<ROLE>-<Dn>), never the bare code.",
+  "governance": {
+    "document": "CRLN-TRG-001-GOVERNANCE.md",
+    "custodian": "Clinical Research Learning Network",
+    "review_board_constituted": false,
+    "approval_route": "custodian on SME review (2-of-3 consensus) pending board constitution",
+    "concept_doi": "10.5281/zenodo.22049549",
+    "contact": "standard@crln-learn.com"
+  }
+}
