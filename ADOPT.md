@@ -7,7 +7,8 @@ CRLN-TRG-001 is licensed **CC BY 4.0**. You may use, adapt, translate and build 
 it commercially. You must credit it. You do not need permission, a contract, or a
 conversation with us.
 
-Concept DOI: [10.5281/zenodo.22049550](https://doi.org/10.5281/zenodo.22049550) ·
+Concept DOI (all versions, always resolves to the latest):
+[10.5281/zenodo.22049549](https://doi.org/10.5281/zenodo.22049549) ·
 Change log: `CRLN-TRG-001-CHANGELOG.md`
 
 ---
@@ -69,7 +70,7 @@ rather than adoption — see below.
 Minimum attribution under CC BY 4.0:
 
 > Competency framework adapted from CRLN-TRG-001 (Clinical Research Learning
-> Network), licensed CC BY 4.0. DOI: 10.5281/zenodo.22049550
+> Network), licensed CC BY 4.0. DOI: 10.5281/zenodo.22049549
 
 If you adapt the domains or the scale, say so, and say how. An unmarked adaptation
 that people take for the original is the one use that damages everybody, including
@@ -77,7 +78,7 @@ the next adopter.
 
 ## Implementation checklist
 
-1. Read `CRLN-TRG-001-Standard-v1.1.md` (human) and `crln-trg-001.json` (machine).
+1. Read `CRLN-TRG-001-Standard-v1.7.1.md` (human) and `crln-trg-001.json` (machine).
 2. Note the version you are adopting and record it. Published versions are
    immutable, so a stated version is a stable reference.
 3. Check the crosswalk rows and jurisdiction rows you depend on, and note which are

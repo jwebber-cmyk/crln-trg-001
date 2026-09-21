@@ -14,6 +14,15 @@ Concept DOI (all versions, always resolves to the latest):
 > concept DOI. That is the **version 1.1** DOI. Anyone who followed it has pinned a
 > citation to v1.1 while believing they had cited the framework in general. The READMEs
 > in `publications/` were correct throughout; this file was not.
+>
+> **Correction, 2026-09-21.** The 2026-09-09 fix was applied to this file only. `ADOPT.md`
+> and `STANDARD.md` carried the same error for a further twelve days: `ADOPT.md` labelled
+> `10.5281/zenodo.22049550` as the concept DOI in its header and in the attribution block it
+> asks adopters to copy, and `STANDARD.md` cited it in section 7. Both are corrected to
+> `10.5281/zenodo.22049549`. `ADOPT.md` also pointed readers at `CRLN-TRG-001-Standard-v1.1.md`,
+> a filename that has not shipped since 1.1.1; it now names the current file. Copies of
+> `ADOPT.md` inside published Zenodo records up to and including 1.7.1 are immutable and still
+> carry the wrong DOI; the correction reaches a published record at the next release.
 
 Governance — who decides, how to propose a change, how to appeal, and what is not yet in
 place: [CRLN-TRG-001-GOVERNANCE.md](CRLN-TRG-001-GOVERNANCE.md)
@@ -21,6 +30,8 @@ place: [CRLN-TRG-001-GOVERNANCE.md](CRLN-TRG-001-GOVERNANCE.md)
 ---
 
 ## 1.7.1 — 2026-09-21 (the competency crosswalk stops being provisional)
+
+Published: [10.5281/zenodo.22884111](https://doi.org/10.5281/zenodo.22884111)
 
 **Nothing in the framework changed. What changed is that we stopped understating it.**
 

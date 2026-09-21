@@ -111,7 +111,11 @@ The framework is mapped to national regulatory regimes to ensure GCP applicabili
 Versioned and openly published. Changes are tracked in the CRLN methodology registry with change notes; published versions are immutable. A Methodology Review Board, conflict-of-interest policy, and appeals process govern updates. Each published version receives its own DOI.
 
 ## 7. How to cite
-> CRLN (2026). *CRLN-TRG-001: CRLN Clinical Research Competency Framework, Version 1.1.* Clinical Research Learning Network. DOI: https://doi.org/10.5281/zenodo.22049550. Licensed CC BY 4.0.
+> CRLN (2026). *CRLN-TRG-001: CRLN Clinical Research Competency Framework.* Clinical Research Learning Network. DOI: https://doi.org/10.5281/zenodo.22049549. Licensed CC BY 4.0.
+
+Cite the concept DOI above unless you need to pin a specific release, in which case cite that
+release's own version DOI from the change log. `10.5281/zenodo.22049550` is **version 1.1**, not
+the concept DOI.
 
 ---
 *© 2026 CRLN — Clinical Research Learning Network. Framework + crosswalk licensed CC BY 4.0. Measurement engine, item parameters, and data proprietary. Published openly for inspection, citation, and adoption.*
