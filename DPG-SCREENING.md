@@ -177,26 +177,28 @@ is by pull request or email to `standard@crln-learn.com`, governed by
 None of these are disqualifying under the DPG Standard. All of them are worse if
 a reviewer finds them before we say them.
 
-## How to submit
+## Submission status
 
-**The pull request route is dead.** `DPGAlliance/publicgoods-candidates` was
-archived on 2026-08-31 and is read-only; a pull request against it now fails at
-the API. Anything that still says "open a PR adding `nominees/<name>.json`",
-including the DPGA's own `CONTRIBUTING.md`, is stale.
+**Already submitted.** Application **GID0094193** was filed on 2026-09-08 through
+`app.digitalpublicgoods.net` and is in the DPGA review queue. A DPGA portal
+account exists.
 
-The live route is the application at https://app.digitalpublicgoods.net, which
-offers two paths:
+**Open issue.** The application was submitted on 2026-09-08. Release 1.7.0 was
+published on 2026-09-18, ten days later. The portal entry therefore almost
+certainly still describes **eight role tracks and 48 competency statements**,
+which is what `dpg-nominee.json` said until today. The standard has fourteen and
+84. The portal entry should be corrected to match before review reaches it,
+because a registry entry is a permanent public description.
 
-1. **Create a DPGA account** (email, name, password, alternate email), then
-   start an application; or
-2. **Start an application without signing up.** The signup page carries a
-   "Create new application" control which states "No sign up required to view &
-   edit your application." It asks for the solution name and a terms-of-use
-   acceptance, then opens the form at `/new/application`.
+The repository the application points at was corrected on 2026-09-21: the CC BY
+4.0 licence is now machine-detectable, the PDF is rebuilt at the current release,
+and this file was added.
 
-Either path requires a human to accept the DPGA terms of use. The answers above
-map directly onto the form's nine indicator sections.
+**The pull request route no longer exists.** `DPGAlliance/publicgoods-candidates`
+was archived on 2026-08-31 and is read-only. The DPGA's own `CONTRIBUTING.md`
+still describes it. A 404 on `nominees/<name>.json` there is not evidence that a
+project has not been nominated, because nominations no longer land in that
+repository at all. That inference was made here once and was wrong.
 
-The nominee JSON in this repository is still the canonical source of the
-submitted facts, and it still validates against the DPGA's published
-`nominee-schema.json`, so it stays as the record of what was submitted.
+The nominee JSON in this repository stays as the canonical record of the
+submitted facts and still validates against the DPGA's published schema.
