@@ -44,6 +44,29 @@ Prior releases are not kept in this repository. Each has its own immutable DOI o
 Zenodo and is reachable from `CHANGELOG.md`, so the repository shows the current
 version and the archive shows the history.
 
+## Are you using this?
+
+Please tell us: **standard@crln-learn.com**, or open a pull request against
+[`ADOPTERS.md`](ADOPTERS.md).
+
+We are asking because we genuinely cannot tell. CC BY 4.0 means you may use, adapt and
+translate this without permission, without a contract and without notifying anyone, which is
+the right licence and is not changing. The consequence is that **we cannot count our own
+adoption.** Someone could be teaching from this framework today and we would never know.
+
+So any adoption figure we publish is a floor rather than a count, and `ADOPTERS.md` is the only
+evidence behind it. That matters beyond vanity: "how many organisations use it" is the first
+question a ministry, a funder or a standards body asks, and "we don't know" is a worse answer
+than a small number.
+
+Being listed means you use the framework. It is **not** an endorsement of CRLN, it does not
+imply you use our platform, and it creates no obligation. One row: organisation, country,
+version, and one line on how it is used. Ask to be removed at any time and it happens the same
+day, no questions.
+
+A correction is just as welcome as a listing. If a mapping is wrong for your jurisdiction or
+your practice, that is more useful to us than agreement.
+
 ## Translations
 
 Translations are provided so that an organisation can read the framework in a
