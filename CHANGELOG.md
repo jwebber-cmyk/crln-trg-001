@@ -33,7 +33,15 @@ ten, unanimously:
 |---|---|
 | Jeffrey Smyth, MS, CCRP | TrueBlue Clinical Research, Tampa |
 | Rotceh Rios | RMP SMO |
-| George Lott | Biovivium Strategies |
+| *(third reviewer, name withheld)* | *(withheld)* |
+
+> **Correction, 2026-09-21, same day.** This table was first published naming all three
+> reviewers. Only two of the three have publication consent on file. The third was named
+> without ever being asked, and the name and organisation were removed within the hour. A
+> reviewer's identity is theirs to release, not ours to use because it strengthens a claim,
+> and the fact that the claim is true does not make the naming consented. The name will be
+> restored if and only if that reviewer says yes to wording shown to them first, which is the
+> same process the other two went through.
 
 The records were in the review table and the published documents had simply not caught up, which is
 an error in the safe direction and still an error. A standard that describes itself as less validated
