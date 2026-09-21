@@ -51,6 +51,33 @@ review is the evidential basis for the crosswalk claim in the standard, and it w
 before any invitation to govern was extended, which is the order that matters: the reviewer
 was not recruited to ratify work he had already been asked to endorse.
 
+## Founding Validators
+
+The first organisations to review CRLN-TRG-001 against their own practice and allow that review
+to be named. A validator **reviewed** the framework; an adopter **uses** it. They are different
+claims and `ADOPTERS.md` keeps them apart deliberately, because conflating them would inflate both.
+
+| validator | organisation | reviewed | consent on file |
+|---|---|---|---|
+| Jeffrey Smyth, MS, CCRP | TrueBlue Clinical Research, Tampa, USA | all ten canonical domains, ICH E6(R3) and JTF crosswalk | 2026-09-08 and 2026-09-19, by email |
+| Rotceh Rios | RMP SMO | all ten canonical domains, ICH E6(R3) and JTF crosswalk | 2026-09-01, by email |
+
+A third reviewer also rated all ten domains. They are not named here because they have not been
+asked, and a name is theirs to release rather than ours to use because it strengthens a claim.
+
+**What being listed means, and what it does not.** These reviewers checked whether our mapping of a
+competency domain to ICH E6(R3) and the Joint Task Force framework matched their own professional
+judgement, and said so. It is not an endorsement of CRLN the company or of the CRLN platform, it
+creates no commercial relationship, and it is not a regulatory approval of anything. Any validator
+may ask to be removed and it happens the same day, no questions asked.
+
+**Why this section exists late.** Jeffrey Smyth agreed on 2026-09-08 and was told the same week that
+he and TrueBlue would be listed as Founding Validators in the published standard. Rotceh Rios gave
+explicit permission on 2026-09-01. Neither was listed anywhere until 2026-09-21. The consent was
+real, recorded in email, and simply never made it into a published file. Recording that here rather
+than backdating it: a promise kept thirteen days late is still late, and the person who said yes had
+no way to see that anything had happened.
+
 **Still required to constitute.** A chair, elected by the members rather than appointed by the
 custodian, and three further members. At least one must bring psychometric or
 assessment-methodology expertise, and at least one must come from a low- or middle-income
