@@ -3,6 +3,7 @@
 **An open competency framework for clinical research roles.**
 Licensed CC BY 4.0. Free to use, adapt, translate and build on, commercially or
 otherwise, with attribution and without permission.
+[`NOTICE.md`](NOTICE.md) states exactly what the licence covers and what it does not.
 
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22049549-blue)](https://doi.org/10.5281/zenodo.22049549)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey)](https://creativecommons.org/licenses/by/4.0/)
@@ -35,6 +36,13 @@ implement it, including in competition with CRLN.
 | `ADOPT.md` | how to use it in your own training, assessment or hiring |
 | `ADOPTERS.md` | a voluntary public register of who uses it |
 | `translations/` | community translations. **English is authoritative.** |
+| `CRLN-TRG-001-v1.7.pdf` | the current release as a PDF, built reproducibly by `build-standard-pdf.py` |
+| `NOTICE.md` | what the CC BY 4.0 licence covers, and what it does not |
+| `DPG-SCREENING.md` | answers to the nine Digital Public Goods Standard indicators |
+
+Prior releases are not kept in this repository. Each has its own immutable DOI on
+Zenodo and is reachable from `CHANGELOG.md`, so the repository shows the current
+version and the archive shows the history.
 
 ## Translations
 
