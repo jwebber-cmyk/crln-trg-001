@@ -20,6 +20,43 @@ place: [CRLN-TRG-001-GOVERNANCE.md](CRLN-TRG-001-GOVERNANCE.md)
 
 ---
 
+## 1.7.1 — 2026-09-21 (the competency crosswalk stops being provisional)
+
+**Nothing in the framework changed. What changed is that we stopped understating it.**
+
+Every published version since 1.0 has said the standards crosswalk was "undergoing SME review" and
+"provisional until signed off." That review finished. Three independent reviewers rated all ten
+canonical domains against ICH E6(R3) Annex 1 and the Joint Task Force framework, and agreed on all
+ten, unanimously:
+
+| reviewer | organisation |
+|---|---|
+| Jeffrey Smyth, MS, CCRP | TrueBlue Clinical Research, Tampa |
+| Rotceh Rios | RMP SMO |
+| George Lott | Biovivium Strategies |
+
+The records were in the review table and the published documents had simply not caught up, which is
+an error in the safe direction and still an error. A standard that describes itself as less validated
+than it is misleads a reader exactly as much as one that describes itself as more.
+
+**What this release does NOT claim.**
+
+- **The jurisdiction and regulatory-regime crosswalk remains provisional.** It has had no SME review at
+  all. Zero reviewers, zero ratings. Nothing about the competency validation extends to it, and this is
+  stated in every place the competency status is stated.
+- **Not board-ratified.** The Methodology Review Board has one seated member and has not reached
+  quorum, so approval here is by the custodian on SME review, exactly as §6 of the governance document
+  requires every release to say.
+- **Not accredited.** CRLN-TRG-001 is not an accredited standard and must not be represented as one.
+
+Patch rather than minor under §6 of the governance document: no competency was added, removed or
+reworded, no weight or threshold moved. Only the validation statement changed.
+
+Changed: `STANDARD.md` maturity notice and §Validation status · `SPEC.md` §7 and the status header ·
+`crln-trg-001.json` (`status` is now `published-sme-validated`, `alignment.validation_status` rewritten).
+
+---
+
 ## 1.7.0 — 2026-09-18 (the published standard catches up with what is applied)
 
 **This release publishes five versions that had been applied and never written down.**

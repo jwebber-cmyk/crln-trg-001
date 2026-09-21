@@ -2,8 +2,8 @@
   "$schema": "https://crln-learn.com/schemas/competency-framework/v1.json",
   "framework_id": "CRLN-TRG-001",
   "framework_name": "CRLN Clinical Research Competency & Assessment Framework",
-  "version": "1.7.0",
-  "status": "published-provisional",
+  "version": "1.7.1",
+  "status": "published-sme-validated",
   "publisher": "Clinical Research Learning Network LLC",
   "license": "CC-BY-4.0",
   "readiness_index": "CRLN-RUB-1.1",
@@ -17,7 +17,7 @@
       "DIA TMF Reference Model v3.0"
     ],
     "competency_reference": "Joint Task Force for Clinical Trial Competency (JTF) — CRLN domains map to JTF competency domains; JTF is an independent framework and is credited, not claimed.",
-    "validation_status": "CRLN-authored rubric (weights, anchors, safety rules, thresholds) is production-in-use. The standards-citation crosswalk is undergoing subject-matter-expert validation; items not yet SME-signed are flagged provisional. Do not represent as an accredited standard until SME validation is complete.",
+    "validation_status": "Competency crosswalk: SME-VALIDATED 2026-09-21. Three independent reviewers rated all ten canonical domains and agreed on all ten, unanimously; reviewers named in GOVERNANCE.md. Approved by the custodian on that SME review, because the Methodology Review Board has not reached quorum. Jurisdiction and regulatory-regime crosswalk: PROVISIONAL, no SME review has taken place. Assessment mechanics (weights, anchors, safety rules, thresholds): CRLN-authored and production-in-use. CRLN-TRG-001 is not an accredited standard and must not be represented as one.",
     "standards_alignment": {
       "standards": [
         "TransCelerate GCP Mutual Recognition minimum criteria",

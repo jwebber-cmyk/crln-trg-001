@@ -36,7 +36,7 @@ implement it, including in competition with CRLN.
 | `ADOPT.md` | how to use it in your own training, assessment or hiring |
 | `ADOPTERS.md` | a voluntary public register of who uses it |
 | `translations/` | community translations. **English is authoritative.** |
-| `CRLN-TRG-001-v1.7.pdf` | the current release as a PDF, built reproducibly by `build-standard-pdf.py` |
+| `CRLN-TRG-001-v1.7.1.pdf` | the current release as a PDF, built reproducibly by `build-standard-pdf.py` |
 | `NOTICE.md` | what the CC BY 4.0 licence covers, and what it does not |
 | `DPG-SCREENING.md` | answers to the nine Digital Public Goods Standard indicators |
 

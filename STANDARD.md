@@ -3,12 +3,12 @@
 
 **Publisher:** CRLN — Clinical Research Learning Network · crln-learn.com  
 **Author:** Joshua Webber, Founder — ORCID [0009-0005-2538-8333](https://orcid.org/0009-0005-2538-8333)  
-**Version:** 1.7 · **Release:** 1.7.0 (2026-09-18) · **Type:** Standard / Documentation  
+**Version:** 1.7 · **Release:** 1.7.1 (2026-09-21) · **Type:** Standard / Documentation  
 **Concept DOI (all versions):** [10.5281/zenodo.22049549](https://doi.org/10.5281/zenodo.22049549)
 
 **License:** This framework and the standards crosswalk herein are licensed **Creative Commons Attribution 4.0 International (CC BY 4.0)**. The CRLN Readiness Index measurement engine, item parameters, calibrations, and underlying data are proprietary and are **not** licensed hereunder.
 
-> **Maturity notice:** CRLN-TRG-001 is an open, versioned competency framework operationalizing recognized standards. The domain taxonomy and crosswalk are published openly; the standards-crosswalk mappings are undergoing subject-matter-expert (SME) review and are marked provisional until signed off. This is a transparent, evolving standard — published openly so the field can inspect, cite, and build on it.
+> **Maturity notice:** CRLN-TRG-001 is an open, versioned competency framework operationalizing recognized standards. The competency crosswalk to ICH E6(R3) and the JTF framework has completed SME validation (three reviewers, all ten domains, unanimous; see §Validation status). The jurisdiction and regulatory-regime crosswalk has not been reviewed and stays provisional. This is a transparent, evolving standard, published openly so the field can inspect, cite, and build on it.
 
 ---
 
@@ -53,7 +53,7 @@ CRLN-TRG-001 organizes clinical-research competency into ten canonical domains (
 > *Correction, 2026-08-31: this paragraph previously read "56 competency statements … and 3 tracked framework versions." Both figures were produced by counting the methodology registry without filtering, so they included the eight JTF v3.1 reference statements that CRLN-TRG-001 is crosswalked **to** rather than composed of. The framework's own content is 48 statements across 2 versions.*
 
 ## 3. Standards crosswalk — CRLN-TRG-001 ↔ JTF ↔ ICH E6(R3)
-CRLN operationalizes recognized standards rather than inventing its own. Each canonical domain maps to the Joint Task Force Clinical Trial Competency Framework and to ICH E6(R3), with ACRP/SOCRA relevance noted. Section references use **ICH E6(R3) Annex 1** numbering throughout, taken from the adopted guideline. *(Mappings provisional pending SME review.)*
+CRLN operationalizes recognized standards rather than inventing its own. Each canonical domain maps to the Joint Task Force Clinical Trial Competency Framework and to ICH E6(R3), with ACRP/SOCRA relevance noted. Section references use **ICH E6(R3) Annex 1** numbering throughout, taken from the adopted guideline. *(Competency mappings SME-validated 2026-09-21: three reviewers, ten of ten domains, unanimous. Jurisdiction and regime mappings remain provisional and unreviewed.)*
 
 > *Correction, 2026-09-01 (release 1.1.3): until this release, 38 of the 48 competency domains cited ICH E6(R2) section numbers — §4 for the Investigator, §5 for the Sponsor, §8 for Essential Documents — under an "ICH E6(R3)" label. R3 Annex 1 places those at §2, §3 and Appendix C. The mappings were right; the addresses were wrong. They now use verified R3 Annex 1 anchors.*
 

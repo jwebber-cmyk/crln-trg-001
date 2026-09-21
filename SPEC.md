@@ -1,6 +1,6 @@
 # CRLN-TRG-001 — Clinical Research Competency & Assessment Framework
 
-**Version 1.0** · Publisher: Clinical Research Learning Network (CRLN) · License: CC-BY-4.0 · Status: **Published (provisional — see §7)**
+**Version 1.0** · Publisher: Clinical Research Learning Network (CRLN) · License: CC-BY-4.0 · Status: **Published — competency crosswalk SME-validated; regime crosswalk provisional (see §7)**
 
 > **What this is.** CRLN-TRG-001 is an open, role-specific, behaviorally-anchored framework for **assessing applied competency** in entry-level clinical-research roles. It scores what a person *does* in realistic scenarios — not what they can recall — and expresses the result as a transparent, weighted, safety-aware rating crosswalked to **ICH E6(R3)** Good Clinical Practice and 21 CFR.
 >
@@ -46,7 +46,7 @@ CRLN-TRG-001 domains cite, per role: **ICH E6(R3)** §3–§8 · **21 CFR** Part
 
 ## 7. Validation status (read before citing as a standard)
 
-CRLN-TRG-001's **assessment mechanics** (weights, anchors, safety rule, thresholds, scoring) are **in production use** on the CRLN platform. The **standards-citation crosswalk** is undergoing **subject-matter-expert (SME) validation**; citations not yet SME-signed are treated as provisional. **Until SME validation is complete, do not represent CRLN-TRG-001 as an accredited or externally-validated standard** — represent it accurately as "a CRLN-authored, ICH E6(R3)-aligned assessment framework, JTF-aligned, undergoing independent validation." This honesty is itself a credibility asset with funders and adopters.
+The **competency crosswalk** (the ten canonical domains mapped to ICH E6(R3) Annex 1 and to the Joint Task Force Clinical Trial Competency Framework) has **completed subject-matter-expert validation**: three independent reviewers rated all ten domains and agreed on all ten, unanimously. The reviewers are named in `GOVERNANCE.md`. Approval is by the custodian on that SME review, because the Methodology Review Board has not yet reached quorum, and that limit is stated rather than glossed. The **jurisdiction and regulatory-regime crosswalk remains provisional**: it has had no SME review at all, and nothing about the competency validation extends to it. The **assessment mechanics** (weights, anchors, safety rule, thresholds, scoring) remain CRLN-authored and in production use. CRLN-TRG-001 is still **not** an accredited standard, and should not be represented as one.
 
 ## 8. Citation
 
