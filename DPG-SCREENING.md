@@ -183,12 +183,23 @@ a reviewer finds them before we say them.
 `app.digitalpublicgoods.net` and is in the DPGA review queue. A DPGA portal
 account exists.
 
-**Open issue.** The application was submitted on 2026-09-08. Release 1.7.0 was
-published on 2026-09-18, ten days later. The portal entry therefore almost
-certainly still describes **eight role tracks and 48 competency statements**,
-which is what `dpg-nominee.json` said until today. The standard has fourteen and
-84. The portal entry should be corrected to match before review reaches it,
-because a registry entry is a permanent public description.
+**Checked 2026-09-21, and the worry was unfounded.** The submitted application
+describes "10 competency domains, 84 weighted competency statements" and does not
+state a role-track count at all. It was written from the engine, which has carried
+fourteen roles and 84 statements throughout. It was the *published* standard that
+was stale at eight and 48 until release 1.7.0, not the application. The submission
+was right and the public documents were wrong, which is the reverse of what was
+assumed here.
+
+**The application is read-only while under review.** Every section renders without
+input fields or a save control, so nothing in it can be corrected from the portal.
+
+**What the application genuinely lacks** is this repository. It cites the Zenodo
+record only, because the public repository did not exist when it was submitted, and
+the "other repositories" field is empty. So the machine-detectable licence, NOTICE.md
+and this screening document are all invisible to a reviewer working from the form.
+That was sent to `support@digitalpublicgoods.net` as supplementary evidence rather
+than as a request to change an answer.
 
 The repository the application points at was corrected on 2026-09-21: the CC BY
 4.0 licence is now machine-detectable, the PDF is rebuilt at the current release,
