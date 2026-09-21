@@ -41,9 +41,11 @@ inventing a process, and so an adopter can see the intended shape.
 
 | member | affiliation | perspective | seated | disclosure |
 |---|---|---|---|---|
-| *(name withheld pending consent)* | independent clinical research site | site | 2026-09-15 | §3, register entry 1 |
+| Jeffrey Smyth, MS, CCRP | President and Executive Director, TrueBlue Clinical Research | site | 2026-09-15 | §3, register entry 1 |
 
-The seated member reviewed all ten competency domain mappings in the ICH E6(R3) crosswalk before
+**Publication consent on file.** "Hi Josh - yes, approved." Email from Jeffrey Smyth, 2026-09-19, in reply to a written request setting out the exact wording. Withdrawable at any time.
+
+Jeffrey Smyth reviewed all ten competency domain mappings in the ICH E6(R3) crosswalk before
 accepting a seat, and re-reviewed them under revised wording when the wording changed. That
 review is the evidential basis for the crosswalk claim in the standard, and it was completed
 before any invitation to govern was extended, which is the order that matters: the reviewer
@@ -77,13 +79,13 @@ plainly, in the change log, that it was approved this way.
 
 **Register.**
 
-1. **Seated member, site perspective** (seated 2026-09-15), declared on the day of
-   acceptance: *an executive of an independent clinical research site.* That site is
-   an adopter of CRLN’s measurement platform. Under rule 2 below, the member does
-   not vote on any change whose effect falls differently on independent sites than
-   on networks or sponsors. The disclosure was volunteered without being asked for.
-   The member has not yet consented to be named publicly, so the full entry is held
-   in the private register and summarised here; it will be completed on consent.
+1. **Jeffrey Smyth** (seated 2026-09-15), declared on the day of acceptance:
+   *President and Executive Director of TrueBlue Clinical Research, an independent
+   clinical research site.* TrueBlue is an adopter of CRLN's measurement platform.
+   Under rule 2 below, he does not vote on any change whose effect falls
+   differently on independent sites than on networks or sponsors. The disclosure
+   was volunteered without being asked for, which is recorded here because the
+   register is only worth anything if it shows what members declare unprompted.
 
 **Standing disclosures.**
 
