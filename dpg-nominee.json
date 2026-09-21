@@ -3,7 +3,7 @@
   "aliases": [
     "CRLN Clinical Research Competency Framework"
   ],
-  "description": "CRLN-TRG-001 is an openly licensed competency framework for the global clinical research workforce. ICH E6(R3) requires that trial staff be qualified by education, training and experience, but does not define qualification in a measurable form, so the field evidences it with course-completion certificates that record attendance rather than capability. The framework supplies the missing half: eight role tracks, ten canonical competency domains, 48 weighted competency statements, a four-level rating scale, scoring rules, and a crosswalk to ICH E6(R3) and the Joint Task Force Clinical Trial Competency Framework. It is a specification rather than a product. It contains no personal data, has no users, hosts no content and enables no interaction between people, and any provider, university, site network or ministry may implement it without permission or cost, including in competition with its publisher.",
+  "description": "CRLN-TRG-001 is an openly licensed competency framework for the global clinical research workforce. ICH E6(R3) requires that trial staff be qualified by education, training and experience, but does not define qualification in a measurable form, so the field evidences it with course-completion certificates that record attendance rather than capability. The framework supplies the missing half: fourteen role tracks, ten canonical competency domains, 84 weighted competency statements, a four-level rating scale, scoring rules and thresholds, and a crosswalk to ICH E6(R3) Annex 1 and the Joint Task Force Clinical Trial Competency Framework. It is a specification rather than a product. It contains no personal data, has no users, hosts no content and enables no interaction between people. Any provider, university, site network or ministry may implement it without permission or cost, including in competition with its publisher, because the scale, scoring rules and thresholds are published openly and no CRLN software is needed to apply them. Release 1.7.0 is published with status 'published-provisional': the crosswalk mappings have had subject matter expert review but the Methodology Review Board has not yet reached quorum, and every release says so.",
   "website": "https://doi.org/10.5281/zenodo.22049549",
   "license": [
     {
@@ -19,7 +19,7 @@
     },
     {
       "SDGNumber": 4,
-      "evidenceText": "Target 4.4, relevant skills. The framework is published openly so any provider, university or ministry can map existing training to it rather than build a competency model from nothing. It is the measurement layer, not a course.",
+      "evidenceText": "Target 4.4, relevant skills for decent work. The framework is published openly so any provider, university or ministry can map existing training to it rather than build a competency model from nothing. It is the measurement layer, not a course, and it is deliberately usable without any product from its publisher.",
       "evidenceURL": "https://doi.org/10.5281/zenodo.22049549"
     },
     {
@@ -34,7 +34,12 @@
     }
   ],
   "sectors": [
-    "Health"
+    "Health",
+    "Education",
+    "Research",
+    "Capacity Development",
+    "Training & Employment",
+    "Workforce"
   ],
   "type": [
     "standard"
