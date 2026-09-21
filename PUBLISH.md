@@ -28,15 +28,16 @@ cd ops/public-standard && gh repo create crln-trg-001 --public --source=. --push
    `translations/README.md`. Do not quietly drop the caveat later.
 3. **`ADOPTERS.md` is empty on purpose** and says so.
 
-## Then, and only then, the DPG submission
+## The DPG submission
 
-`dpg-nominee.json` in this directory is the Digital Public Goods Alliance entry,
-built against their live schema. It references the repository URL, so it cannot be
-submitted before the repository exists.
+**Done as far as it can go without you.** The repository is public and current,
+and `dpg-nominee.json` validates against the DPGA schema.
 
-Submit by either route:
-- the nomination form at https://www.digitalpublicgoods.net/submission-guide
-- or a pull request adding `nominees/crln-trg-001.json` to
-  `DPGAlliance/publicgoods-candidates`
+**The route in the old version of this file no longer works.**
+`DPGAlliance/publicgoods-candidates` was archived on 2026-08-31 and rejects pull
+requests. Submission has moved to https://app.digitalpublicgoods.net.
 
-Both are public acts under your identity, which is why neither is automated here.
+Both paths there need a person: either create a DPGA account, or use the
+"Create new application" control, which needs no account but does require
+accepting their terms of use. Once an application is open, every answer it asks
+for is already written in `DPG-SCREENING.md`.

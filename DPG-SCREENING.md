@@ -179,10 +179,24 @@ a reviewer finds them before we say them.
 
 ## How to submit
 
-1. Fork https://github.com/DPGAlliance/publicgoods-candidates
-2. Add `nominees/crln-trg-001.json` with the contents of `dpg-nominee.json`
-3. Open a pull request
+**The pull request route is dead.** `DPGAlliance/publicgoods-candidates` was
+archived on 2026-08-31 and is read-only; a pull request against it now fails at
+the API. Anything that still says "open a PR adding `nominees/<name>.json`",
+including the DPGA's own `CONTRIBUTING.md`, is stale.
 
-The online webform at the DPGA contributing guide also works and opens the pull
-request automatically, but it files under the DPGA bot rather than our account.
-The fork route keeps the submission in our name and leaves a public trail.
+The live route is the application at https://app.digitalpublicgoods.net, which
+offers two paths:
+
+1. **Create a DPGA account** (email, name, password, alternate email), then
+   start an application; or
+2. **Start an application without signing up.** The signup page carries a
+   "Create new application" control which states "No sign up required to view &
+   edit your application." It asks for the solution name and a terms-of-use
+   acceptance, then opens the form at `/new/application`.
+
+Either path requires a human to accept the DPGA terms of use. The answers above
+map directly onto the form's nine indicator sections.
+
+The nominee JSON in this repository is still the canonical source of the
+submitted facts, and it still validates against the DPGA's published
+`nominee-schema.json`, so it stays as the record of what was submitted.
