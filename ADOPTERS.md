@@ -36,6 +36,8 @@ relationship that does not exist, or use this list as a sales prospect list.
 
 ## The register
 
+<!-- BEGIN GENERATED REGISTER -->
+
 *No entries yet. This file was created 2026-09-18, before the first adopter was
 asked, so that the number exists before anyone needs it rather than being
 assembled retrospectively when someone does.*
@@ -43,6 +45,8 @@ assembled retrospectively when someone does.*
 | Organisation | Country | Version | How it is used | Link |
 |---|---|---|---|---|
 | | | | | |
+
+<!-- END GENERATED REGISTER -->
 
 ## Related
 
