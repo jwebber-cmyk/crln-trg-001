@@ -46,8 +46,13 @@ version and the archive shows the history.
 
 ## Are you using this?
 
-Please tell us: **standard@crln-learn.com**, or open a pull request against
-[`ADOPTERS.md`](ADOPTERS.md).
+Please tell us. The quickest way is the form, which takes about a minute:
+
+**[Declare that you use CRLN-TRG-001](https://github.com/jwebber-cmyk/crln-trg-001/issues/new?template=adopter-declaration.yml)**
+
+Or email **standard@crln-learn.com**, or open a pull request against
+[`ADOPTERS.md`](ADOPTERS.md). None of these is preferred over the others, and
+nothing is published without your explicit permission.
 
 We are asking because we genuinely cannot tell. CC BY 4.0 means you may use, adapt and
 translate this without permission, without a contract and without notifying anyone, which is

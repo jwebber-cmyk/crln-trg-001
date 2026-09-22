@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Declare adoption privately, by email
+    url: mailto:standard@crln-learn.com
+    about: Same details, no public trail. Some organisations prefer this and that is fine.
+  - name: Propose a change or report a defect in the standard
+    url: mailto:standard@crln-learn.com
+    about: Change proposals, appeals and conflict disclosures. See GOVERNANCE.md section 4 for what happens next.
+  - name: Read what adoption means before declaring
+    url: https://github.com/jwebber-cmyk/crln-trg-001/blob/main/ADOPT.md
+    about: ADOPT.md explains the four kinds of adoption and what listing does and does not imply.

@@ -1,0 +1,116 @@
+name: Declare that you use CRLN-TRG-001
+description: Add your organisation to the public register of adopters. Takes about a minute.
+title: "Adoption: "
+labels: ["adoption-declaration"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for telling us. You are not required to.
+
+        CRLN-TRG-001 is CC BY 4.0, so you may use, adapt and translate it with no
+        permission, no contract and no conversation. That is the right licence and it
+        is not changing. The consequence is that we cannot count our own adoption, so
+        any adoption figure we publish is a floor rather than a count, and this
+        register is the only evidence behind it.
+
+        **What being listed means:** you use the framework. It is not an endorsement of
+        CRLN, it does not imply you use CRLN's platform or software, and it creates no
+        obligation of any kind.
+
+        **What we will never do:** add you without asking, imply a commercial
+        relationship that does not exist, or use this register as a sales prospect list.
+
+        **We do not audit these.** This is a list of who says they use the framework,
+        not a certification scheme. Ask to be removed at any time and it happens the
+        same day, no questions asked.
+
+        If you would rather not leave a public trail, email `standard@crln-learn.com`
+        with the same details instead. Both routes are equally fine.
+
+  - type: input
+    id: organisation
+    attributes:
+      label: Organisation
+      description: The name as you would like it to appear on the register.
+      placeholder: e.g. Example Site Network
+    validations:
+      required: true
+
+  - type: dropdown
+    id: adoption_kind
+    attributes:
+      label: How do you use it?
+      description: |
+        These are deliberately kept separate. Mapping an existing course to the domains
+        and grading people against the rubric are different things, and flattening them
+        together would overstate the weaker one. Pick the one that is honestly true
+        today, not the one you intend to reach. The lowest rung is a real answer.
+      options:
+        - "cites - we reference the framework in our materials, policies or training documentation"
+        - "maps - we have mapped our existing training or roles onto the competency domains"
+        - "grades - we assess or grade people against the rubric and thresholds"
+        - "forks - we have adapted, extended or translated the framework for our own use"
+    validations:
+      required: true
+
+  - type: input
+    id: version_cited
+    attributes:
+      label: Which version do you use?
+      description: |
+        The point of citing a version is that a claim made against one stays checkable
+        after the next is published. If you are unsure, the current release is 1.7.1.
+      placeholder: "1.7.1"
+      value: "1.7.1"
+    validations:
+      required: true
+
+  - type: input
+    id: country
+    attributes:
+      label: Country (optional)
+      description: Country name or ISO code. Helps show where the framework is actually in use.
+      placeholder: e.g. New Zealand, or NZ
+    validations:
+      required: false
+
+  - type: textarea
+    id: note
+    attributes:
+      label: One line on how it is used (optional)
+      description: |
+        A single sentence is plenty. Concrete beats impressive: "we use the CRC track
+        for coordinator onboarding across four sites" is more useful to another reader
+        than "we are committed to competency based training".
+      placeholder: e.g. We use the CRC role track for coordinator onboarding across our sites.
+    validations:
+      required: false
+
+  - type: input
+    id: url
+    attributes:
+      label: Link (optional)
+      description: Anywhere public that shows the use, if such a page exists. Leave blank if not.
+      placeholder: https://
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Permission to publish
+      description: |
+        Nothing is published without this. Entries default to unpublished and stay that
+        way until you say otherwise.
+      options:
+        - label: "Yes, publish my organisation on the public register with the details above."
+          required: true
+        - label: "I confirm I am authorised to say this on behalf of my organisation."
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        A correction is as welcome as a listing. If something here is wrong about how we
+        describe the framework, say so in this issue and we will fix it in the open.

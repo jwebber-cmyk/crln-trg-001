@@ -19,13 +19,25 @@ is a worse answer than a small number.
 
 ## How to be listed
 
-Open a pull request adding a row, or email `standard@crln-learn.com` with the
-same fields. Either is fine; the PR leaves a public trail, which some
-organisations prefer and others do not.
+**The quickest way is the form.** It takes about a minute and needs no GitHub
+knowledge beyond an account:
+
+**[Declare that you use CRLN-TRG-001](https://github.com/jwebber-cmyk/crln-trg-001/issues/new?template=adopter-declaration.yml)**
+
+Three other routes work equally well, and none is preferred:
+
+- Email `standard@crln-learn.com` with the fields below. No public trail, which
+  some organisations need and others do not care about.
+- Open a pull request adding a row yourself.
+- Say so on a call, in a reply, or in passing. We will ask your permission before
+  anything appears here.
 
 ```
 | Organisation | Country | Version | How it is used | Link |
 ```
+
+**Nothing is published without explicit permission.** Entries default to
+unpublished and stay that way until you say otherwise.
 
 **What being listed means:** you use the framework. It is not an endorsement of
 CRLN, it does not imply you use CRLN's platform, and it creates no obligation.
