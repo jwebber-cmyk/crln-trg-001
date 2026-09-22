@@ -1,0 +1,800 @@
+{
+ "crosswalk_id": "CRLN-TRG-001-X-TDR",
+ "status": "provisional-unreviewed",
+ "generated": "2026-09-22",
+ "crln_version": "1.7.1",
+ "source": {
+  "name": "TDR Global Competency Framework for Clinical Research",
+  "publisher": "UNICEF/UNDP/World Bank/WHO Special Programme for Research and Training in Tropical Diseases (TDR), with The Global Health Network",
+  "year": 2016,
+  "isbn": "978 92 4 151155 1",
+  "url": "https://globalhealthtrainingcentre.tghn.org/pds/core-competency-framework/",
+  "competency_count": 50
+ },
+ "summary": {
+  "full": 20,
+  "partial": 10,
+  "none": 20,
+  "crln_statements": 84,
+  "crln_statements_mapped": 60,
+  "crln_statements_unmapped": 24
+ },
+ "mappings": [
+  {
+   "n": 1,
+   "tdr": "Health-related knowledge",
+   "type": "Theory (knowledge-based)",
+   "status": "none",
+   "crln_labels": [],
+   "crln_ids": [],
+   "note": "CRLN assumes health-related background as a precondition and never assesses it. TDR treats it as a competency in its own right."
+  },
+  {
+   "n": 2,
+   "tdr": "Research methodology",
+   "type": "Theory (knowledge-based)",
+   "status": "none",
+   "crln_labels": [],
+   "crln_ids": [],
+   "note": "Research methodology as a knowledge domain is absent from CRLN, which begins after a protocol exists."
+  },
+  {
+   "n": 3,
+   "tdr": "Developing a protocol",
+   "type": "Task-based",
+   "status": "none",
+   "crln_labels": [],
+   "crln_ids": [],
+   "note": "Protocol authorship. CRLN is execution-side only and assesses adherence to a protocol, never its design."
+  },
+  {
+   "n": 4,
+   "tdr": "Attracting funding",
+   "type": "Task-based",
+   "status": "none",
+   "crln_labels": [],
+   "crln_ids": [],
+   "note": "Attracting funding has no CRLN counterpart at any level."
+  },
+  {
+   "n": 5,
+   "tdr": "Developing study plans and documents",
+   "type": "Task-based",
+   "status": "partial",
+   "crln_labels": [
+    "Study Planning & Timelines",
+    "Data Management Plan & CRF Design"
+   ],
+   "crln_ids": [
+    "CRLN-CDM-D1",
+    "CRLN-PM-D1"
+   ],
+   "note": "CRLN covers study plans only where PM and CDM produce them; the wider document set is unmapped."
+  },
+  {
+   "n": 6,
+   "tdr": "Developing the case report form(s) (CRF) and data management system (DMS)",
+   "type": "Task-based",
+   "status": "full",
+   "crln_labels": [
+    "Data Management Plan & CRF Design",
+    "EDC Build & Validation",
+    "CDISC Standards & 21 CFR Part 11"
+   ],
+   "crln_ids": [
+    "CRLN-CDM-D1",
+    "CRLN-CDM-D2",
+    "CRLN-CDM-D6"
+   ],
+   "note": "Direct correspondence with the CDM track."
+  },
+  {
+   "n": 7,
+   "tdr": "Analysing data",
+   "type": "Task-based",
+   "status": "none",
+   "crln_labels": [],
+   "crln_ids": [],
+   "note": "Statistical analysis is absent from CRLN. CDM covers data management and lock, not analysis."
+  },
+  {
+   "n": 8,
+   "tdr": "Disseminating research findings",
+   "type": "Task-based",
+   "status": "none",
+   "crln_labels": [],
+   "crln_ids": [],
+   "note": "Dissemination and publication have no CRLN counterpart."
+  },
+  {
+   "n": 9,
+   "tdr": "Ethics and human subject protection",
+   "type": "Theory (knowledge-based)",
+   "status": "full",
+   "crln_labels": [
+    "Informed Consent Process",
+    "Informed Consent Oversight",
+    "Obtaining & Documenting Informed Consent",
+    "Regulatory & Ethical Compliance"
+   ],
+   "crln_ids": [
+    "CRLN-CRC-D2",
+    "CRLN-PI-D2",
+    "CRLN-PI-D6",
+    "CRLN-SUBI-D2"
+   ],
+   "note": "Strong correspondence across CRC, PI, RN and RA."
+  },
+  {
+   "n": 10,
+   "tdr": "Risk and safety management",
+   "type": "Task-based",
+   "status": "full",
+   "crln_labels": [
+    "Risk Management & Mitigation",
+    "Risk-Based Monitoring & Remote Oversight",
+    "Signal Detection & Risk Management"
+   ],
+   "crln_ids": [
+    "CRLN-CRA-D6",
+    "CRLN-PM-D4",
+    "CRLN-PV-D6"
+   ],
+   "note": "Corresponds across CRA, PM and PV."
+  },
+  {
+   "n": 11,
+   "tdr": "Determining liability and insurance needs",
+   "type": "Task-based",
+   "status": "none",
+   "crln_labels": [],
+   "crln_ids": [],
+   "note": "Liability and insurance are absent from CRLN."
+  },
+  {
+   "n": 12,
+   "tdr": "Good Clinical (or other) Practice",
+   "type": "Theory (knowledge-based)",
+   "status": "full",
+   "crln_labels": [
+    "Regulatory & Ethical Compliance",
+    "Regulatory Intelligence & Compliance",
+    "Quality, Audit Readiness & CAPA"
+   ],
+   "crln_ids": [
+    "CRLN-CTA-D6",
+    "CRLN-PI-D6",
+    "CRLN-RA-D4"
+   ],
+   "note": "GCP knowledge is foundational to CRLN and assessed throughout."
+  },
+  {
+   "n": 13,
+   "tdr": "Working as per quality management systems",
+   "type": "Task-based",
+   "status": "full",
+   "crln_labels": [
+    "Quality, Audit Readiness & CAPA",
+    "Source Documentation & ALCOA+"
+   ],
+   "crln_ids": [
+    "CRLN-CRC-D3",
+    "CRLN-CTA-D6"
+   ],
+   "note": "Direct correspondence."
+  },
+  {
+   "n": 14,
+   "tdr": "Controlling quality of research (monitoring)",
+   "type": "Task",
+   "status": "full",
+   "crln_labels": [
+    "On-Site Monitoring \u00b7 SDV/SDR",
+    "Risk-Based Monitoring & Remote Oversight",
+    "Site Management & Oversight"
+   ],
+   "crln_ids": [
+    "CRLN-CRA-D2",
+    "CRLN-CRA-D6",
+    "CRLN-PM-D2"
+   ],
+   "note": "The CRA track is essentially this competency expanded."
+  },
+  {
+   "n": 15,
+   "tdr": "Securing or maintaining approvals",
+   "type": "Task-based",
+   "status": "full",
+   "crln_labels": [
+    "Regulatory Submissions & IRB/IEC",
+    "IRB / IEC Interactions",
+    "Regulatory Submissions (IND/CTA)",
+    "Protocol Amendments"
+   ],
+   "crln_ids": [
+    "CRLN-CTA-D2",
+    "CRLN-RA-D1",
+    "CRLN-RA-D2",
+    "CRLN-RA-D3"
+   ],
+   "note": "Direct correspondence with RA and CTA."
+  },
+  {
+   "n": 16,
+   "tdr": "Securing or maintaining contracts",
+   "type": "Task-based",
+   "status": "none",
+   "crln_labels": [],
+   "crln_ids": [],
+   "note": "Contracts and budgets are absent from CRLN, which does not assess commercial or legal negotiation."
+  },
+  {
+   "n": 17,
+   "tdr": "Governance and organisational context",
+   "type": "Theory (knowledge-based)",
+   "status": "partial",
+   "crln_labels": [
+    "Investigator Oversight & Delegation",
+    "Working Within Your Delegated Authority",
+    "Knowing the Limit of Your Own Authority"
+   ],
+   "crln_ids": [
+    "CRLN-ASSIST-D6",
+    "CRLN-PI-D1",
+    "CRLN-SUBI-D1"
+   ],
+   "note": "CRLN covers delegated authority within a trial but not institutional governance."
+  },
+  {
+   "n": 18,
+   "tdr": "Research regulations",
+   "type": "Theory (knowledge-based)",
+   "status": "full",
+   "crln_labels": [
+    "Regulatory Intelligence & Compliance",
+    "Regulatory & Ethical Compliance",
+    "Safety Reporting to Authorities"
+   ],
+   "crln_ids": [
+    "CRLN-PI-D6",
+    "CRLN-RA-D4",
+    "CRLN-RA-D5"
+   ],
+   "note": "Direct correspondence with the RA and PV tracks."
+  },
+  {
+   "n": 19,
+   "tdr": "Initiating study",
+   "type": "Task-based",
+   "status": "full",
+   "crln_labels": [
+    "Study Start-Up & CTMS",
+    "Site Qualification & Feasibility"
+   ],
+   "crln_ids": [
+    "CRLN-CRA-D1",
+    "CRLN-CTA-D3"
+   ],
+   "note": "Direct correspondence."
+  },
+  {
+   "n": 20,
+   "tdr": "Closing study",
+   "type": "Task-based",
+   "status": "partial",
+   "crln_labels": [
+    "Database Lock & SAE Reconciliation",
+    "Trial Master File Management"
+   ],
+   "crln_ids": [
+    "CRLN-CDM-D5",
+    "CRLN-CTA-D1"
+   ],
+   "note": "CRLN covers data and TMF closure but has no single close-out competency."
+  },
+  {
+   "n": 21,
+   "tdr": "Tracking study progress",
+   "type": "Task-based",
+   "status": "full",
+   "crln_labels": [
+    "Study Planning & Timelines",
+    "Site Communication & Visit Reporting",
+    "Sponsor Communication & Reporting"
+   ],
+   "crln_ids": [
+    "CRLN-CRA-D5",
+    "CRLN-PM-D1",
+    "CRLN-PM-D6"
+   ],
+   "note": "Corresponds across PM and CRA."
+  },
+  {
+   "n": 22,
+   "tdr": "Project management",
+   "type": "Task-based",
+   "status": "full",
+   "crln_labels": [
+    "Study Planning & Timelines",
+    "Vendor / CRO Oversight",
+    "Budget & Resource Management"
+   ],
+   "crln_ids": [
+    "CRLN-PM-D1",
+    "CRLN-PM-D3",
+    "CRLN-PM-D5"
+   ],
+   "note": "The PM track corresponds closely."
+  },
+  {
+   "n": 23,
+   "tdr": "Reporting",
+   "type": "Task-based",
+   "status": "full",
+   "crln_labels": [
+    "Sponsor Communication & Reporting",
+    "Site Communication & Visit Reporting",
+    "Expedited & Periodic Reporting"
+   ],
+   "crln_ids": [
+    "CRLN-CRA-D5",
+    "CRLN-PM-D6",
+    "CRLN-PV-D4"
+   ],
+   "note": "Direct correspondence."
+  },
+  {
+   "n": 24,
+   "tdr": "Liaising or acting as a link",
+   "type": "Task-based",
+   "status": "partial",
+   "crln_labels": [
+    "Communication & Escalation",
+    "Escalating to the Principal Investigator",
+    "Site Communication & Visit Reporting"
+   ],
+   "crln_ids": [
+    "CRLN-CRA-D5",
+    "CRLN-CRC-D6",
+    "CRLN-SUBI-D6"
+   ],
+   "note": "CRLN covers escalation paths rather than liaison as a role."
+  },
+  {
+   "n": 25,
+   "tdr": "Facilitating or attending meetings",
+   "type": "Task-based",
+   "status": "none",
+   "crln_labels": [],
+   "crln_ids": [],
+   "note": "Meeting facilitation is not assessed by CRLN."
+  },
+  {
+   "n": 26,
+   "tdr": "Human resources",
+   "type": "Task-based",
+   "status": "none",
+   "crln_labels": [],
+   "crln_ids": [],
+   "note": "Human resources management has no CRLN counterpart."
+  },
+  {
+   "n": 27,
+   "tdr": "Creating or delivering training",
+   "type": "Task-based",
+   "status": "none",
+   "crln_labels": [],
+   "crln_ids": [],
+   "note": "Creating or delivering training is absent from CRLN, which is itself a training provider but does not assess the competency."
+  },
+  {
+   "n": 28,
+   "tdr": "Supervising or mentoring",
+   "type": "Task-based",
+   "status": "none",
+   "crln_labels": [],
+   "crln_ids": [],
+   "note": "Supervision and mentoring are absent from CRLN."
+  },
+  {
+   "n": 29,
+   "tdr": "Overseeing essential documents",
+   "type": "Task-based",
+   "status": "full",
+   "crln_labels": [
+    "Essential Documents & Submissions Filing",
+    "Trial Master File Management",
+    "Contemporaneous Source Documentation"
+   ],
+   "crln_ids": [
+    "CRLN-CTA-D1",
+    "CRLN-RA-D6",
+    "CRLN-SUBI-D5"
+   ],
+   "note": "Direct correspondence with CTA."
+  },
+  {
+   "n": 30,
+   "tdr": "Logistics and facilities management",
+   "type": "Task-based",
+   "status": "partial",
+   "crln_labels": [
+    "Preparing Visits, Rooms & Supplies",
+    "IP Receipt, Storage & Temperature Excursions"
+   ],
+   "crln_ids": [
+    "CRLN-ASSIST-D5",
+    "CRLN-PHARM-D1"
+   ],
+   "note": "CRLN covers visit and IP logistics, not facilities management."
+  },
+  {
+   "n": 31,
+   "tdr": "Finances management",
+   "type": "Task-based",
+   "status": "partial",
+   "crln_labels": [
+    "Budget & Resource Management"
+   ],
+   "crln_ids": [
+    "CRLN-PM-D5"
+   ],
+   "note": "Only the PM budget competency corresponds; site finance is unmapped."
+  },
+  {
+   "n": 32,
+   "tdr": "Creating and maintaining a database",
+   "type": "Task-based",
+   "status": "full",
+   "crln_labels": [
+    "EDC Build & Validation",
+    "Data Integrity & 21 CFR Part 11"
+   ],
+   "crln_ids": [
+    "CRLN-CDM-D2",
+    "CRLN-CTA-D4"
+   ],
+   "note": "Direct correspondence with CDM."
+  },
+  {
+   "n": 33,
+   "tdr": "Collecting accurate data",
+   "type": "Task-based",
+   "status": "full",
+   "crln_labels": [
+    "Accurate Recording & Transcription",
+    "Contemporaneous Source Documentation",
+    "Source Documentation & ALCOA+",
+    "Source Documentation & Data Integrity"
+   ],
+   "crln_ids": [
+    "CRLN-ASSIST-D3",
+    "CRLN-CRC-D3",
+    "CRLN-PI-D5",
+    "CRLN-SUBI-D5"
+   ],
+   "note": "Strong correspondence across several tracks."
+  },
+  {
+   "n": 34,
+   "tdr": "Data management",
+   "type": "Task-based",
+   "status": "full",
+   "crln_labels": [
+    "Data Entry, Query Management & Cleaning",
+    "Medical Coding (MedDRA/WHODrug)",
+    "Database Lock & SAE Reconciliation"
+   ],
+   "crln_ids": [
+    "CRLN-CDM-D3",
+    "CRLN-CDM-D4",
+    "CRLN-CDM-D5"
+   ],
+   "note": "Direct correspondence with CDM."
+  },
+  {
+   "n": 35,
+   "tdr": "Providing clinical care",
+   "type": "Task-based",
+   "status": "partial",
+   "crln_labels": [
+    "Participant Assessment & Clinical Monitoring",
+    "Nursing Documentation & Scope of Practice",
+    "Clinical Assessment & AE Attribution"
+   ],
+   "crln_ids": [
+    "CRLN-RN-D1",
+    "CRLN-RN-D6",
+    "CRLN-SUBI-D4"
+   ],
+   "note": "CRLN covers trial-related clinical assessment, not general clinical care."
+  },
+  {
+   "n": 36,
+   "tdr": "Ensuring appropriate use of investigational medical products (IMPs)",
+   "type": "Task-based",
+   "status": "full",
+   "crln_labels": [
+    "Investigational Product Management",
+    "IP Accountability, Reconciliation & Destruction",
+    "Dose Preparation & Compounding Accuracy",
+    "Study Intervention Administration"
+   ],
+   "crln_ids": [
+    "CRLN-CRC-D4",
+    "CRLN-PHARM-D3",
+    "CRLN-PHARM-D4",
+    "CRLN-RN-D2"
+   ],
+   "note": "Direct correspondence with PHARM and RN."
+  },
+  {
+   "n": 37,
+   "tdr": "Handling biomedical products",
+   "type": "Task-based",
+   "status": "full",
+   "crln_labels": [
+    "Specimen Collection, Handling & Chain of Custody",
+    "Shipping, Cold Chain & Dangerous Goods",
+    "Aliquoting, Labeling & Chain of Custody"
+   ],
+   "crln_ids": [
+    "CRLN-LAB-D3",
+    "CRLN-LAB-D5",
+    "CRLN-RN-D3"
+   ],
+   "note": "Direct correspondence with the LAB track."
+  },
+  {
+   "n": 38,
+   "tdr": "Performing laboratory assays",
+   "type": "Task-based",
+   "status": "partial",
+   "crln_labels": [
+    "Processing to the Laboratory Manual",
+    "Sample Receipt & Identity Verification"
+   ],
+   "crln_ids": [
+    "CRLN-LAB-D1",
+    "CRLN-LAB-D2"
+   ],
+   "note": "CRLN LAB covers specimen handling and processing rather than performing assays."
+  },
+  {
+   "n": 39,
+   "tdr": "Engaging with the community",
+   "type": "Task-based",
+   "status": "none",
+   "crln_labels": [],
+   "crln_ids": [],
+   "note": "COMMUNITY ENGAGEMENT IS ABSENT FROM CRLN. This is the most consequential gap, and it is precisely the competency TDR added for low-resource and community-based research settings."
+  },
+  {
+   "n": 40,
+   "tdr": "Enrolling and retaining participants",
+   "type": "Task-based",
+   "status": "full",
+   "crln_labels": [
+    "Eligibility Assessment & Protocol Conduct",
+    "Participant Education, Adherence & Support",
+    "Protocol Conduct & Eligibility"
+   ],
+   "crln_ids": [
+    "CRLN-PI-D3",
+    "CRLN-RN-D5",
+    "CRLN-SUBI-D3"
+   ],
+   "note": "Direct correspondence with CRC."
+  },
+  {
+   "n": 41,
+   "tdr": "Supporting and advising throughout informed consent process",
+   "type": "Task-based",
+   "status": "full",
+   "crln_labels": [
+    "Informed Consent Process",
+    "Obtaining & Documenting Informed Consent",
+    "Remote & Electronic Informed Consent",
+    "Informed Consent Oversight"
+   ],
+   "crln_ids": [
+    "CRLN-CRC-D2",
+    "CRLN-DCT-D2",
+    "CRLN-PI-D2",
+    "CRLN-SUBI-D2"
+   ],
+   "note": "Strong correspondence across four tracks."
+  },
+  {
+   "n": 42,
+   "tdr": "Cognitive skills",
+   "type": "Skill-bases",
+   "status": "none",
+   "crln_labels": [],
+   "crln_ids": [],
+   "note": "CRLN does not assess general cognitive skills."
+  },
+  {
+   "n": 43,
+   "tdr": "Strategic leadership",
+   "type": "Skill-based",
+   "status": "none",
+   "crln_labels": [],
+   "crln_ids": [],
+   "note": "Strategic leadership is absent from CRLN."
+  },
+  {
+   "n": 44,
+   "tdr": "Interpersonal skills",
+   "type": "Skill-based",
+   "status": "none",
+   "crln_labels": [],
+   "crln_ids": [],
+   "note": "Interpersonal skills are not assessed as a competency."
+  },
+  {
+   "n": 45,
+   "tdr": "Language and communication skills",
+   "type": "Skill-based",
+   "status": "none",
+   "crln_labels": [],
+   "crln_ids": [],
+   "note": "Language and communication skills are not assessed, although CRLN renders in 60 languages."
+  },
+  {
+   "n": 46,
+   "tdr": "Organisational skills",
+   "type": "Skill-based",
+   "status": "none",
+   "crln_labels": [],
+   "crln_ids": [],
+   "note": "Organisational skills are not assessed as a competency."
+  },
+  {
+   "n": 47,
+   "tdr": "Record-keeping",
+   "type": "Skill-based",
+   "status": "partial",
+   "crln_labels": [
+    "Contemporaneous Source Documentation",
+    "Accurate Recording & Transcription"
+   ],
+   "crln_ids": [
+    "CRLN-ASSIST-D3",
+    "CRLN-SUBI-D5"
+   ],
+   "note": "CRLN assesses record-keeping as regulated documentation, not as a general skill."
+  },
+  {
+   "n": 48,
+   "tdr": "Computer and information & technology (IT) skills",
+   "type": "Skill-based",
+   "status": "none",
+   "crln_labels": [],
+   "crln_ids": [],
+   "note": "General IT skills are not assessed."
+  },
+  {
+   "n": 49,
+   "tdr": "Work ethic",
+   "type": "Skill-based",
+   "status": "none",
+   "crln_labels": [],
+   "crln_ids": [],
+   "note": "Work ethic is not assessed."
+  },
+  {
+   "n": 50,
+   "tdr": "Specific requirements",
+   "type": "Skill-based (qualification, experience)",
+   "status": "partial",
+   "crln_labels": [
+    "Working Within Your Delegated Authority",
+    "Knowing the Limit of Your Own Authority"
+   ],
+   "crln_ids": [
+    "CRLN-ASSIST-D6",
+    "CRLN-SUBI-D1"
+   ],
+   "note": "CRLN encodes scope of authority but not qualification prerequisites."
+  }
+ ],
+ "crln_unmapped": [
+  {
+   "id": "CRLN-CRC-D1",
+   "label": "Protocol Adherence & Eligibility"
+  },
+  {
+   "id": "CRLN-CRC-D5",
+   "label": "AE Recognition & Reporting"
+  },
+  {
+   "id": "CRLN-CRA-D3",
+   "label": "Protocol Deviation Assessment"
+  },
+  {
+   "id": "CRLN-CRA-D4",
+   "label": "IP Accountability Verification"
+  },
+  {
+   "id": "CRLN-CTA-D5",
+   "label": "Safety Reporting Administration"
+  },
+  {
+   "id": "CRLN-PV-D1",
+   "label": "Case Intake & Triage"
+  },
+  {
+   "id": "CRLN-PV-D2",
+   "label": "Case Processing & Assessment"
+  },
+  {
+   "id": "CRLN-PV-D3",
+   "label": "Seriousness / Causality / Expectedness"
+  },
+  {
+   "id": "CRLN-PV-D5",
+   "label": "MedDRA Coding & Narrative Writing"
+  },
+  {
+   "id": "CRLN-PI-D4",
+   "label": "Medical Safety & AE Assessment"
+  },
+  {
+   "id": "CRLN-RN-D4",
+   "label": "Adverse Event Recognition & Escalation"
+  },
+  {
+   "id": "CRLN-PHARM-D2",
+   "label": "Randomization, Blinding & Emergency Unblinding"
+  },
+  {
+   "id": "CRLN-PHARM-D5",
+   "label": "Prescription Review & Dose Verification"
+  },
+  {
+   "id": "CRLN-PHARM-D6",
+   "label": "Pharmacy Documentation & Regulatory Compliance"
+  },
+  {
+   "id": "CRLN-DCT-D1",
+   "label": "Remote Visit Conduct & Participant Verification"
+  },
+  {
+   "id": "CRLN-DCT-D3",
+   "label": "Connected Device, Wearable & ePRO Data Integrity"
+  },
+  {
+   "id": "CRLN-DCT-D4",
+   "label": "Remote Safety Escalation & Home-Nursing Oversight"
+  },
+  {
+   "id": "CRLN-DCT-D5",
+   "label": "Direct-to-Participant IP Shipping & Accountability"
+  },
+  {
+   "id": "CRLN-DCT-D6",
+   "label": "Decentralised Vendor Oversight & Data Provenance"
+  },
+  {
+   "id": "CRLN-ASSIST-D1",
+   "label": "Following a Protocol Instruction Exactly"
+  },
+  {
+   "id": "CRLN-ASSIST-D2",
+   "label": "Participant Contact & Confidentiality"
+  },
+  {
+   "id": "CRLN-ASSIST-D4",
+   "label": "Recognizing What Must Be Reported"
+  },
+  {
+   "id": "CRLN-LAB-D4",
+   "label": "Storage, Freezers & Temperature Excursions"
+  },
+  {
+   "id": "CRLN-LAB-D6",
+   "label": "Deviation Recognition & Escalation"
+  }
+ ]
+}
