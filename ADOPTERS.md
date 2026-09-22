@@ -50,13 +50,13 @@ relationship that does not exist, or use this list as a sales prospect list.
 
 <!-- BEGIN GENERATED REGISTER -->
 
-*No entries yet. This file was created 2026-09-18, before the first adopter was
-asked, so that the number exists before anyone needs it rather than being
-assembled retrospectively when someone does.*
+*1 organisation has declared use of CRLN-TRG-001. This is a floor, not a count:
+the licence lets anyone use the framework without telling us, so this register can only ever
+show those who chose to say so.*
 
 | Organisation | Country | Version | How it is used | Link |
 |---|---|---|---|---|
-| | | | | |
+| TrueBlue Clinical Research | United States | 1.7.2 | Used for onboarding and ongoing competency education and assessment | https://tbcrtampa.com/ |
 
 <!-- END GENERATED REGISTER -->
 
