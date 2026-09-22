@@ -1,0 +1,285 @@
+{
+ "crosswalk_id": "CRLN-TRG-001-X-E6R3-ANNEX2",
+ "status": "provisional-unreviewed",
+ "generated": "2026-09-22",
+ "crln_version": "1.7.1",
+ "source": {
+  "name": "ICH E6(R3) Good Clinical Practice, Annex 2",
+  "adopted": "2026-06-03",
+  "effective": "2027-01-15",
+  "note": "Covers decentralised elements, pragmatic elements and the use of real-world data.",
+  "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-e6r3-guideline-good-clinical-practice-annex-2-step-5_en.pdf"
+ },
+ "summary": {
+  "sections": 18,
+  "full": 10,
+  "partial": 3,
+  "none": 5
+ },
+ "mappings": [
+  {
+   "section": "2",
+   "title": "Investigator",
+   "status": "heading",
+   "crln_labels": [],
+   "crln_ids": [],
+   "note": ""
+  },
+  {
+   "section": "2.1",
+   "title": "Communication with IRB/IEC",
+   "status": "full",
+   "crln_labels": [
+    "IRB / IEC Interactions",
+    "Regulatory Submissions & IRB/IEC",
+    "Regulatory & Ethical Compliance"
+   ],
+   "crln_ids": [
+    "CRLN-CTA-D2",
+    "CRLN-PI-D6",
+    "CRLN-RA-D2"
+   ],
+   "note": "Maps to the PI and RA tracks. Annex 2 adds decentralised-specific expectations that CRLN does not yet distinguish from conventional IRB communication."
+  },
+  {
+   "section": "2.2",
+   "title": "Informed consent considerations",
+   "status": "full",
+   "crln_labels": [
+    "Remote & Electronic Informed Consent",
+    "Informed Consent Process",
+    "Informed Consent Oversight",
+    "Obtaining & Documenting Informed Consent"
+   ],
+   "crln_ids": [
+    "CRLN-CRC-D2",
+    "CRLN-DCT-D2",
+    "CRLN-PI-D2",
+    "CRLN-SUBI-D2"
+   ],
+   "note": "Strong. CRLN-DCT-D2 was written for exactly this and can now cite a section rather than the Annex generally."
+  },
+  {
+   "section": "2.3",
+   "title": "Investigational product management",
+   "status": "full",
+   "crln_labels": [
+    "Direct-to-Participant IP Shipping & Accountability",
+    "Investigational Product Management",
+    "IP Accountability, Reconciliation & Destruction"
+   ],
+   "crln_ids": [
+    "CRLN-CRC-D4",
+    "CRLN-DCT-D5",
+    "CRLN-PHARM-D4"
+   ],
+   "note": "Strong, via the DCT and PHARM tracks."
+  },
+  {
+   "section": "2.4",
+   "title": "Investigator oversight",
+   "status": "full",
+   "crln_labels": [
+    "Investigator Oversight & Delegation",
+    "Working Within Your Delegated Authority",
+    "Knowing the Limit of Your Own Authority"
+   ],
+   "crln_ids": [
+    "CRLN-ASSIST-D6",
+    "CRLN-PI-D1",
+    "CRLN-SUBI-D1"
+   ],
+   "note": "Maps to the PI track and the delegation statements."
+  },
+  {
+   "section": "2.5",
+   "title": "Safety assessment and reporting",
+   "status": "full",
+   "crln_labels": [
+    "Remote Safety Escalation & Home-Nursing Oversight",
+    "AE Recognition & Reporting",
+    "Adverse Event Recognition & Escalation",
+    "Clinical Assessment & AE Attribution"
+   ],
+   "crln_ids": [
+    "CRLN-CRC-D5",
+    "CRLN-DCT-D4",
+    "CRLN-RN-D4",
+    "CRLN-SUBI-D4"
+   ],
+   "note": "Strong, via DCT-D4 and the safety statements across tracks."
+  },
+  {
+   "section": "3",
+   "title": "Sponsor",
+   "status": "heading",
+   "crln_labels": [],
+   "crln_ids": [],
+   "note": ""
+  },
+  {
+   "section": "3.1",
+   "title": "Engagement and communication",
+   "status": "partial",
+   "crln_labels": [
+    "Sponsor Communication & Reporting",
+    "Site Communication & Visit Reporting"
+   ],
+   "crln_ids": [
+    "CRLN-CRA-D5",
+    "CRLN-PM-D6"
+   ],
+   "note": "CRLN covers sponsor-site communication but not participant and community engagement in trial design, which is what Annex 2 emphasises."
+  },
+  {
+   "section": "3.2",
+   "title": "Protocol and trial design",
+   "status": "none",
+   "crln_labels": [],
+   "crln_ids": [],
+   "note": "CRLN is execution-side and begins after a protocol exists. Trial design is out of scope by construction, not by oversight."
+  },
+  {
+   "section": "3.3",
+   "title": "Communication with IRB/IEC",
+   "status": "full",
+   "crln_labels": [
+    "Regulatory Submissions & IRB/IEC",
+    "IRB / IEC Interactions",
+    "Protocol Amendments"
+   ],
+   "crln_ids": [
+    "CRLN-CTA-D2",
+    "CRLN-RA-D2",
+    "CRLN-RA-D3"
+   ],
+   "note": "Maps to the RA and CTA tracks."
+  },
+  {
+   "section": "3.4",
+   "title": "Access to and use of RWD",
+   "status": "none",
+   "crln_labels": [],
+   "crln_ids": [],
+   "note": "NO CRLN COUNTERPART. Real-world data does not appear anywhere in CRLN-TRG-001."
+  },
+  {
+   "section": "3.4.1",
+   "title": "Access to RWD",
+   "status": "none",
+   "crln_labels": [],
+   "crln_ids": [],
+   "note": "NO CRLN COUNTERPART. Nothing in the framework addresses obtaining or governing access to real-world data sources."
+  },
+  {
+   "section": "3.4.2",
+   "title": "Consent and permission considerations for RWD",
+   "status": "none",
+   "crln_labels": [],
+   "crln_ids": [],
+   "note": "NO CRLN COUNTERPART. CRLN's consent statements are all trial-participant consent. Consent and permission for secondary use of real-world data is a different problem and is absent."
+  },
+  {
+   "section": "3.5",
+   "title": "Data considerations",
+   "status": "partial",
+   "crln_labels": [
+    "Data Integrity & 21 CFR Part 11",
+    "Source Documentation & Data Integrity",
+    "Source Documentation & ALCOA+"
+   ],
+   "crln_ids": [
+    "CRLN-CRC-D3",
+    "CRLN-CTA-D4",
+    "CRLN-PI-D5"
+   ],
+   "note": "CRLN covers trial data integrity well; the Annex 2 additions concern data not generated by the trial."
+  },
+  {
+   "section": "3.5.1",
+   "title": "RWD Considerations",
+   "status": "none",
+   "crln_labels": [],
+   "crln_ids": [],
+   "note": "NO CRLN COUNTERPART. Provenance, fitness for purpose and quality of real-world data are unaddressed."
+  },
+  {
+   "section": "3.5.2",
+   "title": "Remote data collection considerations",
+   "status": "full",
+   "crln_labels": [
+    "Connected Device, Wearable & ePRO Data Integrity",
+    "Decentralised Vendor Oversight & Data Provenance"
+   ],
+   "crln_ids": [
+    "CRLN-DCT-D3",
+    "CRLN-DCT-D6"
+   ],
+   "note": "Strong. DCT-D3 and DCT-D6 were written for this and can now cite the section."
+  },
+  {
+   "section": "3.6",
+   "title": "Investigational product management",
+   "status": "full",
+   "crln_labels": [
+    "Direct-to-Participant IP Shipping & Accountability",
+    "IP Receipt, Storage & Temperature Excursions",
+    "IP Accountability Verification"
+   ],
+   "crln_ids": [
+    "CRLN-CRA-D4",
+    "CRLN-DCT-D5",
+    "CRLN-PHARM-D1"
+   ],
+   "note": "Strong, across DCT, PHARM and CRA."
+  },
+  {
+   "section": "3.7",
+   "title": "Privacy and confidentiality considerations",
+   "status": "partial",
+   "crln_labels": [
+    "Participant Contact & Confidentiality"
+   ],
+   "crln_ids": [
+    "CRLN-ASSIST-D2"
+   ],
+   "note": "Only one CRLN statement, on the ASSIST track, addresses confidentiality. Annex 2 treats privacy as a sponsor-level design obligation, which CRLN does not cover."
+  },
+  {
+   "section": "3.8",
+   "title": "Sponsor oversight",
+   "status": "full",
+   "crln_labels": [
+    "Decentralised Vendor Oversight & Data Provenance",
+    "Vendor / CRO Oversight",
+    "Risk-Based Monitoring & Remote Oversight",
+    "Site Management & Oversight"
+   ],
+   "crln_ids": [
+    "CRLN-CRA-D6",
+    "CRLN-DCT-D6",
+    "CRLN-PM-D2",
+    "CRLN-PM-D3"
+   ],
+   "note": "Strong, across DCT, PM and CRA."
+  },
+  {
+   "section": "3.9",
+   "title": "Safety assessment and reporting",
+   "status": "full",
+   "crln_labels": [
+    "Safety Reporting to Authorities",
+    "Expedited & Periodic Reporting",
+    "Signal Detection & Risk Management",
+    "Safety Reporting Administration"
+   ],
+   "crln_ids": [
+    "CRLN-CTA-D5",
+    "CRLN-PV-D4",
+    "CRLN-PV-D6",
+    "CRLN-RA-D5"
+   ],
+   "note": "Strong, via the PV track."
+  }
+ ]
+}
