@@ -1,0 +1,443 @@
+{
+ "crosswalk_id": "CRLN-TRG-001-X-EUCTR-536-2014",
+ "status": "provisional-unreviewed",
+ "generated": "2026-09-22",
+ "crln_version": "1.7.1",
+ "source": {
+  "name": "Regulation (EU) No 536/2014 on clinical trials on medicinal products for human use",
+  "adopted": "2014-04-16",
+  "applies_from": "2022-01-31",
+  "articles_total": 99,
+  "articles_assessed": 32,
+  "note": "Binding in all EU Member States. Repeals Directive 2001/20/EC.",
+  "url": "https://health.ec.europa.eu/system/files/2016-11/reg_2014_536_en_0.pdf"
+ },
+ "summary": {
+  "assessed": 32,
+  "full": 12,
+  "partial": 11,
+  "none": 9
+ },
+ "mappings": [
+  {
+   "article": 28,
+   "title": "General rules on protection of subjects",
+   "status": "full",
+   "crln_labels": [
+    "Regulatory & Ethical Compliance",
+    "Informed Consent Process",
+    "Eligibility Assessment & Protocol Conduct"
+   ],
+   "crln_ids": [
+    "CRLN-CRC-D2",
+    "CRLN-PI-D6",
+    "CRLN-SUBI-D3"
+   ],
+   "note": "Subject-protection duties map across CRC, PI and RA."
+  },
+  {
+   "article": 29,
+   "title": "Informed consent",
+   "status": "full",
+   "crln_labels": [
+    "Informed Consent Process",
+    "Obtaining & Documenting Informed Consent",
+    "Informed Consent Oversight",
+    "Remote & Electronic Informed Consent"
+   ],
+   "crln_ids": [
+    "CRLN-CRC-D2",
+    "CRLN-DCT-D2",
+    "CRLN-PI-D2",
+    "CRLN-SUBI-D2"
+   ],
+   "note": "Strong across four tracks."
+  },
+  {
+   "article": 30,
+   "title": "Informed consent in cluster trials",
+   "status": "none",
+   "crln_labels": [],
+   "crln_ids": [],
+   "note": "NO COUNTERPART. Cluster-randomised trials and their simplified consent route are absent from CRLN."
+  },
+  {
+   "article": 31,
+   "title": "Clinical trials on incapacitated subjects",
+   "status": "none",
+   "crln_labels": [],
+   "crln_ids": [],
+   "note": "NO COUNTERPART. Consent by legal representative for incapacitated adults is absent."
+  },
+  {
+   "article": 32,
+   "title": "Clinical trials on minors",
+   "status": "none",
+   "crln_labels": [],
+   "crln_ids": [],
+   "note": "NO COUNTERPART. Assent, paediatric consent and the minor's wishes are absent from every track, including RN."
+  },
+  {
+   "article": 33,
+   "title": "Clinical trials on pregnant or breastfeeding women",
+   "status": "none",
+   "crln_labels": [],
+   "crln_ids": [],
+   "note": "NO COUNTERPART. No competency addresses this population."
+  },
+  {
+   "article": 35,
+   "title": "Clinical trials in emergency situations",
+   "status": "none",
+   "crln_labels": [],
+   "crln_ids": [],
+   "note": "NO COUNTERPART. Deferred and emergency consent is absent, and it is the hardest consent situation a coordinator meets."
+  },
+  {
+   "article": 36,
+   "title": "Notification of start of trial and end of recruitment",
+   "status": "partial",
+   "crln_labels": [
+    "Study Start-Up & CTMS",
+    "Study Planning & Timelines"
+   ],
+   "crln_ids": [
+    "CRLN-CTA-D3",
+    "CRLN-PM-D1"
+   ],
+   "note": "CRLN covers start-up operationally but not the CTR's specific notification duties and clocks."
+  },
+  {
+   "article": 37,
+   "title": "End, temporary halt and early termination",
+   "status": "partial",
+   "crln_labels": [
+    "Study Planning & Timelines",
+    "Database Lock & SAE Reconciliation"
+   ],
+   "crln_ids": [
+    "CRLN-CDM-D5",
+    "CRLN-PM-D1"
+   ],
+   "note": "CRLN has no close-out or early-termination competency as such."
+  },
+  {
+   "article": 38,
+   "title": "Temporary halt or early termination for subject safety",
+   "status": "partial",
+   "crln_labels": [
+    "Risk Management & Mitigation",
+    "Escalating to the Principal Investigator"
+   ],
+   "crln_ids": [
+    "CRLN-PM-D4",
+    "CRLN-SUBI-D6"
+   ],
+   "note": "Escalation is covered; the sponsor's halt decision and its notification clock are not."
+  },
+  {
+   "article": 41,
+   "title": "Reporting of adverse events and SAEs by the investigator",
+   "status": "full",
+   "crln_labels": [
+    "AE Recognition & Reporting",
+    "Adverse Event Recognition & Escalation",
+    "Clinical Assessment & AE Attribution",
+    "Recognizing What Must Be Reported"
+   ],
+   "crln_ids": [
+    "CRLN-ASSIST-D4",
+    "CRLN-CRC-D5",
+    "CRLN-RN-D4",
+    "CRLN-SUBI-D4"
+   ],
+   "note": "Strong across CRC, PI, RN and ASSIST."
+  },
+  {
+   "article": 42,
+   "title": "Reporting of SUSARs by the sponsor",
+   "status": "full",
+   "crln_labels": [
+    "Expedited & Periodic Reporting",
+    "Safety Reporting to Authorities",
+    "Seriousness / Causality / Expectedness"
+   ],
+   "crln_ids": [
+    "CRLN-PV-D3",
+    "CRLN-PV-D4",
+    "CRLN-RA-D5"
+   ],
+   "note": "Strong via the PV track."
+  },
+  {
+   "article": 43,
+   "title": "Annual reporting by the sponsor to the Agency",
+   "status": "partial",
+   "crln_labels": [
+    "Expedited & Periodic Reporting"
+   ],
+   "crln_ids": [
+    "CRLN-PV-D4"
+   ],
+   "note": "CRLN covers periodic reporting generically, not the CTR's annual safety report to EMA."
+  },
+  {
+   "article": 46,
+   "title": "Reporting with regard to auxiliary medicinal products",
+   "status": "none",
+   "crln_labels": [],
+   "crln_ids": [],
+   "note": "NO COUNTERPART. 'Auxiliary medicinal product' is an EU CTR concept with no CRLN equivalent."
+  },
+  {
+   "article": 47,
+   "title": "Compliance with the protocol and good clinical practice",
+   "status": "full",
+   "crln_labels": [
+    "Protocol Adherence & Eligibility",
+    "Protocol Conduct & Eligibility",
+    "Following a Protocol Instruction Exactly",
+    "Regulatory & Ethical Compliance"
+   ],
+   "crln_ids": [
+    "CRLN-ASSIST-D1",
+    "CRLN-CRC-D1",
+    "CRLN-PI-D3",
+    "CRLN-PI-D6"
+   ],
+   "note": "Strong. This is the CTR's GCP-compliance article."
+  },
+  {
+   "article": 48,
+   "title": "Monitoring",
+   "status": "full",
+   "crln_labels": [
+    "On-Site Monitoring \u00b7 SDV/SDR",
+    "Risk-Based Monitoring & Remote Oversight",
+    "Site Management & Oversight"
+   ],
+   "crln_ids": [
+    "CRLN-CRA-D2",
+    "CRLN-CRA-D6",
+    "CRLN-PM-D2"
+   ],
+   "note": "Strong via the CRA track."
+  },
+  {
+   "article": 49,
+   "title": "Suitability of individuals involved in conducting the clinical trial",
+   "status": "full",
+   "crln_labels": [
+    "Investigator Oversight & Delegation",
+    "Working Within Your Delegated Authority",
+    "Knowing the Limit of Your Own Authority"
+   ],
+   "crln_ids": [
+    "CRLN-ASSIST-D6",
+    "CRLN-PI-D1",
+    "CRLN-SUBI-D1"
+   ],
+   "note": "THE ARTICLE THIS FRAMEWORK EXISTS TO SERVE. Art 49 requires that individuals be qualified by education, training and experience, and like ICH E6 does not define it measurably. That undefined requirement is CRLN-TRG-001's entire reason for existing, and until now the framework never cited it."
+  },
+  {
+   "article": 50,
+   "title": "Suitability of clinical trial sites",
+   "status": "full",
+   "crln_labels": [
+    "Site Qualification & Feasibility",
+    "Preparing Visits, Rooms & Supplies"
+   ],
+   "crln_ids": [
+    "CRLN-ASSIST-D5",
+    "CRLN-CRA-D1"
+   ],
+   "note": "Maps to the CRA feasibility competency."
+  },
+  {
+   "article": 51,
+   "title": "Traceability, storage, return and destruction of IMPs",
+   "status": "full",
+   "crln_labels": [
+    "IP Accountability, Reconciliation & Destruction",
+    "IP Receipt, Storage & Temperature Excursions",
+    "Investigational Product Management",
+    "IP Accountability Verification"
+   ],
+   "crln_ids": [
+    "CRLN-CRA-D4",
+    "CRLN-CRC-D4",
+    "CRLN-PHARM-D1",
+    "CRLN-PHARM-D4"
+   ],
+   "note": "Strong across PHARM, CRC and CRA."
+  },
+  {
+   "article": 52,
+   "title": "Reporting of serious breaches",
+   "status": "partial",
+   "crln_labels": [
+    "Deviation Recognition & Escalation",
+    "Protocol Deviation Assessment",
+    "Quality, Audit Readiness & CAPA"
+   ],
+   "crln_ids": [
+    "CRLN-CRA-D3",
+    "CRLN-CTA-D6",
+    "CRLN-LAB-D6"
+   ],
+   "note": "CRLN covers deviations, but 'serious breach' is a defined EU CTR concept with a seven-day notification clock that CRLN does not teach or assess."
+  },
+  {
+   "article": 53,
+   "title": "Other reporting obligations relevant for subject safety",
+   "status": "partial",
+   "crln_labels": [
+    "Safety Reporting Administration",
+    "Communication & Escalation"
+   ],
+   "crln_ids": [
+    "CRLN-CRC-D6",
+    "CRLN-CTA-D5"
+   ],
+   "note": "Generic escalation only."
+  },
+  {
+   "article": 54,
+   "title": "Urgent safety measures",
+   "status": "partial",
+   "crln_labels": [
+    "Risk Management & Mitigation",
+    "Escalating to the Principal Investigator"
+   ],
+   "crln_ids": [
+    "CRLN-PM-D4",
+    "CRLN-SUBI-D6"
+   ],
+   "note": "CRLN covers escalation but not the specific urgent-safety-measure duty and its notification."
+  },
+  {
+   "article": 55,
+   "title": "Investigator's brochure",
+   "status": "none",
+   "crln_labels": [],
+   "crln_ids": [],
+   "note": "NO COUNTERPART. No competency addresses maintaining or using the IB, though ICH E6 Appendix A is cited elsewhere."
+  },
+  {
+   "article": 56,
+   "title": "Recording, processing, handling and storage of information",
+   "status": "full",
+   "crln_labels": [
+    "Source Documentation & ALCOA+",
+    "Contemporaneous Source Documentation",
+    "Data Integrity & 21 CFR Part 11",
+    "Accurate Recording & Transcription"
+   ],
+   "crln_ids": [
+    "CRLN-ASSIST-D3",
+    "CRLN-CRC-D3",
+    "CRLN-CTA-D4",
+    "CRLN-SUBI-D5"
+   ],
+   "note": "Strong, though CRLN frames it via 21 CFR Part 11 rather than the CTR."
+  },
+  {
+   "article": 57,
+   "title": "Clinical trial master file",
+   "status": "full",
+   "crln_labels": [
+    "Trial Master File Management",
+    "Essential Documents & Submissions Filing"
+   ],
+   "crln_ids": [
+    "CRLN-CTA-D1",
+    "CRLN-RA-D6"
+   ],
+   "note": "Strong via the CTA track."
+  },
+  {
+   "article": 58,
+   "title": "Archiving of the clinical trial master file",
+   "status": "partial",
+   "crln_labels": [
+    "Trial Master File Management"
+   ],
+   "crln_ids": [
+    "CRLN-CTA-D1"
+   ],
+   "note": "CRLN covers TMF management; the CTR's 25-year archiving duty is not assessed."
+  },
+  {
+   "article": 62,
+   "title": "Responsibilities of the qualified person",
+   "status": "none",
+   "crln_labels": [],
+   "crln_ids": [],
+   "note": "NO COUNTERPART. The Qualified Person is an EU statutory role with no CRLN track. This is a structural gap for EU operations."
+  },
+  {
+   "article": 66,
+   "title": "Unauthorised IMPs and auxiliary medicinal products: labelling",
+   "status": "partial",
+   "crln_labels": [
+    "IP Receipt, Storage & Temperature Excursions",
+    "Dose Preparation & Compounding Accuracy"
+   ],
+   "crln_ids": [
+    "CRLN-PHARM-D1",
+    "CRLN-PHARM-D3"
+   ],
+   "note": "CRLN cites EU GMP Annex 13 once; CTR Annex VI labelling is not assessed."
+  },
+  {
+   "article": 71,
+   "title": "Sponsor",
+   "status": "partial",
+   "crln_labels": [
+    "Vendor / CRO Oversight",
+    "Sponsor Communication & Reporting"
+   ],
+   "crln_ids": [
+    "CRLN-PM-D3",
+    "CRLN-PM-D6"
+   ],
+   "note": "CRLN assesses individuals, not the sponsor entity, so this maps only where a person discharges it."
+  },
+  {
+   "article": 73,
+   "title": "Principal investigator",
+   "status": "full",
+   "crln_labels": [
+    "Investigator Oversight & Delegation",
+    "Informed Consent Oversight",
+    "Medical Safety & AE Assessment"
+   ],
+   "crln_ids": [
+    "CRLN-PI-D1",
+    "CRLN-PI-D2",
+    "CRLN-PI-D4"
+   ],
+   "note": "Strong via the PI track."
+  },
+  {
+   "article": 76,
+   "title": "Damage compensation",
+   "status": "none",
+   "crln_labels": [],
+   "crln_ids": [],
+   "note": "NO COUNTERPART. Insurance and indemnity are absent from CRLN, as they were from the TDR crosswalk."
+  },
+  {
+   "article": 93,
+   "title": "Data protection",
+   "status": "partial",
+   "crln_labels": [
+    "Participant Contact & Confidentiality"
+   ],
+   "crln_ids": [
+    "CRLN-ASSIST-D2"
+   ],
+   "note": "One statement on one track. The CTR points at GDPR, which CRLN cites once across 84 statements."
+  }
+ ]
+}
