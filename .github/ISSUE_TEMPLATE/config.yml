@@ -1,11 +1,13 @@
 blank_issues_enabled: true
 contact_links:
-  - name: Declare adoption privately, by email
-    url: mailto:standard@crln-learn.com
-    about: Same details, no public trail. Some organisations prefer this and that is fine.
-  - name: Propose a change or report a defect in the standard
-    url: mailto:standard@crln-learn.com
-    about: Change proposals, appeals and conflict disclosures. See GOVERNANCE.md section 4 for what happens next.
-  - name: Read what adoption means before declaring
+  # GitHub silently drops mailto: links from the chooser, so these must be https
+  # and carry the address in the description text instead.
+  - name: "Prefer email? Write to standard@crln-learn.com"
+    url: https://github.com/jwebber-cmyk/crln-trg-001/blob/main/ADOPTERS.md#how-to-be-listed
+    about: "Declaring by email leaves no public trail. Some organisations need that. Send the same details to standard@crln-learn.com and it is treated identically."
+  - name: "Propose a change or report a defect in the standard"
+    url: https://github.com/jwebber-cmyk/crln-trg-001/blob/main/GOVERNANCE.md
+    about: "Change proposals, appeals and conflict disclosures go to standard@crln-learn.com. GOVERNANCE.md section 4 explains what happens next."
+  - name: "Read what adoption means before declaring"
     url: https://github.com/jwebber-cmyk/crln-trg-001/blob/main/ADOPT.md
-    about: ADOPT.md explains the four kinds of adoption and what listing does and does not imply.
+    about: "ADOPT.md explains the four kinds of adoption and what listing does and does not imply."
