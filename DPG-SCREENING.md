@@ -101,9 +101,26 @@ standard.
 Standards the framework aligns to, with the crosswalk published rather than
 asserted:
 
-- **ICH E6(R3) Annex 1** — section anchors verified against the adopted guideline
+- **ICH E6(R3) Annex 1** — section anchors verified against the adopted guideline.
+  Crosswalk SME-VALIDATED 2026-09-21 by three independent reviewers who agreed on all
+  ten canonical domains, named with consent in `GOVERNANCE.md`
 - **Joint Task Force for Clinical Trial Competency Framework**
+- **TDR Global Competency Framework for Clinical Research** (UNICEF/UNDP/World Bank/WHO,
+  2016) — crosswalk published 2026-09-22 in `crosswalks/`. PROVISIONAL and unreviewed
+- **ICH E6(R3) Annex 2** (adopted 2026-06-03, in force 2027-01-15; decentralised and
+  pragmatic elements, real-world data) — crosswalk published 2026-09-22. PROVISIONAL
+- **Regulation (EU) No 536/2014** — crosswalk published 2026-09-22 covering the 32 of 99
+  articles that impose duties on individuals in trial roles. PROVISIONAL
 - ACRP and SOCRA relevance noted per domain
+
+**Each crosswalk is machine-readable as well as human-readable, and each is referenced
+from `crln-trg-001.json` so a consumer of the spec can find them without reading prose.**
+
+**Each one is published with what it found MISSING from this framework**, which is the
+point of doing them: TDR surfaced the absence of community engagement, Annex 2 the absence
+of real-world data, and EU CTR the absence of vulnerable-population and non-standard
+consent. `proposals/PROPOSAL-001` sets out the resulting change and explicitly does not
+adopt it, because the Board cannot yet approve it.
 
 Practices followed:
 
@@ -164,14 +181,27 @@ is by pull request or email to `standard@crln-learn.com`, governed by
 
 ## Known weaknesses a reviewer will find, stated here first
 
-1. **Provisional status.** Crosswalk mappings are SME-reviewed but not
-   board-ratified. Disclosed in the standard, the change log and governance.
-2. **Board below quorum.** One seated member. A chair and three further members
+1. **Provisional status, and it is now more mixed than it was.** The competency crosswalk
+   to ICH E6(R3) Annex 1 and the JTF framework is SME-validated but not board-ratified.
+   The three crosswalks added 2026-09-22 (TDR, ICH E6(R3) Annex 2, EU CTR 536/2014) are
+   PROVISIONAL and have had NO review of any kind: they are the custodian's judgement
+   alone. They are labelled as such in their first line, in the change log, and in the
+   machine-readable spec. A reader must not treat them as carrying the validation the
+   competency crosswalk carries.
+2. **The framework has known, published gaps.** Three crosswalks each found something
+   missing, and none is fixed: community engagement, real-world data, and consent for
+   vulnerable populations. These are disclosed rather than repaired because repairing them
+   is a MINOR version change requiring review the Board cannot currently give.
+3. **A jurisdictional imbalance, measured and recorded.** An audit of all 84 competency
+   statements found roughly 37 references to US federal sources against one to EU CTR
+   536/2014 before the crosswalk existed. A framework describing itself as global while
+   citing one jurisdiction forty times and another once was not yet global.
+4. **Board below quorum.** One seated member. A chair and three further members
    are still required, including psychometric expertise and low- or
    middle-income country representation.
-3. **No independent adopters on the public register.** Real, and structural
+5. **No independent adopters on the public register.** Real, and structural
    rather than hidden.
-4. **The publisher sells a product built on the standard.** Addressed under
+6. **The publisher sells a product built on the standard.** Addressed under
    indicator 4: the open files are sufficient to implement without it.
 
 None of these are disqualifying under the DPG Standard. All of them are worse if

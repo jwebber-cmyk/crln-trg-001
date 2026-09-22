@@ -2,7 +2,7 @@
   "$schema": "https://crln-learn.com/schemas/competency-framework/v1.json",
   "framework_id": "CRLN-TRG-001",
   "framework_name": "CRLN Clinical Research Competency & Assessment Framework",
-  "version": "1.7.1",
+  "version": "1.7.2",
   "status": "published-sme-validated",
   "publisher": "Clinical Research Learning Network LLC",
   "license": "CC-BY-4.0",
@@ -27,7 +27,75 @@
       "basis": "Documented mapping of CRLN-TRG-001 competencies to published standards",
       "audited_by_third_party": false,
       "statement": "CRLN-TRG-001 is aligned with the TransCelerate GCP Mutual Recognition minimum criteria and mapped to ICH E6(R3) and the Joint Task Force competency domains. This is a documented alignment to published standards authored by CRLN, not a third-party audit or validation of CRLN."
-    }
+    },
+    "crosswalks": {
+      "jtf": {
+        "crosswalk_id": "CRLN-TRG-001-X-JTF",
+        "status": "sme-validated-2026-09-21",
+        "source": "JTF Core Competency Framework (Joint Task Force for Clinical Trial Competency / MRCT Center)",
+        "source_url": "https://mrctcenter.org/clinical-trial-competency/framework/domains/",
+        "generated": "2026-09-22",
+        "document": "crosswalks/CRLN-TRG-001-x-JTF.md",
+        "summary": {
+          "crln_canonical_domains": 10,
+          "jtf_domains_total": 8,
+          "jtf_domains_mapped": 5,
+          "jtf_domains_unmapped": [
+            1,
+            8
+          ],
+          "jtf_domains_secondary_only": [
+            7
+          ]
+        },
+        "note": "The ONLY CRLN crosswalk carrying review. Validated at the canonical-domain level only. A finer statement-level JTF mapping exists and is provisional_unreviewed; it is NOT covered by this validation and must not be cited as though it were."
+      },
+      "tdr": {
+        "crosswalk_id": "CRLN-TRG-001-X-TDR",
+        "status": "provisional-unreviewed",
+        "source": "TDR Global Competency Framework for Clinical Research",
+        "source_url": "https://globalhealthtrainingcentre.tghn.org/pds/core-competency-framework/",
+        "generated": "2026-09-22",
+        "document": "crosswalks/crln-trg-001-x-tdr.json",
+        "summary": {
+          "full": 20,
+          "partial": 10,
+          "none": 20,
+          "crln_statements": 84,
+          "crln_statements_mapped": 60,
+          "crln_statements_unmapped": 24
+        }
+      },
+      "ich_e6r3_annex2": {
+        "crosswalk_id": "CRLN-TRG-001-X-E6R3-ANNEX2",
+        "status": "provisional-unreviewed",
+        "source": "ICH E6(R3) Good Clinical Practice, Annex 2",
+        "source_url": "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-e6r3-guideline-good-clinical-practice-annex-2-step-5_en.pdf",
+        "generated": "2026-09-22",
+        "document": "crosswalks/crln-trg-001-x-e6r3-annex2.json",
+        "summary": {
+          "sections": 18,
+          "full": 10,
+          "partial": 3,
+          "none": 5
+        }
+      },
+      "eu_ctr_536_2014": {
+        "crosswalk_id": "CRLN-TRG-001-X-EUCTR-536-2014",
+        "status": "provisional-unreviewed",
+        "source": "Regulation (EU) No 536/2014 on clinical trials on medicinal products for human use",
+        "source_url": "https://health.ec.europa.eu/system/files/2016-11/reg_2014_536_en_0.pdf",
+        "generated": "2026-09-22",
+        "document": "crosswalks/crln-trg-001-x-euctr.json",
+        "summary": {
+          "assessed": 32,
+          "full": 12,
+          "partial": 11,
+          "none": 9
+        }
+      }
+    },
+    "crosswalk_note": "These three crosswalks are PROVISIONAL and UNREVIEWED. They are the judgement of the custodian alone and carry none of the validation the competency crosswalk carries. They are published so they can be corrected, not so they can be cited as validated. Each found a distinct gap in this framework: TDR found community engagement, ICH E6(R3) Annex 2 found real-world data, and EU CTR 536/2014 found vulnerable-population and non-standard consent. None of those gaps is fixed in this version."
   },
   "scale": [
     {

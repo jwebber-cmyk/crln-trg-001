@@ -3,7 +3,7 @@
 
 **Publisher:** CRLN — Clinical Research Learning Network · crln-learn.com  
 **Author:** Joshua Webber, Founder — ORCID [0009-0005-2538-8333](https://orcid.org/0009-0005-2538-8333)  
-**Version:** 1.7 · **Release:** 1.7.1 (2026-09-21) · **Type:** Standard / Documentation  
+**Version:** 1.7 · **Release:** 1.7.2 (2026-09-22) · **Type:** Standard / Documentation  
 **Concept DOI (all versions):** [10.5281/zenodo.22049549](https://doi.org/10.5281/zenodo.22049549)
 
 **License:** This framework and the standards crosswalk herein are licensed **Creative Commons Attribution 4.0 International (CC BY 4.0)**. The CRLN Readiness Index measurement engine, item parameters, calibrations, and underlying data are proprietary and are **not** licensed hereunder.

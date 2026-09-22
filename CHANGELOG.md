@@ -29,6 +29,45 @@ place: [CRLN-TRG-001-GOVERNANCE.md](CRLN-TRG-001-GOVERNANCE.md)
 
 ---
 
+## 1.7.2 — 2026-09-22 (three crosswalks, and what they found missing)
+
+PATCH. No competency was added, removed or reworded. No weight, threshold or scoring rule
+moved. What changed is that the machine-readable form now points at three new crosswalks,
+and the version moved because publishing changed JSON under an unchanged version number is
+exactly the fault recorded against releases 1.3 to 1.7.0.
+
+**Three crosswalks added, all PROVISIONAL and UNREVIEWED.** They are the custodian's
+judgement alone. No subject-matter expert and no Methodology Review Board member has checked
+any of them, and they carry none of the validation the competency crosswalk carries. They are
+published so they can be corrected.
+
+| Crosswalk | Result |
+|---|---|
+| TDR Global Competency Framework for Clinical Research (2016) | 20 full, 10 partial, **20 of 50 with no CRLN counterpart** |
+| ICH E6(R3) Annex 2 (adopted 2026-06-03, in force 2027-01-15) | 10 full, 3 partial, **5 of 18 sections with none** |
+| Regulation (EU) No 536/2014 | 12 full, 11 partial, **9 of 32 staff-duty articles with none** |
+
+**Each found a different gap, and none of them is fixed in this release.**
+
+1. **TDR found community engagement.** Absent from CRLN entirely. It is the competency TDR
+   added for low-resource and community-based research.
+2. **Annex 2 found real-world data.** Four of its five gaps are the same gap. CRLN does not
+   mention RWD anywhere, and every consent statement in the framework is trial-participant
+   consent. This becomes a regulatory expectation on 2027-01-15.
+3. **EU CTR found vulnerable-population consent.** Five of nine gaps are consecutive articles
+   (30, 31, 32, 33, 35): cluster trials, incapacitated subjects, minors, pregnant and
+   breastfeeding women, emergency situations. All four CRLN consent competencies assume a
+   competent adult consenting for themselves.
+
+**Article 49 of EU CTR 536/2014** requires that individuals be qualified by education,
+training and experience without defining it measurably. That undefined requirement is why
+this framework exists. Until this release the framework never cited it.
+
+**A citation imbalance is recorded rather than hidden.** An audit of all 84 competency
+statements found roughly 37 references to US federal sources and, before this release, one to
+EU CTR 536/2014. A framework describing itself as global while citing one jurisdiction forty
+times and another once was not yet global, and saying so is part of fixing it.
+
 ## 1.7.1 — 2026-09-21 (the competency crosswalk stops being provisional)
 
 Published: [10.5281/zenodo.22884111](https://doi.org/10.5281/zenodo.22884111)
