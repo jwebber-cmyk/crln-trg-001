@@ -61,9 +61,14 @@ claims and `ADOPTERS.md` keeps them apart deliberately, because conflating them 
 |---|---|---|---|
 | Jeffrey Smyth, MS, CCRP | TrueBlue Clinical Research, Tampa, USA | all ten canonical domains, ICH E6(R3) and JTF crosswalk | 2026-09-08 and 2026-09-19, by email |
 | Rotceh Rios | RMP SMO | all ten canonical domains, ICH E6(R3) and JTF crosswalk | 2026-09-01, by email |
+| George Lott, MSPA | RegAlign | all ten canonical domains, ICH E6(R3) and JTF crosswalk | 2026-09-22, by text message |
 
-A third reviewer also rated all ten domains. They are not named here because they have not been
-asked, and a name is theirs to release rather than ours to use because it strengthens a claim.
+All three reviewers are now named. The third, George Lott, was briefly named in the published
+change log on 2026-09-21 **before he had been asked**. That was wrong, it was removed within the
+hour, and the removal is recorded in `CHANGELOG.md` rather than erased. He was then asked
+properly, completed his review, and on 2026-09-22 confirmed both that he may be named and how he
+wishes to be described. Listing him now is the correct end of that sequence, not a reversal of the
+correction.
 
 **What being listed means, and what it does not.** These reviewers checked whether our mapping of a
 competency domain to ICH E6(R3) and the Joint Task Force framework matched their own professional
