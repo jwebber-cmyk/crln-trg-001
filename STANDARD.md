@@ -3,7 +3,7 @@
 
 **Publisher:** CRLN — Clinical Research Learning Network · crln-learn.com  
 **Author:** Joshua Webber, Founder — ORCID [0009-0005-2538-8333](https://orcid.org/0009-0005-2538-8333)  
-**Version:** 1.7 · **Release:** 1.7.2 (2026-09-22) · **Type:** Standard / Documentation  
+**Version:** 1.7 · **Release:** 1.7.3 (2026-09-23) · **Type:** Standard / Documentation  
 **Concept DOI (all versions):** [10.5281/zenodo.22049549](https://doi.org/10.5281/zenodo.22049549)
 
 **License:** This framework and the standards crosswalk herein are licensed **Creative Commons Attribution 4.0 International (CC BY 4.0)**. The CRLN Readiness Index measurement engine, item parameters, calibrations, and underlying data are proprietary and are **not** licensed hereunder.
@@ -53,11 +53,11 @@ CRLN-TRG-001 organizes clinical-research competency into ten canonical domains (
 > *Correction, 2026-08-31: this paragraph previously read "56 competency statements … and 3 tracked framework versions." Both figures were produced by counting the methodology registry without filtering, so they included the eight JTF v3.1 reference statements that CRLN-TRG-001 is crosswalked **to** rather than composed of. The framework's own content is 48 statements across 2 versions.*
 
 ## 3. Standards crosswalk — CRLN-TRG-001 ↔ JTF ↔ ICH E6(R3)
-CRLN operationalizes recognized standards rather than inventing its own. Each canonical domain maps to the Joint Task Force Clinical Trial Competency Framework and to ICH E6(R3), with ACRP/SOCRA relevance noted. Section references use **ICH E6(R3) Annex 1** numbering throughout, taken from the adopted guideline. *(Competency mappings SME-validated 2026-09-21: three reviewers, ten of ten domains, unanimous. Jurisdiction and regime mappings remain provisional and unreviewed.)*
+CRLN operationalizes recognized standards rather than inventing its own. Each canonical domain maps to the Joint Task Force Clinical Trial Competency Framework and to ICH E6(R3), with a short topic label for each. Section references use **ICH E6(R3) Annex 1** numbering throughout, taken from the adopted guideline. *(Competency mappings SME-validated 2026-09-21: three reviewers, ten of ten domains, unanimous. Jurisdiction and regime mappings remain provisional and unreviewed.)*
 
 > *Correction, 2026-09-01 (release 1.1.3): until this release, 38 of the 48 competency domains cited ICH E6(R2) section numbers — §4 for the Investigator, §5 for the Sponsor, §8 for Essential Documents — under an "ICH E6(R3)" label. R3 Annex 1 places those at §2, §3 and Appendix C. The mappings were right; the addresses were wrong. They now use verified R3 Annex 1 anchors.*
 
-| CRLN | Domain | JTF domain | ICH E6(R3) area | ACRP/SOCRA relevance |
+| CRLN | Domain | JTF domain | ICH E6(R3) area | Topic |
 |---|---|---|---|---|
 | D-01 | GCP Principles & Ethics | 4 · Clinical Study Operations (GCPs) | Principles of ICH GCP | GCP foundations |
 | D-02 | Informed Consent Processes | 2 · Ethical & Participant Safety | Informed consent of trial participants | Informed consent |
@@ -99,16 +99,16 @@ The framework is mapped to national regulatory regimes to ensure GCP applicabili
 ## 5. Methodology (summary)
 - **Standard anchor:** ICH E6(R3) Good Clinical Practice; alignment to the JTF Clinical Trial Competency Framework.
 - **Measurement:** scenario-based assessment scored against a published rubric; item-response-theory (IRT/Rasch) ability estimation (engine proprietary).
-- **Privacy:** no PHI; pseudonymous identifiers; k-anonymized aggregates (minimum cohort 5); consent-aware.
+- **Privacy:** no PHI; pseudonymous identifiers; aggregate figures only, each covering at least 5 people, never row-level or identifying; consent-aware.
 - **Citations:** 24 standard citations underpin the framework (ICH, regulatory, and competency-framework sources).
-- **Validation status (transparent):** The **domain crosswalk is independently validated**. Three subject matter experts from three organisations each reviewed all ten domain mappings, with unanimous agreement and no divergent or contested mapping (10 of 10 validated, 0 divergent, 0 contested, as at 2026-09-18). Reviewers declared their affiliations and any conflict of interest; the review record is held against the instrument version.
+- **Validation status (transparent):** The **domain crosswalk is independently validated**. Three subject matter experts from three organisations each reviewed all ten domain mappings, with unanimous agreement and no divergent or contested mapping (10 of 10 validated, 0 divergent, 0 contested, as at 2026-09-21). Reviewers declared their affiliations and any conflict of interest; the review record is held against the instrument version.
 
   **Item-level sign-off is NOT complete and is not claimed.** No assessment item has yet reached the three-rater consensus threshold. Empirical psychometric validation (calibration, reliability, cross-language invariance) remains the subject of ongoing research. Item-level claims are marked directional until validated.
 
   The distinction is deliberate and load-bearing. The crosswalk establishes that CRLN's competency domains map correctly onto the external framework; it does not establish that any individual item measures what it claims. Those are different assertions and only the first is currently supported.
 
 ## 6. Governance & change control
-Versioned and openly published. Changes are tracked in the CRLN methodology registry with change notes; published versions are immutable. A Methodology Review Board, conflict-of-interest policy, and appeals process govern updates. Each published version receives its own DOI.
+Versioned and openly published. Changes are tracked in the CRLN methodology registry with change notes; published versions are immutable. Governance is set out in `CRLN-TRG-001-GOVERNANCE.md`. The Methodology Review Board has one seated member and has not reached quorum; until it does, changes are approved by the custodian on SME review, and every release says so in the change log. A conflict-of-interest register is open, and an appeals process is defined but has never been invoked. Each published version receives its own DOI.
 
 ## 7. How to cite
 > CRLN (2026). *CRLN-TRG-001: CRLN Clinical Research Competency Framework.* Clinical Research Learning Network. DOI: https://doi.org/10.5281/zenodo.22049549. Licensed CC BY 4.0.

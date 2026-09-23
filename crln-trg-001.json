@@ -2,7 +2,7 @@
   "$schema": "https://crln-learn.com/schemas/competency-framework/v1.json",
   "framework_id": "CRLN-TRG-001",
   "framework_name": "CRLN Clinical Research Competency & Assessment Framework",
-  "version": "1.7.2",
+  "version": "1.7.3",
   "status": "published-sme-validated",
   "publisher": "Clinical Research Learning Network LLC",
   "license": "CC-BY-4.0",
