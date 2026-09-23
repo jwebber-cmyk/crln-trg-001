@@ -31,6 +31,8 @@ place: [CRLN-TRG-001-GOVERNANCE.md](CRLN-TRG-001-GOVERNANCE.md)
 
 ## 1.7.3, 2026-09-23 (four sentences that said more than the record)
 
+Published: [10.5281/zenodo.22922050](https://doi.org/10.5281/zenodo.22922050)
+
 PATCH. No competency was added, removed or reworded. No weight, threshold, scale or scoring rule
 moved, and no crosswalk mapping changed. Four sentences in `STANDARD.md` are corrected, because
 each claimed more than the record behind it. All four were already present in 1.7.1, and 1.7.2
@@ -55,6 +57,8 @@ is left exactly as published, since it is the version an adopter cites.
    The column is now headed "Topic". Its entries were always topic labels and are unchanged.
 
 ## 1.7.2 — 2026-09-22 (three crosswalks, and what they found missing)
+
+Published: [10.5281/zenodo.22922000](https://doi.org/10.5281/zenodo.22922000)
 
 PATCH. No competency was added, removed or reworded. No weight, threshold or scoring rule
 moved. What changed is that the machine-readable form now points at three new crosswalks,
