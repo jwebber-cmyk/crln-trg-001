@@ -29,6 +29,31 @@ place: [CRLN-TRG-001-GOVERNANCE.md](CRLN-TRG-001-GOVERNANCE.md)
 
 ---
 
+## 1.7.3, 2026-09-23 (four sentences that said more than the record)
+
+PATCH. No competency was added, removed or reworded. No weight, threshold, scale or scoring rule
+moved, and no crosswalk mapping changed. Four sentences in `STANDARD.md` are corrected, because
+each claimed more than the record behind it. All four were already present in 1.7.1, and 1.7.2
+is left exactly as published, since it is the version an adopter cites.
+
+1. **Governance (section 6).** It said "A Methodology Review Board, conflict-of-interest policy,
+   and appeals process govern updates." `GOVERNANCE.md` has said since 2026-09-09 that the Board
+   has one seated member, has not reached quorum, and that until it does the custodian approves
+   changes on SME review. The standard now says that, in those terms. The review board field in
+   `crln-trg-001.json` already read `"review_board_constituted": false`; only the prose was ahead
+   of it.
+2. **Validation date (section 5).** The crosswalk validation was given "as at 2026-09-18" in one
+   place and "2026-09-21" in another. The third review completed on 2026-09-21, which is the date
+   release 1.7.1 recorded. Both now read 2026-09-21.
+3. **Privacy (section 5).** "k-anonymized aggregates (minimum cohort 5)" is replaced with
+   "aggregate figures only, each covering at least 5 people, never row-level or identifying",
+   the wording CRLN's Terms adopted on the same day. The rule itself is unchanged; the new
+   wording states it plainly.
+4. **Crosswalk table (section 3).** The last column was headed "ACRP/SOCRA relevance" and the
+   text said the crosswalk noted "ACRP/SOCRA relevance". CRLN-TRG-001 has no documented mapping
+   to anything ACRP or SOCRA publishes, and neither body reviews or recognizes external content.
+   The column is now headed "Topic". Its entries were always topic labels and are unchanged.
+
 ## 1.7.2 — 2026-09-22 (three crosswalks, and what they found missing)
 
 PATCH. No competency was added, removed or reworded. No weight, threshold or scoring rule
