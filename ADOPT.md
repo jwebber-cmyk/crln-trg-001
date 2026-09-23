@@ -39,8 +39,21 @@ Adopting a standard means inheriting its maturity. As of the 1.0 publication:
 - **The JTF and ICH crosswalk is provisional**, pending independent SME review. If
   you rely on a specific domain mapping for a regulatory or accreditation purpose,
   verify that mapping yourself.
-- **39 of 200 regulatory jurisdictions are verified** against primary sources. The
-  other 161 record an inference. Check your own jurisdiction before citing it.
+- **45 of 200 regulatory jurisdictions are verified** against primary sources. The
+  other 155 record an inference. Check your own jurisdiction before citing it.
+
+  The count is deliberately not the headline. Of the 652 learners with a country on
+  record, **88% are in a verified jurisdiction, and half are outside the United States
+  and verified** (checked 2026-09-23). That second figure was 27% before the six
+  jurisdictions with the largest learner populations were verified on 2026-09-22. A map is only as useful as its overlap with the people using
+  it, and `ops/scripts/check-jurisdiction-coverage.py` ranks what to verify next by
+  learner count rather than alphabetically.
+
+  Verified here means: a named national regulatory authority, the national instrument
+  cited precisely enough to look up, ICH status taken from the ICH's own membership
+  list, and WHO GBT maturity **with its scope**, such as "ML3 for vaccines (producing), 2022"
+  rather than "ML3". Absence from the WHO list is recorded as an explicit negative, not
+  left blank.
 - **0 of 31 assessment items have been independently attested.**
 
 We would rather you discover this here than after building on it. If you need a

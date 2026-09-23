@@ -18,6 +18,25 @@ asking to be taken on trust. This removes that.
 
 Source for the JTF domain list: <https://mrctcenter.org/clinical-trial-competency/framework/domains/>
 
+## Summary
+
+The counts the prose below is describing, stated once so a reader can quote them and a
+reviewer can check them. Added 2026-09-22: this document had no summary table while the
+other three crosswalks did, which made it the one artifact of the four that could not be
+verified against itself, and it is the one the MRCT Center has said it plans to raise with
+the Joint Task Force co-chairs on 16 October. ACRP has been sent a copy; it has not endorsed
+or reviewed it.
+
+| | count | of 8 |
+|---|---:|---:|
+| JTF domains with a CRLN canonical domain | 5 | 63% |
+| Partial correspondence (secondary mapping only) | 1 | 13% |
+| **No CRLN counterpart** | **2** | **25%** |
+
+All ten CRLN canonical domains map to a JTF domain. The imbalance runs the other way:
+CRLN is narrower than the JTF framework, not broader, and Domains 1 and 8 are missing
+from CRLN entirely.
+
 ## The mapping
 
 | CRLN canonical domain | | JTF domain | | ICH E6(R3) anchor |

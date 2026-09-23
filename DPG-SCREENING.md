@@ -199,8 +199,14 @@ is by pull request or email to `standard@crln-learn.com`, governed by
 4. **Board below quorum.** One seated member. A chair and three further members
    are still required, including psychometric expertise and low- or
    middle-income country representation.
-5. **No independent adopters on the public register.** Real, and structural
-   rather than hidden.
+5. **One adopter on the public register, as of 2026-09-22, and it is not independent.**
+   TrueBlue Clinical Research (United States) declared use of v1.7.2 for onboarding
+   and ongoing competency education and assessment, with written permission asked
+   twice and given. Its president, Jeffrey Smyth, holds the one seated Methodology
+   Review Board seat and was one of the three crosswalk reviewers, so this is an
+   adoption by someone close to the framework, and is presented that way. One is a small number and is presented as one. Because the
+   licence is CC BY, unlisted use is invisible to us, so the register is a floor
+   rather than a count and `ADOPTERS.md` says so on its face.
 6. **The publisher sells a product built on the standard.** Addressed under
    indicator 4: the open files are sufficient to implement without it.
 
