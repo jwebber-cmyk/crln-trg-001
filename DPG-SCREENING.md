@@ -102,8 +102,10 @@ Standards the framework aligns to, with the crosswalk published rather than
 asserted:
 
 - **ICH E6(R3) Annex 1** — section anchors verified against the adopted guideline.
-  Crosswalk SME-VALIDATED 2026-09-21 by three independent reviewers who agreed on all
-  ten canonical domains, named with consent in `GOVERNANCE.md`
+  Crosswalk reviewed 2026-09-21: all ten canonical domain mappings were reviewed by a
+  practicing site director who recorded a written rationale for each, and confirmed by two
+  further reviewers, named with consent in `GOVERNANCE.md`. (Corrected 2026-09-28. This
+  line previously said three independent reviewers agreed on all ten canonical domains.)
 - **Joint Task Force for Clinical Trial Competency Framework**
 - **TDR Global Competency Framework for Clinical Research** (UNICEF/UNDP/World Bank/WHO,
   2016) — crosswalk published 2026-09-22 in `crosswalks/`. PROVISIONAL and unreviewed
@@ -182,7 +184,9 @@ is by pull request or email to `standard@crln-learn.com`, governed by
 ## Known weaknesses a reviewer will find, stated here first
 
 1. **Provisional status, and it is now more mixed than it was.** The competency crosswalk
-   to ICH E6(R3) Annex 1 and the JTF framework is SME-validated but not board-ratified.
+   to ICH E6(R3) Annex 1 and the JTF framework has been reviewed, by one practicing site
+   director with a written rationale for each mapping and confirmed by two further reviewers,
+   but is not board-ratified.
    The three crosswalks added 2026-09-22 (TDR, ICH E6(R3) Annex 2, EU CTR 536/2014) are
    PROVISIONAL and have had NO review of any kind: they are the custodian's judgement
    alone. They are labelled as such in their first line, in the change log, and in the
