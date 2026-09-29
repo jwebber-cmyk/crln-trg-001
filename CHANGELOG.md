@@ -29,6 +29,26 @@ place: [CRLN-TRG-001-GOVERNANCE.md](CRLN-TRG-001-GOVERNANCE.md)
 
 ---
 
+## 2026-09-29 (SME item ratings: which ones count toward validation)
+
+**Not a release.** No version number moves with this entry and no Zenodo record changes. No
+competency, weight, threshold, scale, scoring rule or crosswalk mapping changed. This entry does
+not need a Zenodo version of its own; whether the next release carries it is the founder's
+decision.
+
+**Decision, 2026-09-29.** The custodian decided that only assessment item ratings given from
+2026-09-29 00:00 UTC onward count toward validating an item. The item ratings collected in
+September 2026, on 1 and 8 September, were given while each item's criterion on the public
+Methodology page named the keyed response. That display was removed on 2026-09-29. The rating
+screen itself never showed CRLN's answer. The September ratings are retained as disclosed pilot
+data. They are not described as blind to the key and never count toward validation. No item had
+been validated before the decision, so no validation is withdrawn. Crosswalk reviews are
+unaffected: a crosswalk mapping has no hidden answer, and the mapping is what the reviewer is
+shown and asked to judge.
+
+**What changed.** `STANDARD.md` §5 (validation status) and `validation_status` in
+`crln-trg-001.json` each gain one sentence saying so.
+
 ## 1.7.4, 2026-09-29 (the crosswalk review, described as it happened)
 
 Published: [10.5281/zenodo.23040215](https://doi.org/10.5281/zenodo.23040215)
