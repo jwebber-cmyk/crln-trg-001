@@ -31,6 +31,8 @@ place: [CRLN-TRG-001-GOVERNANCE.md](CRLN-TRG-001-GOVERNANCE.md)
 
 ## 1.7.4, 2026-09-29 (the crosswalk review, described as it happened)
 
+Published: [10.5281/zenodo.23040215](https://doi.org/10.5281/zenodo.23040215)
+
 PATCH. No competency was added, removed or reworded. No weight, threshold, scale or scoring
 rule moved, and no crosswalk mapping changed. The engine's framework stamp stays `v1.7`,
 because a patch release does not change what an assessment is scored against.
