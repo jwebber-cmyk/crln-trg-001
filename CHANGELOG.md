@@ -105,9 +105,9 @@ reviewers "checked whether our mapping" matched their own view "and said so". Th
 item 1 above. The evidential basis for the crosswalk claim is the rationale-bearing review by one
 Founding Validator, confirmed by two further reviewers, and section 2 now says so. It describes
 Jeffrey Smyth's review as recorded: assessment items under two successive versions of their
-wording, 44 to 56 seconds per item across four to five distinct choices, and a part in the domain
-crosswalk review. The table now says each validator took part in the domain crosswalk review, and
-the paragraph says each was asked and recorded agreement. A dated correction note in
+wording, across four to five distinct choices, and a part in the domain crosswalk review. The
+table now says each validator took part in the domain crosswalk review, and the paragraph says
+each was asked and recorded agreement. A dated correction note in
 `GOVERNANCE.md` quotes the earlier wording. Approved by the custodian on 2026-09-29.
 
 Repository only, not part of the Zenodo record: `CRLN-TRG-001-v1.7.1.pdf` is replaced by

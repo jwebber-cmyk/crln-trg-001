@@ -46,10 +46,10 @@ inventing a process, and so an adopter can see the intended shape.
 **Publication consent on file.** "Hi Josh - yes, approved." Email from Jeffrey Smyth, 2026-09-19, in reply to a written request setting out the exact wording. Withdrawable at any time.
 
 Before accepting a seat, Jeffrey Smyth reviewed CRLN-TRG-001 assessment items under two
-successive versions of their wording, taking 44 to 56 seconds per item and using four to five
-distinct choices, and he took part in the domain crosswalk review. Both were completed before
-he was seated on 2026-09-15, which is the order that matters: the reviewer was not recruited to
-ratify work he had already been asked to endorse.
+successive versions of their wording, across four to five distinct choices, and he took part in
+the domain crosswalk review. Both were completed before he was seated on 2026-09-15, which is
+the order that matters: the reviewer was not recruited to ratify work he had already been asked
+to endorse.
 
 The evidential basis for the crosswalk claim in the standard is the rationale-bearing review by
 one Founding Validator, confirmed by two further reviewers. In the words the standard uses: all
