@@ -6,8 +6,8 @@ contact_links:
     url: https://github.com/jwebber-cmyk/crln-trg-001/blob/main/ADOPTERS.md#how-to-be-listed
     about: "Declaring by email leaves no public trail. Some organisations need that. Send the same details to standard@crln-learn.com and it is treated identically."
   - name: "Propose a change or report a defect in the standard"
-    url: https://github.com/jwebber-cmyk/crln-trg-001/blob/main/GOVERNANCE.md
-    about: "Change proposals, appeals and conflict disclosures go to standard@crln-learn.com. GOVERNANCE.md section 4 explains what happens next."
+    url: https://github.com/jwebber-cmyk/crln-trg-001/blob/main/CONTRIBUTING.md
+    about: "Change proposals, appeals and conflict disclosures can also go to standard@crln-learn.com. CONTRIBUTING.md and GOVERNANCE.md section 4 explain what happens next."
   - name: "Read what adoption means before declaring"
     url: https://github.com/jwebber-cmyk/crln-trg-001/blob/main/ADOPT.md
     about: "ADOPT.md explains the four kinds of adoption and what listing does and does not imply."

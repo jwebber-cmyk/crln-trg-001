@@ -1,0 +1,76 @@
+name: New language term list
+description: Offer a clinical research term list for a language, or offer to review one.
+title: "Term list: "
+labels: ["terminology"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Machine translation of clinical research text fails fluently. A term list tells
+        translators which rendering to use for each concept, and which renderings change the
+        meaning (for example, a word for "participant" that means "patient").
+
+        The format is `terminology/crln-terminology.schema.json`; start from
+        `terminology/crln-terms-TEMPLATE.json`. See CONTRIBUTING.md, "Language term lists".
+
+        **Rows you write are proposed.** Only a named reviewer who works in clinical research in
+        that language can make a row binding, and a reviewer is named only with their consent.
+
+  - type: input
+    id: language
+    attributes:
+      label: Language and code
+      placeholder: e.g. Finnish (fi), Portuguese, Brazil (pt-BR)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: offer
+    attributes:
+      label: What are you offering?
+      options:
+        - "a draft term list (proposed rows)"
+        - "to review a term list as a practitioner in this language"
+        - "both"
+    validations:
+      required: true
+
+  - type: textarea
+    id: background
+    attributes:
+      label: Your clinical research background in this language
+      description: Role and setting, for example site coordinator in a university hospital. Needed only if you offer to review.
+
+  - type: dropdown
+    id: naming
+    attributes:
+      label: May we name you as the reviewer?
+      options:
+        - "yes, as written below"
+        - "no, do not name me"
+        - "not a reviewer"
+    validations:
+      required: true
+
+  - type: input
+    id: name_as
+    attributes:
+      label: Name and affiliation exactly as you want it to appear (if yes above)
+
+  - type: textarea
+    id: terms
+    attributes:
+      label: Terms (optional)
+      description: |
+        Paste rows or attach the JSON. For each: the English concept, your rendering, any
+        rendering that must NOT be used and why. Example sentences must come from STANDARD.md or
+        be your own, never from a CRLN assessment or practice tool.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you submit
+      options:
+        - label: This issue contains no assessment item, scenario, answer option or scoring key.
+          required: true
+        - label: If I attached JSON, `python3 tools/check_terminology.py` passes on it.

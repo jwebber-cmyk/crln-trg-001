@@ -1,0 +1,37 @@
+{
+  "schema": "crln-terminology/2",
+  "language": "xx",
+  "language_name": "Example language (replace)",
+  "governs": "Describe which translations this list governs, e.g. community translations of STANDARD.md into this language.",
+  "reviewer": null,
+  "review_basis": "Describe what the reviewer actually reviewed, once a reviewer agrees. Leave as is until then.",
+  "list_status": "TEMPLATE. Copy to crln-terms-<lang>.json, replace every value, and delete the example row.",
+  "created": "2026-09-29",
+  "revised": "2026-09-29",
+  "entries": [
+    {
+      "id": "xx-001",
+      "en": "informed consent (the process, not only the signed form)",
+      "triggers": ["informed consent", "consent"],
+      "source_en": null,
+      "source_en_origin": null,
+      "target": "<the rendering in your language>",
+      "rendering": "translate",
+      "status": "proposed",
+      "source": "crln-proposed",
+      "reviewer": null,
+      "review_date": null,
+      "context": "all",
+      "area": "Consent",
+      "forbidden": [
+        {
+          "display": "<a rendering that changes the meaning>",
+          "stem": "<a stem long enough to be unambiguous>",
+          "why": "Explain what the wrong rendering actually says to a reader.",
+          "enforce": false
+        }
+      ],
+      "note": "Example row. A proposed row is guidance only; enforce stays false until a named reviewer rules on it."
+    }
+  ]
+}

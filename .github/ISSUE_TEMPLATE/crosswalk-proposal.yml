@@ -1,0 +1,65 @@
+name: Crosswalk proposal
+description: Propose mapping CRLN-TRG-001 to another competency framework, guideline or regulation.
+title: "Crosswalk: "
+labels: ["crosswalk-proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A new crosswalk is published as **provisional** until it has been reviewed, and says so
+        in its file. Nothing about the review of the competency domains extends to it.
+        See CONTRIBUTING.md, "Crosswalks and mappings".
+
+  - type: input
+    id: target
+    attributes:
+      label: Framework or regulation to map to
+      description: Full name, version, publisher, and a link to the adopted text.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: granularity
+    attributes:
+      label: Level of the mapping
+      options:
+        - "domain to domain"
+        - "domain to competency or item"
+        - "domain to article or section of a regulation"
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Who would use it, and for what?
+      description: For example, a training program that must show coverage of a national requirement.
+    validations:
+      required: true
+
+  - type: textarea
+    id: draft
+    attributes:
+      label: Draft mapping (optional)
+      description: |
+        A table with one row per item on the other side: its identifier, the CRLN domain id(s),
+        a verdict (full, partial or none) and a one-line reason. Partial drafts are welcome.
+
+  - type: input
+    id: license
+    attributes:
+      label: License of the target framework
+      description: We can only publish a crosswalk that quotes the other framework if its license allows it.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you submit
+      options:
+        - label: This issue contains no assessment item, scenario, answer option or scoring key.
+          required: true
+
+  - type: textarea
+    id: coi
+    attributes:
+      label: Conflict of interest (optional)
