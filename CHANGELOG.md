@@ -95,6 +95,21 @@ record; it now names the file this record ships.
 the jurisdiction verification figures in `CRLN-TRG-001-ADOPT.md` (dated 2026-09-23, and
 stated with their denominator), and the summary table at the head of the JTF crosswalk.
 
+**5. A governance section that contradicted the review record.** What 1.7.3 said, in
+`GOVERNANCE.md` section 2: "Jeffrey Smyth reviewed all ten competency domain mappings in the
+ICH E6(R3) crosswalk before accepting a seat, and re-reviewed them under revised wording when
+the wording changed. That review is the evidential basis for the crosswalk claim in the
+standard". Its Founding Validators table said each of the three validators reviewed "all ten
+canonical domains, ICH E6(R3) and JTF crosswalk", and the paragraph under the table said the
+reviewers "checked whether our mapping" matched their own view "and said so". That contradicted
+item 1 above. The evidential basis for the crosswalk claim is the rationale-bearing review by one
+Founding Validator, confirmed by two further reviewers, and section 2 now says so. It describes
+Jeffrey Smyth's review as recorded: assessment items under two successive versions of their
+wording, 44 to 56 seconds per item across four to five distinct choices, and a part in the domain
+crosswalk review. The table now says each validator took part in the domain crosswalk review, and
+the paragraph says each was asked and recorded agreement. A dated correction note in
+`GOVERNANCE.md` quotes the earlier wording. Approved by the custodian on 2026-09-29.
+
 Repository only, not part of the Zenodo record: `CRLN-TRG-001-v1.7.1.pdf` is replaced by
 `CRLN-TRG-001-v1.7.4.pdf`, rebuilt with `build-standard-pdf.py`; the adopter form's default
 version reads 1.7.4; and `DPG-SCREENING.md` now says 68 countries (was 67), says the adopter
