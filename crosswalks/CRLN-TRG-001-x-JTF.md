@@ -1,8 +1,19 @@
 # CRLN-TRG-001 × JTF Core Competency Framework: the domain crosswalk
 
-**Status: SME-VALIDATED at the canonical-domain level, 2026-09-21.** Three independent
-reviewers rated all ten canonical domains against this framework and ICH E6(R3) Annex 1 and
-agreed on all ten. Reviewers are named with their consent in `GOVERNANCE.md`.
+**Status: reviewed at the canonical-domain level, 2026-09-21. Description of the review
+corrected 2026-09-28.** All ten canonical domain mappings were reviewed by a practicing site
+director who recorded a written rationale for each, and confirmed by two further reviewers.
+The first review took about two minutes per mapping. The two confirmations were recorded at
+about 7 and 12 seconds per mapping, without a rationale. Reviewers are named with their
+consent in `GOVERNANCE.md`.
+
+> **Correction, 2026-09-28.** This status note previously said: "Three independent reviewers
+> rated all ten canonical domains against this framework and ICH E6(R3) Annex 1 and agreed on
+> all ten." Under the mapping table it said all ten rows were "reviewed by SME consensus".
+> Both were accurate as counts and misleading as descriptions of the review. All three
+> reviewers did record agreement on all ten mappings, but only one wrote a rationale or spent
+> the time a review takes. No mapping has changed. The Word version of this crosswalk,
+> `CRLN-TRG-001-and-JTF-crosswalk.docx`, carries the same correction.
 
 **This is the only crosswalk CRLN publishes that carries review.** The TDR, ICH E6(R3)
 Annex 2 and EU CTR 536/2014 crosswalks in this directory are PROVISIONAL and unreviewed.
@@ -52,7 +63,8 @@ from CRLN entirely.
 | `D-09` | Site Oversight & Monitoring | 5 | Study and Site Management | ICH E6(R3) monitoring & risk-based quality management |
 | `D-10` | Pharmacovigilance & Regulatory Submissions | 3 | Investigational Products Development and Regulation | ICH E6(R3) sponsor safety & regulatory reporting |
 
-All ten rows: `validated = true`, `needs_review = false`, reviewed by SME consensus.
+All ten rows are recorded as validated in CRLN's review register, on the review described in
+the status note above.
 
 ## What CRLN does NOT map to, which is the more useful half
 
@@ -88,7 +100,7 @@ That convergence is worth more than any single mapping row below it.
 
 CRLN holds a second, finer-grained JTF mapping at the level of individual competency
 statements, with primary and secondary designations. **That finer mapping is
-`provisional_unreviewed` and is NOT covered by the validation above.** Only the
+`provisional_unreviewed` and is NOT covered by the review above.** Only the
 ten-canonical-domain table in this document was reviewed. Anyone citing CRLN's JTF
 alignment should cite this table and not the statement-level mapping.
 

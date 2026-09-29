@@ -29,6 +29,47 @@ place: [CRLN-TRG-001-GOVERNANCE.md](CRLN-TRG-001-GOVERNANCE.md)
 
 ---
 
+## Unreleased, 2026-09-28 (the crosswalk review, described as it happened)
+
+**Not a release.** No version number moves with this entry and no Zenodo record changes.
+Whether a new Zenodo version carries it is the founder's decision. Until then the
+`version` field in `crln-trg-001.json` and the release line in `STANDARD.md` still read
+1.7.3, and this repository differs from the 1.7.3 record in the sentences listed below.
+
+No competency was added, removed or reworded. No weight, threshold, scale, scoring rule or
+crosswalk mapping changed. What changed is how the competency crosswalk review is described.
+
+Since 1.7.1 the published files said three independent reviewers rated all ten canonical
+domains against ICH E6(R3) Annex 1 and the Joint Task Force framework and "agreed on all ten,
+unanimously". The JTF crosswalk said its ten rows were "reviewed by SME consensus", and
+`STANDARD.md` called the crosswalk "independently validated". All three reviewers did record
+agreement on all ten mappings. The review record also holds how long each took and whether
+each wrote a rationale:
+
+| reviewer | time per mapping | written rationale |
+|---|---|---|
+| first reviewer | about 124 seconds | 10 of 10 |
+| second reviewer | about 12 seconds | none |
+| third reviewer | about 7 seconds | none |
+
+Ten mappings in about a minute cannot include reading them. The earlier sentences were
+accurate as counts and misleading as descriptions of the review. The description used from
+now on: all ten canonical domain mappings were reviewed by a practicing site director who
+recorded a written rationale for each, and confirmed by two further reviewers.
+
+Changed: `crosswalks/CRLN-TRG-001-x-JTF.md` (status note, the line under the mapping table,
+and a dated correction note) · `crosswalks/CRLN-TRG-001-and-JTF-crosswalk.docx` (replaced
+with a copy carrying the same correction, the version sent to the MRCT Center on
+2026-09-28) · `STANDARD.md` (maturity notice, section 3 note, section 5 validation status) ·
+`SPEC.md` (status header and section 7) · `crln-trg-001.json` (`status`,
+`alignment.validation_status`, and the JTF crosswalk `status` and `note`) ·
+`DPG-SCREENING.md` (two lines) · a correction note under the 1.7.1 entry below.
+
+Not changed, and recorded so nobody reads silence as a fix: copies of these files inside
+the published Zenodo records 1.7.1, 1.7.2 and 1.7.3 are immutable and still carry the earlier
+wording, as does the 1.7.3 PDF on Zenodo and `CRLN-TRG-001-v1.7.1.pdf` in this repository. A
+published record receives the correction only at the next release.
+
 ## 1.7.3, 2026-09-23 (four sentences that said more than the record)
 
 Published: [10.5281/zenodo.22922050](https://doi.org/10.5281/zenodo.22922050)
@@ -121,6 +162,15 @@ ten, unanimously:
 > and the fact that the claim is true does not make the naming consented. The name will be
 > restored if and only if that reviewer says yes to wording shown to them first, which is the
 > same process the other two went through.
+
+> **Correction, 2026-09-28.** The paragraph above says three independent reviewers "agreed on
+> all ten, unanimously". All three did record agreement on all ten mappings. The review record
+> also shows that one reviewer spent about two minutes on each mapping and wrote a rationale
+> for every one, and the other two recorded agreement at about 7 and 12 seconds per mapping
+> with no rationale. The accurate description is that all ten canonical domain mappings were
+> reviewed by a practicing site director who recorded a written rationale for each, and
+> confirmed by two further reviewers. This entry is otherwise left as written, because this
+> file is appended to and never rewritten. See the entry dated 2026-09-28.
 
 The records were in the review table and the published documents had simply not caught up, which is
 an error in the safe direction and still an error. A standard that describes itself as less validated
