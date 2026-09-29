@@ -2,9 +2,9 @@
 
 **Status: PROVISIONAL and UNREVIEWED.** One person's judgement. No subject-matter expert
 and no member of the Methodology Review Board has checked it. It carries none of the
-validation the Annex 1 crosswalk carries. Corrections: `standard@crln-learn.com`.
+review the Annex 1 crosswalk carries. Corrections: `standard@crln-learn.com`.
 
-CRLN-TRG-001 version 1.7.1 · generated 2026-09-22 · id `CRLN-TRG-001-X-E6R3-ANNEX2`
+CRLN-TRG-001 version 1.7.4 · generated 2026-09-22, mappings unchanged since 1.7.2 · id `CRLN-TRG-001-X-E6R3-ANNEX2`
 
 ## Why this exists now
 

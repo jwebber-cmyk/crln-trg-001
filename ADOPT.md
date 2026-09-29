@@ -91,7 +91,7 @@ the next adopter.
 
 ## Implementation checklist
 
-1. Read `CRLN-TRG-001-Standard-v1.7.1.md` (human) and `crln-trg-001.json` (machine).
+1. Read `CRLN-TRG-001-Standard-v1.7.4.md` (human) and `crln-trg-001.json` (machine).
 2. Note the version you are adopting and record it. Published versions are
    immutable, so a stated version is a stable reference.
 3. Check the crosswalk rows and jurisdiction rows you depend on, and note which are

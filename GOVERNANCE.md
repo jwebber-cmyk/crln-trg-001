@@ -45,11 +45,29 @@ inventing a process, and so an adopter can see the intended shape.
 
 **Publication consent on file.** "Hi Josh - yes, approved." Email from Jeffrey Smyth, 2026-09-19, in reply to a written request setting out the exact wording. Withdrawable at any time.
 
-Jeffrey Smyth reviewed all ten competency domain mappings in the ICH E6(R3) crosswalk before
-accepting a seat, and re-reviewed them under revised wording when the wording changed. That
-review is the evidential basis for the crosswalk claim in the standard, and it was completed
-before any invitation to govern was extended, which is the order that matters: the reviewer
-was not recruited to ratify work he had already been asked to endorse.
+Before accepting a seat, Jeffrey Smyth reviewed CRLN-TRG-001 assessment items under two
+successive versions of their wording, across four to five distinct choices, and he took part in
+the domain crosswalk review. Both were completed before he was seated on 2026-09-15, which is
+the order that matters: the reviewer was not recruited to ratify work he had already been asked
+to endorse.
+
+The evidential basis for the crosswalk claim in the standard is the rationale-bearing review by
+one Founding Validator, confirmed by two further reviewers. In the words the standard uses: all
+ten canonical domain mappings were reviewed by a practicing site director who recorded a written
+rationale for each, and confirmed by two further reviewers.
+
+> **Correction, 2026-09-29.** Up to and including release 1.7.3, this section said: "Jeffrey
+> Smyth reviewed all ten competency domain mappings in the ICH E6(R3) crosswalk before
+> accepting a seat, and re-reviewed them under revised wording when the wording changed. That
+> review is the evidential basis for the crosswalk claim in the standard". The review record
+> does not support that. The crosswalk claim rests on the rationale-bearing review described
+> above, and the crosswalk review record holds one round per reviewer, not two; the second round
+> under revised wording was a round of item review. The Founding Validators table below said each
+> validator "reviewed" "all ten canonical domains, ICH E6(R3) and JTF crosswalk"; it now says
+> each took part in the domain crosswalk review. The paragraph under the table said the
+> reviewers "checked whether our mapping" matched their own view, "and said so"; it now says
+> each was asked and recorded agreement. The 1.7.4 entry in `CRLN-TRG-001-CHANGELOG.md`
+> records the change.
 
 ## Founding Validators
 
@@ -57,11 +75,11 @@ The first organisations to review CRLN-TRG-001 against their own practice and al
 to be named. A validator **reviewed** the framework; an adopter **uses** it. They are different
 claims and `ADOPTERS.md` keeps them apart deliberately, because conflating them would inflate both.
 
-| validator | organisation | reviewed | consent on file |
+| validator | organization | review | consent on file |
 |---|---|---|---|
-| Jeffrey Smyth, MS, CCRP | TrueBlue Clinical Research, Tampa, USA | all ten canonical domains, ICH E6(R3) and JTF crosswalk | 2026-09-08 and 2026-09-19, by email |
-| Rotceh Rios | RMP SMO | all ten canonical domains, ICH E6(R3) and JTF crosswalk | 2026-09-01, by email |
-| George Lott, MSPA | RegAlign | all ten canonical domains, ICH E6(R3) and JTF crosswalk | 2026-09-22, by text message |
+| Jeffrey Smyth, MS, CCRP | TrueBlue Clinical Research, Tampa, USA | took part in the domain crosswalk review (ICH E6(R3) and JTF) | 2026-09-08 and 2026-09-19, by email |
+| Rotceh Rios | RMP SMO | took part in the domain crosswalk review (ICH E6(R3) and JTF) | 2026-09-01, by email |
+| George Lott, MSPA | RegAlign | took part in the domain crosswalk review (ICH E6(R3) and JTF) | 2026-09-22, by text message |
 
 All three reviewers are now named. The third, George Lott, was briefly named in the published
 change log on 2026-09-21 **before he had been asked**. That was wrong, it was removed within the
@@ -70,11 +88,12 @@ properly, completed his review, and on 2026-09-22 confirmed both that he may be 
 wishes to be described. Listing him now is the correct end of that sequence, not a reversal of the
 correction.
 
-**What being listed means, and what it does not.** These reviewers checked whether our mapping of a
-competency domain to ICH E6(R3) and the Joint Task Force framework matched their own professional
-judgement, and said so. It is not an endorsement of CRLN the company or of the CRLN platform, it
-creates no commercial relationship, and it is not a regulatory approval of anything. Any validator
-may ask to be removed and it happens the same day, no questions asked.
+**What being listed means, and what it does not.** These reviewers were asked whether our mapping
+of each competency domain to ICH E6(R3) and the Joint Task Force framework matched their own
+professional judgment, and each recorded agreement. It is not an endorsement of CRLN the
+company or of the CRLN platform, it creates no commercial relationship, and it is not a
+regulatory approval of anything. Any validator may ask to be removed and it happens the same
+day, no questions asked.
 
 **Why this section exists late.** Jeffrey Smyth agreed on 2026-09-08 and was told the same week that
 he and TrueBlue would be listed as Founding Validators in the published standard. Rotceh Rios gave
