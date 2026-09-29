@@ -60,9 +60,9 @@ body:
       label: Which version do you use?
       description: |
         The point of citing a version is that a claim made against one stays checkable
-        after the next is published. If you are unsure, the current release is 1.7.1.
-      placeholder: "1.7.1"
-      value: "1.7.1"
+        after the next is published. If you are unsure, the current release is 1.7.4.
+      placeholder: "1.7.4"
+      value: "1.7.4"
     validations:
       required: true
 

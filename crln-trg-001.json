@@ -2,7 +2,7 @@
   "$schema": "https://crln-learn.com/schemas/competency-framework/v1.json",
   "framework_id": "CRLN-TRG-001",
   "framework_name": "CRLN Clinical Research Competency & Assessment Framework",
-  "version": "1.7.3",
+  "version": "1.7.4",
   "status": "published-sme-reviewed",
   "publisher": "Clinical Research Learning Network LLC",
   "license": "CC-BY-4.0",
@@ -95,7 +95,7 @@
         }
       }
     },
-    "crosswalk_note": "These three crosswalks are PROVISIONAL and UNREVIEWED. They are the judgement of the custodian alone and carry none of the validation the competency crosswalk carries. They are published so they can be corrected, not so they can be cited as validated. Each found a distinct gap in this framework: TDR found community engagement, ICH E6(R3) Annex 2 found real-world data, and EU CTR 536/2014 found vulnerable-population and non-standard consent. None of those gaps is fixed in this version."
+    "crosswalk_note": "These three crosswalks are PROVISIONAL and UNREVIEWED. They are the judgment of the custodian alone and carry none of the review the competency crosswalk carries. They are published so they can be corrected, not so they can be cited as validated. Each found a distinct gap in this framework: TDR found community engagement, ICH E6(R3) Annex 2 found real-world data, and EU CTR 536/2014 found vulnerable-population and non-standard consent. None of those gaps is fixed in this version."
   },
   "scale": [
     {

@@ -174,10 +174,10 @@ is by pull request or email to `standard@crln-learn.com`, governed by
 - **Developed in:** United States
 - **Deployed in:** United States, declared conservatively. The standard is
   applied inside the publisher's own platform, which has registered learners in
-  67 countries, but third-party adoption is unverifiable by design: CC BY permits
-  use with no notification. `ADOPTERS.md` is a voluntary register and is
-  currently empty. Listing countries we cannot evidence would be the wrong answer
-  to give a registry.
+  68 countries, but third-party adoption is unverifiable by design: CC BY permits
+  use with no notification. `ADOPTERS.md` is a voluntary register and
+  currently lists one adopter, in the United States. Listing countries we cannot
+  evidence would be the wrong answer to give a registry.
 
 ---
 
@@ -190,7 +190,7 @@ is by pull request or email to `standard@crln-learn.com`, governed by
    The three crosswalks added 2026-09-22 (TDR, ICH E6(R3) Annex 2, EU CTR 536/2014) are
    PROVISIONAL and have had NO review of any kind: they are the custodian's judgement
    alone. They are labelled as such in their first line, in the change log, and in the
-   machine-readable spec. A reader must not treat them as carrying the validation the
+   machine-readable spec. A reader must not treat them as carrying the review the
    competency crosswalk carries.
 2. **The framework has known, published gaps.** Three crosswalks each found something
    missing, and none is fixed: community engagement, real-world data, and consent for

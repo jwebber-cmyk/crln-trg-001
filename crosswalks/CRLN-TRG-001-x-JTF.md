@@ -18,7 +18,7 @@ consent in `GOVERNANCE.md`.
 **This is the only crosswalk CRLN publishes that carries review.** The TDR, ICH E6(R3)
 Annex 2 and EU CTR 536/2014 crosswalks in this directory are PROVISIONAL and unreviewed.
 
-CRLN-TRG-001 v1.7.2 · published as a document 2026-09-22 · `CRLN-TRG-001-X-JTF`
+CRLN-TRG-001 v1.7.4 · first published as a document in v1.7.2 (2026-09-22), review description corrected 2026-09-28 · `CRLN-TRG-001-X-JTF`
 
 ## Why this document exists, stated plainly
 

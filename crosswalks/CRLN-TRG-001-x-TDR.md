@@ -2,11 +2,13 @@
 
 **Status: PROVISIONAL and UNREVIEWED.** This mapping is the judgement of CRLN's
 custodian alone. No TDR reviewer, no subject-matter expert and no member of the
-Methodology Review Board has checked it. It carries none of the validation that the
+Methodology Review Board has checked it. It carries none of the review that the
 ICH E6(R3) Annex 1 crosswalk carries, and it must not be cited as though it does.
 Corrections are more welcome than agreement: `standard@crln-learn.com`.
 
-CRLN-TRG-001 version 1.7.1 · generated 2026-09-22 · id `CRLN-TRG-001-X-TDR`
+CRLN-TRG-001 version 1.7.4 · revised 2026-09-27 · id `CRLN-TRG-001-X-TDR`
+
+> **Correction, 2026-09-27.** Competency 45 previously read "CRLN renders in 60 languages". The catalog holds 74. The figure was stale and understated, and it was also undefined: four different language counts exist and the sentence named none of them. It now states all four with what each measures. This file also carried the version stamp 1.7.1 while shipping inside the v1.7.2 and v1.7.3 publication snapshots; the stamp now tracks the release it ships in.
 
 ## The source, and why it matters
 
@@ -101,7 +103,7 @@ Strategic leadership is absent from CRLN.
 Interpersonal skills are not assessed as a competency.
 
 **45. Language and communication skills** · *Skill-based*  
-Language and communication skills are not assessed, although CRLN renders in 60 languages.
+Language and communication skills are not assessed. CRLN's language catalog lists 74 languages and its runtime translator renders any of them on demand; of those, 63 have cached interface translations and 45 have cached lesson content. Rendering a competency in a learner's language is not the same as assessing their command of it, and this crosswalk claims only the former.
 
 **46. Organisational skills** · *Skill-based*  
 Organisational skills are not assessed as a competency.

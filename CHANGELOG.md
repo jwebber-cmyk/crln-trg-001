@@ -29,7 +29,83 @@ place: [CRLN-TRG-001-GOVERNANCE.md](CRLN-TRG-001-GOVERNANCE.md)
 
 ---
 
-## Unreleased, 2026-09-28 (the crosswalk review, described as it happened)
+## 1.7.4, 2026-09-29 (the crosswalk review, described as it happened)
+
+PATCH. No competency was added, removed or reworded. No weight, threshold, scale or scoring
+rule moved, and no crosswalk mapping changed. The engine's framework stamp stays `v1.7`,
+because a patch release does not change what an assessment is scored against.
+
+This release exists to carry a correction into a published record. Versions 1.7.1, 1.7.2 and
+1.7.3 are immutable and keep the wording below; this is the first record that does not.
+
+**1. How the competency crosswalk review is described.** What 1.7.3 said:
+
+- `STANDARD.md`, maturity notice: the crosswalk "has completed SME validation (three
+  reviewers, all ten domains, unanimous)".
+- `STANDARD.md`, section 3: "Competency mappings SME-validated 2026-09-21: three reviewers,
+  ten of ten domains, unanimous."
+- `STANDARD.md`, section 5: "The domain crosswalk is independently validated. Three subject
+  matter experts from three organisations each reviewed all ten domain mappings, with
+  unanimous agreement."
+- `SPEC.md`, section 7: "three independent reviewers rated all ten domains and agreed on all
+  ten, unanimously".
+- `CRLN-TRG-001-x-JTF.md`: "Three independent reviewers rated all ten canonical domains ...
+  and agreed on all ten", and under the table, all ten rows "reviewed by SME consensus".
+- `crln-trg-001.json`: `status` "published-sme-validated", and a `validation_status` carrying
+  the same "agreed on all ten, unanimously" sentence.
+
+All three reviewers did record agreement on all ten mappings. Only one wrote a rationale or
+spent the time a review takes; the other two recorded agreement at about 12 and 7 seconds per
+mapping. The sentences were accurate as counts and misleading as descriptions of the review.
+What 1.7.4 says instead, in every one of those places: all ten canonical domain mappings were
+reviewed by a practicing site director who recorded a written rationale for each, and
+confirmed by two further reviewers. Each changed passage carries a dated note quoting what it
+said before. The review record is set out in the 2026-09-28 entry below. `status` is now
+`published-sme-reviewed`. The TDR and ICH E6(R3) Annex 2 crosswalks, and the spec's
+`crosswalk_note` covering all three provisional crosswalks, said they carry "none of the
+validation" the competency crosswalk carries. They now say "review", since "validation" is
+the word being withdrawn.
+
+**2. A language count that was stale, and undefined.** What 1.7.3 said, in
+`CRLN-TRG-001-x-TDR.md` under competency 45: "CRLN renders in 60 languages". The catalog
+holds 74, so the figure was understated, and the sentence named no denominator when four
+different language counts exist:
+
+| Measure | Count |
+|---|---|
+| Catalog entries, renderable on demand by the runtime translator | 74 |
+| Languages with cached interface translations | 63 |
+| Languages with cached lesson content | 45 |
+| Hand-curated static bundles | 7 |
+
+Competency 45 now states the first three with what each measures, and says plainly that
+rendering a competency in a learner's language is not the same as assessing their command of
+it. All four counts re-derived on 2026-09-29.
+
+**3. Version stamps that did not track the release.** The TDR, ICH E6(R3) Annex 2 and EU CTR
+536/2014 crosswalks, in both Markdown and JSON, carried the stamp 1.7.1 while shipping inside
+the 1.7.2 and 1.7.3 records, and the JTF crosswalk carried 1.7.2 inside 1.7.3. Anyone diffing
+a file against its stamp would have concluded those releases were identical in that file.
+Each now reads 1.7.4 and says when its mappings were generated. `CRLN-TRG-001-ADOPT.md` told
+adopters to read `CRLN-TRG-001-Standard-v1.7.1.md`, a file that is not in the 1.7.2 or 1.7.3
+record; it now names the file this record ships.
+
+**4. First published in a record here.** Two changes merged to the public repository on
+2026-09-23, after the 1.7.3 record was built, and reach Zenodo for the first time in 1.7.4:
+the jurisdiction verification figures in `CRLN-TRG-001-ADOPT.md` (dated 2026-09-23, and
+stated with their denominator), and the summary table at the head of the JTF crosswalk.
+
+Repository only, not part of the Zenodo record: `CRLN-TRG-001-v1.7.1.pdf` is replaced by
+`CRLN-TRG-001-v1.7.4.pdf`, rebuilt with `build-standard-pdf.py`; the adopter form's default
+version reads 1.7.4; and `DPG-SCREENING.md` now says 68 countries (was 67), says the adopter
+register lists one adopter (it said the register was empty), and uses "review" in place of
+"validation" for the competency crosswalk.
+
+## 2026-09-28 (the crosswalk review, described as it happened)
+
+> **Released in 1.7.4, 2026-09-29.** This entry was written before the release and is kept as
+> written. Where it says no version number moves and no Zenodo record changes, that was true
+> on 2026-09-28; the 1.7.4 entry above is the release that carries it.
 
 **Not a release.** No version number moves with this entry and no Zenodo record changes.
 Whether a new Zenodo version carries it is the founder's decision. Until then the
