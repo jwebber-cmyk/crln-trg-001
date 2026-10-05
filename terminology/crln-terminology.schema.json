@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "crln-terminology/2",
+  "title": "CRLN per-language clinical research term list",
+  "description": "One file per language, crln-terms-<lang>.json. The source of truth for every machine translation into that language. ops/scripts/gen-terminology-module.py derives each app's _shared/terminology.ts from these files; nothing downstream is hand-edited.",
+  "type": "object",
+  "required": ["schema", "language", "language_name", "governs", "list_status", "entries"],
+  "properties": {
+    "schema": { "const": "crln-terminology/2" },
+    "language": { "type": "string", "description": "The language code the translators receive, e.g. fi, pt-BR." },
+    "language_name": { "type": "string" },
+    "governs": { "type": "string", "description": "Which translators this list reaches." },
+    "reviewer": { "type": ["string", "null"], "description": "Named reviewer for the language, or null before one agrees." },
+    "review_basis": { "type": "string", "description": "What the reviewer actually reviewed, so a reader can check the reviewer rows against it." },
+    "list_status": { "type": "string" },
+    "created": { "type": "string", "format": "date" },
+    "revised": { "type": "string", "format": "date" },
+    "content_frequency_basis": { "type": "string" },
+    "how_to_read": { "type": "object" },
+    "entries": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "en", "triggers", "target", "rendering", "status", "source", "reviewer", "review_date", "context", "area", "forbidden", "note"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z]{2,3}(-[A-Za-z0-9]+)*-[0-9]{3}$", "description": "Stable. Never renumber; a reviewer's decision column refers to it." },
+          "en": { "type": "string", "description": "The English concept, as the reviewer should read it." },
+          "triggers": {
+            "type": "array", "minItems": 1, "items": { "type": "string" },
+            "description": "English forms that mean this concept is present. Lowercase: case-insensitive at the start of a word. ALL CAPS: whole-word acronym, case-sensitive. re:<regex>: a regular expression."
+          },
+          "source_en": { "type": ["string", "null"], "description": "One real English sentence where the term occurs." },
+          "source_en_origin": { "enum": ["reviewer", "content", null], "description": "reviewer: the line from the reviewer's sheet. content: picked from the published content by terminology-frequency.py." },
+          "target": { "type": "string", "description": "The required rendering. For keep_english rows, the English form that must be kept." },
+          "rendering": { "enum": ["translate", "keep_english"] },
+          "status": { "enum": ["confirmed", "keep_en", "proposed"], "description": "confirmed and keep_en are reviewer rulings and are binding. proposed is ours and never enforced." },
+          "source": { "enum": ["reviewer", "reviewer-raised", "crln-proposed"] },
+          "reviewer": { "type": ["string", "null"] },
+          "review_date": { "type": ["string", "null"], "format": "date" },
+          "context": { "type": "string", "description": "all, site-facing or participant-facing. Some concepts need different words on the two surfaces." },
+          "area": { "type": "string" },
+          "forbidden": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["display", "why", "enforce"],
+              "properties": {
+                "display": { "type": "string", "description": "The forbidden rendering as a reader would write it." },
+                "stem": { "type": "string", "description": "Matched anywhere in a word of the translation, so inflections and compounds are both caught. Keep stems long enough to be unambiguous." },
+                "pattern": { "type": "string", "description": "A regular expression instead of a stem, for forms a stem cannot express." },
+                "why": { "type": "string" },
+                "enforce": { "type": "boolean", "description": "True: a translation containing it fails the post-check, on reviewer rows only." },
+                "unless_source": { "type": "array", "items": { "type": "string" }, "description": "Triggers that switch the rule off when present in the English, e.g. patient for potilas." }
+              },
+              "oneOf": [{ "required": ["stem"] }, { "required": ["pattern"] }]
+            }
+          },
+          "note": { "type": "string" },
+          "content_frequency": { "type": "integer", "minimum": 0 }
+        }
+      }
+    }
+  }
+}

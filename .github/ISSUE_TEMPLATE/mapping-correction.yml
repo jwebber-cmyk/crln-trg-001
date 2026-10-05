@@ -1,0 +1,82 @@
+name: Mapping correction
+description: A domain is mapped to the wrong section, article or competency, or has the wrong verdict.
+title: "Mapping: "
+labels: ["mapping-correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. A crosswalk row is itself the claim, so a correction with its evidence is
+        the most useful thing anyone can send us. See CONTRIBUTING.md, "Crosswalks and mappings".
+
+        **Please do not paste any assessment item, scenario or answer option** from a CRLN tool.
+        Discuss the competency and the regulation, not an item.
+
+  - type: dropdown
+    id: crosswalk
+    attributes:
+      label: Which crosswalk?
+      options:
+        - "ICH E6(R3) Annex 2 (crosswalks/CRLN-TRG-001-x-E6R3-Annex2.md)"
+        - "JTF Clinical Trial Competency Framework (crosswalks/CRLN-TRG-001-x-JTF.md)"
+        - "WHO TDR (crosswalks/CRLN-TRG-001-x-TDR.md)"
+        - "EU CTR 536/2014 (crosswalks/CRLN-TRG-001-x-EUCTR-536-2014.md)"
+        - "The E6(R3) citations inside STANDARD.md or crln-trg-001.json"
+        - "Other (say which below)"
+    validations:
+      required: true
+
+  - type: input
+    id: row
+    attributes:
+      label: Which row?
+      description: The CRLN domain id (for example CRLN-CRC-D5) and the section, article or competency on the other side.
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: What the crosswalk says now
+      description: Copy the row, including its verdict (full, partial or none).
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed
+    attributes:
+      label: What it should say
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: |
+        Quote the primary source (for ICH, the adopted Step 4 text on database.ich.org) and give
+        the section or article number. A correction without a stated basis cannot be acted on.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you submit
+      options:
+        - label: I quoted the adopted text, not a summary or training material.
+          required: true
+        - label: This issue contains no assessment item, scenario, answer option or scoring key.
+          required: true
+
+  - type: textarea
+    id: coi
+    attributes:
+      label: Conflict of interest (optional)
+      description: Would you or your organization be materially affected by this change? GOVERNANCE.md section 3.
+
+  - type: input
+    id: credit
+    attributes:
+      label: How should we credit you in CHANGELOG.md?
+      description: Leave blank to be credited by your GitHub handle, or write "no credit".

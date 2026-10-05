@@ -39,6 +39,10 @@ implement it, including in competition with CRLN.
 | `CRLN-TRG-001-v1.7.4.pdf` | the current release as a PDF, built reproducibly by `build-standard-pdf.py` |
 | `NOTICE.md` | what the CC BY 4.0 licence covers, and what it does not |
 | `DPG-SCREENING.md` | answers to the nine Digital Public Goods Standard indicators |
+| `crosswalks/` | mappings to ICH E6(R3) Annex 2, the JTF framework, WHO TDR and EU CTR 536/2014. **Provisional unless a file says otherwise** |
+| `terminology/` | the format for per-language term lists, and a template |
+| `tools/` | checks for the crosswalks and term lists, and a glossary renderer (Python, standard library only) |
+| `CONTRIBUTING.md` | how to propose mappings, crosswalks, term lists and changes |
 
 Prior releases are not kept in this repository. Each has its own immutable DOI on
 Zenodo and is reachable from `CHANGELOG.md`, so the repository shows the current
@@ -103,7 +107,8 @@ check.
 
 Anyone may. No account, affiliation or fee required. Open an issue here or email
 `standard@crln-learn.com`. See `GOVERNANCE.md` §4 for what happens next and how
-long it takes.
+long it takes. `CONTRIBUTING.md` explains what you can propose, the issue
+templates for each kind, and the checks a pull request runs.
 
 ## Citing
 
