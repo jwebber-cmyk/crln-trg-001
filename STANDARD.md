@@ -19,7 +19,7 @@ CRLN-TRG-001 defines a common, openly-published competency framework for the glo
 |---|---|
 | CRC | Clinical Research Coordinator |
 | CRA | Clinical Research Associate |
-| CTA | Clinical Trial Administrator |
+| CTA | Clinical Trial Assistant |
 | CDM | Clinical Data Manager |
 | PM | Clinical Trial / Project Manager |
 | RA | Regulatory Affairs Specialist |
