@@ -29,6 +29,18 @@ place: [CRLN-TRG-001-GOVERNANCE.md](CRLN-TRG-001-GOVERNANCE.md)
 
 ---
 
+## 2026-10-08 (CTA role title in STANDARD.md)
+
+**Correction.** Section 1 of `STANDARD.md` named the CTA track "Clinical Trial Administrator".
+The machine-readable framework (`crln-trg-001.json`, where `roles.CTA.title` begins "Clinical Trial Assistant"), the Practice Lab platform and every
+signed CRLN credential for the role ("Clinical Trial Assistant (CTA)") use "Clinical Trial
+Assistant". The JSON is the canonical source, so `STANDARD.md` now reads "Clinical Trial
+Assistant". No competency, domain, code or scoring rule changes. The published 1.7.4 record
+(`CRLN-TRG-001-v1.7.4.pdf`, DOI 10.5281/zenodo.23040215) is immutable and still carries the old
+title on page 1; the correction reaches a published record at the next release.
+
+---
+
 ## 2026-09-29 (SME item ratings: which ones count toward validation)
 
 **Not a release.** No version number moves with this entry and no Zenodo record changes. No
