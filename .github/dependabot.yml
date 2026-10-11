@@ -1,0 +1,12 @@
+version: 2
+updates:
+  # The only dependencies are the GitHub Actions in .github/workflows (the
+  # Python tools under tools/ use the standard library only).
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+    groups:
+      actions:
+        patterns: ["*"]
