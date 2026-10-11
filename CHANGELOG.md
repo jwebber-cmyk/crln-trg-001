@@ -70,6 +70,8 @@ flat rate". No reviewer has been paid; every reviewer and Board invitation has s
 unpaid. Rule 4 now says reviewers and members are unpaid today, and sets the terms any future
 payment must meet.
 
+---
+
 ## 2026-10-08 (CTA role title in STANDARD.md)
 
 **Correction.** Section 1 of `STANDARD.md` named the CTA track "Clinical Trial Administrator".
