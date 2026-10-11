@@ -25,8 +25,12 @@ scheduled for correction in the next release (§7 below).
 Two independent checks do exist and are load-bearing:
 
 - **Subject-matter expert review.** Framework changes affecting competency content are
-  reviewed by external clinical research SMEs, with a 2-of-3 consensus requirement and
-  agreement against the authored key. This gate is real and has rejected content.
+  reviewed by external clinical research SMEs. An assessment item counts as validated only
+  when at least three independent reviewers have rated it, using ratings given from
+  2026-09-29 onward, and a strict majority chose the same response, one the rubric scores
+  Meets Standard or better. The majority does not have to choose CRLN's top-scored
+  response, and where it chose another competent response that is recorded. This gate is
+  real and has rejected content.
 - **Change control.** Published versions are immutable, each carries its own DOI, and every
   change is recorded in `CRLN-TRG-001-CHANGELOG.md` before release.
 
@@ -103,23 +107,62 @@ than backdating it: a promise kept thirteen days late is still late, and the per
 no way to see that anything had happened.
 
 **Still required to constitute.** A chair, elected by the members rather than appointed by the
-custodian, and three further members. At least one must bring psychometric or
-assessment-methodology expertise, and at least one must come from a low- or middle-income
-country research setting. Until the Board reaches quorum, changes continue to be approved by
-the custodian on SME review and every release says so in the change log.
+custodian, and the designated seats below that are still empty. Until the Board reaches
+quorum, changes continue to be approved by the custodian on SME review and every release says
+so in the change log.
 
-**Purpose.** To approve or reject proposed changes to the competency set, the rating scale,
-the domain weights, and the regulatory crosswalk.
+**Purpose.** The Board decides:
 
-**Composition, when constituted.** Five members: at least three practising clinical research
-professionals covering site, sponsor and regulatory perspectives; at least one member with
-psychometric or assessment-methodology expertise; at least one member from a low- or
-middle-income country research setting. A majority must be unaffiliated with CRLN.
+1. changes to the competency set, the rating scale, the domain weights, and the regulatory
+   crosswalk, including the canonical domain mappings;
+2. whether a minor or major version is released (patch releases, which correct citations or
+   wording without changing what is assessed, stay with the custodian and are reported to the
+   Board); and
+3. the rule that decides when an assessment item or a crosswalk mapping counts as validated,
+   and any change to that rule.
 
-**Quorum and decision rule.** Three members, simple majority, with dissents recorded in the
-change log. The custodian holds no casting vote on competency content.
+**Seats.** Five designated seats, each defined by the perspective it brings:
 
-**Term.** Two years, renewable once.
+| seat | perspective |
+|---|---|
+| 1 | Sponsor quality assurance or clinical operations |
+| 2 | Site network leadership |
+| 3 | Measurement science: psychometrics or assessment methodology |
+| 4 | Clinical research practice in a low- or middle-income country setting |
+| 5 | Regulatory affairs or research ethics |
+
+Up to two further at-large seats may be held by practising clinical research professionals, so
+the Board never has more than seven members. Members seated before this section was amended
+keep their seats; the Board assigns each to a designated or at-large seat at its first meeting.
+
+**Independence.** A majority of seated members must be independent of CRLN, meaning not
+employed by, contracted to, or financially interested in it. Nobody employed by, contracted
+to, holding equity in, or holding an officer title at CRLN may hold a seat, chair the Board,
+vote, or count toward quorum. CRLN staff, including any clinical or medical officer, may attend
+to present a proposal or answer questions, and their attendance is minuted. A member who works
+for a sponsor, CRO or vendor says so on the register before seating, and that employer is
+recorded beside the member's name wherever the member is named.
+
+**Quorum and decision rule.** Quorum is a majority of seated members, and never fewer than
+three. Until the Board adopts its own rules at its first meeting, decisions follow the change
+classes in CRLN-GOV-001 section 4 ([10.5281/zenodo.22760611](https://doi.org/10.5281/zenodo.22760611)),
+and where that charter and this document set different bars, the stricter one applies.
+Recusals are recorded as votes, and dissents are recorded in the change log. The custodian
+holds no casting vote on competency content.
+
+**Term.** Two years, renewable once, staggered so that the Board is never replaced at one time.
+
+**Commitment.** About two video meetings a year of roughly an hour each, written votes on
+proposals as they arrive (most take under thirty minutes), and an annual conflict declaration.
+In total, about four to six hours a year.
+
+**Compensation.** Seats are unpaid. If CRLN later funds an honorarium, it is a flat amount per
+meeting, the same for every member, never contingent on any decision, disclosed on the
+register, and any member may decline it.
+
+**Public naming.** A member is named publicly only with written consent to the exact wording,
+recorded here with its date. Consent can be withdrawn at any time, and the name is removed the
+same day.
 
 **Until it exists.** Changes are approved by the custodian on SME review. Every release states
 plainly, in the change log, that it was approved this way.
@@ -158,8 +201,11 @@ plainly, in the change log, that it was approved this way.
    that would be materially affected by a proposed change, before deliberating on it.
 2. A member with a disclosed interest in a specific change does not vote on that change.
 3. Disclosures are published alongside the release they applied to.
-4. SME reviewers are compensated for time only, at a flat rate, never contingent on the
-   outcome of their review.
+4. SME reviewers and Board members are unpaid today. Any payment introduced later is for time
+   only, at a flat rate, never contingent on the outcome of a review or vote, and is disclosed
+   on the register.
+5. Members disclose employment by, or contracts with, any sponsor, CRO or vendor before their
+   first vote, and the disclosure is published with their name.
 
 ## 4. Proposing a change
 

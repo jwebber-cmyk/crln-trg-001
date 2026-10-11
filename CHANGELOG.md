@@ -29,6 +29,49 @@ place: [CRLN-TRG-001-GOVERNANCE.md](CRLN-TRG-001-GOVERNANCE.md)
 
 ---
 
+## 2026-10-10 (GOVERNANCE.md: Board seats, decision rights, staff exclusion, and two corrections)
+
+**Not a release.** No version number moves with this entry and
+no Zenodo record changes. No competency, weight, threshold, scale, scoring rule or crosswalk
+mapping changed.
+
+**What section 2 of `GOVERNANCE.md` now says.**
+
+1. **Seats.** Five designated seats, each defined by a perspective: sponsor quality assurance
+   or clinical operations; site network leadership; measurement science; clinical research
+   practice in a low- or middle-income country setting; regulatory affairs or research ethics.
+   Up to two at-large practitioner seats, so the Board never exceeds seven. Members seated
+   before the amendment keep their seats and are assigned by the Board.
+2. **What the Board decides.** The earlier text covered the competency set, rating scale,
+   domain weights and crosswalk. It now also names the canonical domain mappings, the release
+   of minor and major versions, and the rule that decides when an item or a mapping counts as
+   validated.
+3. **Independence and staff.** Nobody employed by, contracted to, holding equity in, or holding
+   an officer title at CRLN may hold a seat, chair, vote or count toward quorum. CRLN staff may
+   attend and are minuted. Sponsor, CRO and vendor employment is disclosed beside the name.
+4. **Quorum and decision rule.** Quorum is a majority of seated members and never fewer than
+   three. Until the Board adopts its own rules, the change classes in CRLN-GOV-001 section 4
+   (10.5281/zenodo.22760611) apply, and where the charter and `GOVERNANCE.md` set different
+   bars, the stricter one applies. The earlier text set a simple majority of three while the
+   charter sets two thirds and a 30-day public comment period for normative and scoring
+   changes; the two had not been reconciled.
+5. **Commitment, compensation and naming** are stated: about four to six hours a year; unpaid,
+   with any future honorarium flat, equal, disclosed and never contingent on a decision; named
+   publicly only with written consent to the exact wording.
+
+**Correction 1, section 1.** It said the SME gate requires "a 2-of-3 consensus requirement and
+agreement against the authored key". The rule in force since 2026-09-02 does not require
+agreement with CRLN's key: an item counts as validated when at least three independent
+reviewers (ratings from 2026-09-29 onward) rated it and a strict majority chose the same
+response, one the rubric scores Meets Standard or better. Section 1 now says that.
+
+**Correction 2, section 3, rule 4.** It said "SME reviewers are compensated for time only, at a
+flat rate". No reviewer has been paid; every reviewer and Board invitation has said the work is
+unpaid. Rule 4 now says reviewers and members are unpaid today, and sets the terms any future
+payment must meet.
+
+---
+
 ## 2026-10-08 (CTA role title in STANDARD.md)
 
 **Correction.** Section 1 of `STANDARD.md` named the CTA track "Clinical Trial Administrator".
