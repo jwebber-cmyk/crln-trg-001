@@ -50,7 +50,7 @@ relationship that does not exist, or use this list as a sales prospect list.
 
 <!-- BEGIN GENERATED REGISTER -->
 
-*2 organisations have declared use of CRLN-TRG-001. This is a floor, not a count:
+*3 organisations have declared use of CRLN-TRG-001. This is a floor, not a count:
 the licence lets anyone use the framework without telling us, so this register can only ever
 show those who chose to say so.*
 
@@ -58,6 +58,7 @@ show those who chose to say so.*
 |---|---|---|---|---|
 | TrueBlue Clinical Research | United States | 1.7.2 | Used for onboarding and ongoing competency education and assessment | https://tbcrtampa.com/ |
 | MI Skin Innovations | United States | 1.7.3 | MI Skin Innovations requires all incoming study coordinators to complete CRLN-TRG-001 (v1.7.3) under our onboarding SOP. | https://miskininnovations.com/ |
+| Clinical Investigations of Texas | United States | 1.7.4 | Clinical Investigations of Texas uses CRLN-TRG-001 for staff onboarding and competency training. | https://clinicalinvestigationsoftexas.com/ |
 
 <!-- END GENERATED REGISTER -->
 
