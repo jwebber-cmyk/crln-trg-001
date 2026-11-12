@@ -1,8 +1,10 @@
 # CRLN-TRG-001 — Clinical Research Competency & Assessment Framework
 
-**Version 1.0** · Publisher: Clinical Research Learning Network (CRLN) · License: CC-BY-4.0 · Status: **Published. Competency crosswalk reviewed; regime crosswalk provisional (see §7)**
+**Version 1.7.4** · Publisher: Clinical Research Learning Network LLC (CRLN) · License: CC-BY-4.0 · Status: **published-sme-reviewed. Competency crosswalk reviewed; regime crosswalk provisional (see §7)**
 
-> **What this is.** CRLN-TRG-001 is an open, role-specific, behaviorally-anchored framework for **assessing applied competency** in entry-level clinical-research roles. It scores what a person *does* in realistic scenarios — not what they can recall — and expresses the result as a transparent, weighted, safety-aware rating crosswalked to **ICH E6(R3)** Good Clinical Practice and 21 CFR.
+> *Correction, 2026-11-12. This file still described release 1.0 (18 competency identifiers, six domains by three roles, CRC, CRA and CTA only). The standard has carried fourteen role tracks and 84 competency statements since release 1.7.0. Sections 1, 2, 4, 6 and 8 are brought up to release 1.7.4. No competency, weight, threshold, scale or scoring rule changed; see `CHANGELOG.md`.*
+
+> **What this is.** CRLN-TRG-001 is an open, role-specific, behaviorally-anchored framework for **assessing applied competency** in clinical-research roles. It scores what a person *does* in realistic scenarios (not what they can recall) and expresses the result as a transparent, weighted, safety-aware rating crosswalked to **ICH E6(R3)** Good Clinical Practice and 21 CFR.
 >
 > **What this is not.** It is **not** a new competency *taxonomy* invented by CRLN. The underlying competency domains align to the **Joint Task Force for Clinical Trial Competency (JTF)** framework, which is an independent body of work that CRLN credits and builds upon. CRLN-TRG-001's original contribution is the **assessment methodology**: the role-specific domain weights, the four-level behavioral anchors, the safety-critical auto-fail rule, the composite scoring, and the CRLN-RUB-1.1 Readiness Index.
 
@@ -10,11 +12,13 @@
 
 ## 1. Purpose & scope
 
-CRLN-TRG-001 makes clinical-research competency **measurable, comparable, and verifiable** across languages and regions — so that a learner in any country can demonstrate readiness against a single transparent standard, and an employer anywhere can trust what a CRLN result means. It covers three entry-level roles in v1.0: **CRC** (Clinical Research Coordinator), **CRA** (Clinical Research Associate), and **CTA** (Clinical Trial Assistant). Additional roles (Clinical Data Management, Pharmacovigilance, Regulatory Affairs) are on the roadmap.
+CRLN-TRG-001 makes clinical-research competency **measurable, comparable, and verifiable** across languages and regions so that a learner in any country can demonstrate readiness against a single transparent standard, and an employer anywhere can trust what a CRLN result means. It covers **fourteen role tracks** as of release 1.7.4: CRC, CRA, CTA, CDM, PM, RA, PV, PI, SUBI, RN, PHARM, DCT, ASSIST and LAB (the full names are in the table in section 4). Further roles may be added in a MINOR release.
 
 ## 2. Structure
 
-Each role is assessed across **six domains (D1–D6)** with **role-specific labels and weights** (weights sum to 1.00 per role and reflect regulatory significance and the frequency of GCP audit findings). This yields **18 competency identifiers** of the form `CRLN-{ROLE}-D{n}` — e.g. `CRLN-CRA-D2` = "On-Site Monitoring · SDV/SDR". These identifiers are the stable anchors that CRLN's verifiable credentials reference.
+Each of the fourteen role tracks is assessed across **six domains (D1 to D6)** with **role-specific labels and weights** (weights sum to 1.00 per role and reflect regulatory significance and the frequency of GCP audit findings). This yields **84 competency statements** (14 role tracks x 6 domains) with identifiers of the form `CRLN-{ROLE}-D{n}`, for example `CRLN-CRA-D2` = "On-Site Monitoring · SDV/SDR". These identifiers are the stable anchors that CRLN's verifiable credentials reference.
+
+The role-specific domains are organized under **ten canonical competency domains** (D-01 to D-10, listed in `STANDARD.md` section 2), which are the unit crosswalked to ICH E6(R3) Annex 1 and to the JTF framework. Domain codes D1 to D6 are positional within a role: `D1` for a CRA and `D1` for a Clinical Data Manager are different competencies, so always compare with the fully-qualified identifier.
 
 See the companion machine-readable file **`crln-trg-001.json`** for the complete domain list, weights, safety flags, and regulatory references per role.
 
@@ -31,7 +35,26 @@ See the companion machine-readable file **`crln-trg-001.json`** for the complete
 
 - **Composite** = weighted mean of covered domain scores, **re-normalized against actual covered weight** so partial assessments aren't penalized (CRLN-RUB-1.1 §5.2).
 - **Pass ≥ 3.0** (Industry Ready) · **Conditional Pass 2.5–2.99** · **Fail < 2.5**.
-- **Safety-critical auto-fail:** a score of **1** in any *safety-critical* domain forces an overall **Fail** regardless of composite. Safety-critical domains by role: CRC → Informed Consent (D2) & AE Reporting (D5); CRA → Protocol Deviation Assessment (D3); CTA → Safety Reporting (D5).
+- **Safety-critical auto-fail:** a score of **1** in any *safety-critical* domain forces an overall **Fail** regardless of composite. Safety-critical domains by role, as flagged in `crln-trg-001.json` (`safety_critical`):
+
+| Role | Track | Safety-critical domains |
+|---|---|---|
+| CRC | Clinical Research Coordinator | D2, D5 |
+| CRA | Clinical Research Associate | D3 |
+| CTA | Clinical Trial Assistant | D5 |
+| CDM | Clinical Data Manager | D5 |
+| PM | Clinical Trial / Project Manager | D4 |
+| RA | Regulatory Affairs Specialist | D5 |
+| PV | Pharmacovigilance / Drug Safety Associate | D3, D4 |
+| PI | Principal Investigator | D2, D4 |
+| SUBI | Sub-Investigator | D4, D6 |
+| RN | Research Nurse | D2, D4 |
+| PHARM | Clinical Trial Pharmacist | D2, D3 |
+| DCT | Decentralized Trial Coordinator | D2, D4 |
+| ASSIST | Research Assistant / Study Coordinator I | D4, D6 |
+| LAB | Specimen Processing / Laboratory Technician | D1, D6 |
+
+The domain labels for each code are in the JSON.
 - **Readiness Index:** the 1–4 composite maps to a 0–100 index via **CRLN-RUB-1.1** for reporting and benchmarking.
 
 ## 5. Regulatory basis
@@ -40,14 +63,14 @@ CRLN-TRG-001 domains cite, per role: **ICH E6(R3)** §3–§8 · **21 CFR** Part
 
 ## 6. Governance & versioning
 
-- **Version:** semantic (this is v1.0). Domain definitions, weights, and thresholds are change-controlled; the change log is published with each release.
+- **Version:** semantic (this is release 1.7.4). Domain definitions, weights, and thresholds are change-controlled; the change log is published with each release.
 - **Competency IDs are stable:** an ID (e.g. `CRLN-CTA-D1`) never changes meaning within a major version, so credentials remain verifiable over time.
 - **Openness:** the framework specification and JSON are released under CC-BY-4.0 so employers, training providers, and researchers may adopt and measure against it. The **data** generated by assessing against it remains CRLN's.
 
-## 7. Validation status (read before citing as a standard)
+## 7. Review status (read before citing as a standard)
 
-The **competency crosswalk** (the ten canonical domains mapped to ICH E6(R3) Annex 1 and to the Joint Task Force Clinical Trial Competency Framework) has been **reviewed by subject-matter experts**: all ten canonical domain mappings were reviewed by a practicing site director who recorded a written rationale for each, and confirmed by two further reviewers. The reviewers are named in `GOVERNANCE.md`. *(Corrected 2026-09-28. This passage previously said three independent reviewers rated all ten domains and agreed on all ten, unanimously. That was accurate as a count and misleading as a description of the review, because only one reviewer recorded a rationale; see `CHANGELOG.md`.)* Approval is by the custodian on that SME review, because the Methodology Review Board has not yet reached quorum, and that limit is stated rather than glossed. The **jurisdiction and regulatory-regime crosswalk remains provisional**: it has had no SME review at all, and nothing about the competency review extends to it. The **assessment mechanics** (weights, anchors, safety rule, thresholds, scoring) remain CRLN-authored and in production use. CRLN-TRG-001 is still **not** an accredited standard, and should not be represented as one.
+The **competency crosswalk** (the ten canonical domains mapped to ICH E6(R3) Annex 1 and to the Joint Task Force Clinical Trial Competency Framework) has been **reviewed by subject-matter experts**: all ten canonical domain mappings were reviewed by a practicing site director who recorded a written rationale for each, and confirmed by two further reviewers. The reviewers are named in `GOVERNANCE.md`. *(Corrected 2026-09-28. This passage previously said three independent reviewers rated all ten domains and agreed on all ten, unanimously. That was accurate as a count and misleading as a description of the review, because only one reviewer recorded a rationale; see `CHANGELOG.md`.)* Sign-off is by the custodian on that SME review, because the Methodology Review Board has not yet reached quorum, and that limit is stated rather than glossed. The **jurisdiction and regulatory-regime crosswalk remains provisional**: it has had no SME review at all, and nothing about the competency review extends to it. The **assessment mechanics** (weights, anchors, safety rule, thresholds, scoring) remain CRLN-authored and in production use. CRLN-TRG-001 is still **not** an accredited standard, and should not be represented as one.
 
 ## 8. Citation
 
-> Clinical Research Learning Network. *CRLN-TRG-001: Clinical Research Competency & Assessment Framework, v1.0.* 2026. Licensed CC-BY-4.0. Aligned to ICH E6(R3) and the Joint Task Force for Clinical Trial Competency.
+> Clinical Research Learning Network. *CRLN-TRG-001: Clinical Research Competency & Assessment Framework, v1.7.4.* 2026. Licensed CC-BY-4.0. Aligned to ICH E6(R3) and the Joint Task Force for Clinical Trial Competency.

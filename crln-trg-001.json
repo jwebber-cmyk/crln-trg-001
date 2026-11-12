@@ -1129,9 +1129,9 @@
     }
   },
   "notes": [
-    "18 competency IDs total (3 roles × 6 domains). These IDs are the stable anchors that CRLN-issued verifiable credentials reference (moat build #1).",
+    "84 competency IDs total (14 role tracks × 6 domains). Corrected 2026-11-12: this note previously read 18 IDs, 3 roles. These IDs are the stable anchors that CRLN-issued verifiable credentials reference (moat build #1).",
     "Domain weights sum to 1.00 within each role and reflect regulatory significance and frequency of GCP findings.",
-    "This JSON is the machine-readable form of the CRLN-TRG-001 v1.0 specification; the human-readable spec and change log live alongside it."
+    "This JSON is the machine-readable form of the CRLN-TRG-001 specification (release 1.7.4 as of 2026-11-12; this note previously said v1.0); the human-readable spec and change log live alongside it."
   ],
   "domain_code_semantics": "Domain codes D1-D6 are POSITIONAL WITHIN A ROLE. D1 for a CRA and D1 for a CDM are different competencies. Compare using the fully-qualified id (CRLN-<ROLE>-<Dn>), never the bare code.",
   "governance": {
