@@ -142,7 +142,8 @@ than it has earned, because a competency standard that looks authoritative can b
 used to gate someone out of a job. The mitigations are disclosure rather than
 restriction:
 
-- Release status is `published-provisional` and every release says so. The
+- Release status is `published-sme-reviewed` and every release says so. (Corrected
+  2026-11-12: this line said `published-provisional`, the status of releases before 1.7.1.) The
   crosswalk has had subject matter expert review; the Methodology Review Board
   has one seated member and has not reached quorum. `GOVERNANCE.md` states this
   plainly, including that §6 of an earlier version claimed a standing board that
@@ -173,8 +174,9 @@ is by pull request or email to `standard@crln-learn.com`, governed by
 
 - **Developed in:** United States
 - **Deployed in:** United States, declared conservatively. The standard is
-  applied inside the publisher's own platform, which has registered learners in
-  68 countries, but third-party adoption is unverifiable by design: CC BY permits
+  applied inside the publisher's own platform, whose registered learners have
+  declared 32 countries where they work (the platform's own count of declared
+  countries, 2026-11-12; not inferred from IP address or time zone), but third-party adoption is unverifiable by design: CC BY permits
   use with no notification. `ADOPTERS.md` is a voluntary register and
   currently lists one adopter, in the United States. Listing countries we cannot
   evidence would be the wrong answer to give a registry.

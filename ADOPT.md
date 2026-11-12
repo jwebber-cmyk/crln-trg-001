@@ -34,11 +34,13 @@ requires them — the scale is designed to be applied by a human rater.
 
 ## Before you adopt: what is provisional
 
-Adopting a standard means inheriting its maturity. As of the 1.0 publication:
+Adopting a standard means inheriting its maturity. As of release 1.7.4:
 
-- **The JTF and ICH crosswalk is provisional**, pending independent SME review. If
-  you rely on a specific domain mapping for a regulatory or accreditation purpose,
-  verify that mapping yourself.
+- **The competency crosswalk to ICH E6(R3) Annex 1 and the JTF framework has had
+  subject matter expert review; the jurisdiction and regime crosswalks are
+  provisional.** If you rely on a specific mapping for a regulatory or accreditation
+  purpose, verify that mapping yourself. *(Corrected 2026-11-12: this bullet still said
+  the whole crosswalk was provisional pending review, as at release 1.0.)*
 - **45 of 200 regulatory jurisdictions are verified** against primary sources. The
   other 155 record an inference. Check your own jurisdiction before citing it.
 

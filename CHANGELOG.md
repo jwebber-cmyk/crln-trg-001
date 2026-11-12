@@ -29,6 +29,28 @@ place: [CRLN-TRG-001-GOVERNANCE.md](CRLN-TRG-001-GOVERNANCE.md)
 
 ---
 
+## 2026-11-12 (public files brought up to release 1.7.4 before the DPGA review)
+
+**Not a release.** No version number moves with this entry and no Zenodo record or frozen DOI
+copy changes. No competency, weight, threshold, scale, scoring rule or crosswalk mapping changed.
+Published Zenodo records up to and including 1.7.4 keep the older wording of these files.
+
+**What changed, and what each said before.**
+- `SPEC.md`: said "Version 1.0", "18 competency identifiers (6 domains x 3 roles)" and three role
+  tracks (CRC, CRA, CTA). It now says release 1.7.4, 84 competency statements across fourteen role
+  tracks, and lists the safety-critical domains of all fourteen roles from `crln-trg-001.json`.
+- `dpg-nominee.json`: said "Release 1.7.0" and status `published-provisional`. It now says release
+  1.7.4 and `published-sme-reviewed`, the status in `crln-trg-001.json`.
+- `crln-trg-001.json` `notes`: said "18 competency IDs total (3 roles x 6 domains)" and "v1.0
+  specification". Corrected. No other field changed.
+- `DPG-SCREENING.md`: the Locations section said "registered learners in 68 countries", a figure
+  that included countries guessed from IP address and time zone. It now quotes the platform's count
+  of countries learners declared they work in (32 on 2026-11-12). The release-status line said
+  `published-provisional` and now says `published-sme-reviewed`.
+- `ADOPT.md`: the maturity section still described the whole crosswalk as provisional pending
+  review, as at release 1.0. It now separates the reviewed competency crosswalk from the
+  provisional jurisdiction and regime crosswalks.
+
 ## 2026-10-10 (GOVERNANCE.md: Board seats, decision rights, staff exclusion, and two corrections)
 
 **Not a release.** No version number moves with this entry and
