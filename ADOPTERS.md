@@ -59,6 +59,8 @@ show those who chose to say so.*
 | TrueBlue Clinical Research | United States | 1.7.2 | Used for onboarding and ongoing competency education and assessment | https://tbcrtampa.com/ |
 | MI Skin Innovations | United States | 1.7.3 | MI Skin Innovations requires all incoming study coordinators to complete CRLN-TRG-001 (v1.7.3) under our onboarding SOP. | https://miskininnovations.com/ |
 | Clinical Investigations of Texas | United States | 1.7.4 | Clinical Investigations of Texas uses CRLN-TRG-001 for staff onboarding and competency training. | https://clinicalinvestigationsoftexas.com/ |
+| Quality Clinical Research | United States | 1.7.4 | Quality Clinical Research uses CRLN-TRG-001 for standardized staff training and fundamentals competency tracking. | https://qcrnetwork.com/ |
+| Monocytes d.o.o. | Croatia | 1.7.4 | Monocytes d.o.o. uses CRLN-TRG-001 in its site readiness trainings, alongside its frameworks, checklists and live expert sessions. | https://www.monocytes.eu/ |
 
 <!-- END GENERATED REGISTER -->
 
