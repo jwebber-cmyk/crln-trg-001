@@ -41,15 +41,12 @@ Adopting a standard means inheriting its maturity. As of release 1.7.4:
   provisional.** If you rely on a specific mapping for a regulatory or accreditation
   purpose, verify that mapping yourself. *(Corrected 2026-11-12: this bullet still said
   the whole crosswalk was provisional pending review, as at release 1.0.)*
-- **45 of 200 regulatory jurisdictions are verified** against primary sources. The
-  other 155 record an inference. Check your own jurisdiction before citing it.
+- **41 of 200 regulatory jurisdictions are verified** against primary sources (checked
+  2026-11-22). The other 159 record an inference. Check your own jurisdiction before citing it.
 
-  The count is deliberately not the headline. Of the 652 learners with a country on
-  record, **88% are in a verified jurisdiction, and half are outside the United States
-  and verified** (checked 2026-09-23). That second figure was 27% before the six
-  jurisdictions with the largest learner populations were verified on 2026-09-22. A map is only as useful as its overlap with the people using
-  it, and `ops/scripts/check-jurisdiction-coverage.py` ranks what to verify next by
-  learner count rather than alphabetically.
+  The count is deliberately not the headline. A map is only as useful as its overlap
+  with the places people work, so the coverage script ranks what to verify next by where
+  the platform's learners declare they work, not alphabetically.
 
   Verified here means: a named national regulatory authority, the national instrument
   cited precisely enough to look up, ICH status taken from the ICH's own membership

@@ -29,6 +29,26 @@ place: [CRLN-TRG-001-GOVERNANCE.md](CRLN-TRG-001-GOVERNANCE.md)
 
 ---
 
+## 2026-11-22 (documentation corrections before the DPGA review concludes)
+
+**Not a release.** No version number moves and no Zenodo record or frozen copy changes.
+`CRLN-TRG-001-v1.7.4.pdf` is the frozen release PDF and is not rebuilt; it and the Zenodo 1.7.4
+record keep the older sentences below. No competency, weight, threshold, scale, scoring rule or
+crosswalk mapping changed. The corrected wording would reach a DOI only with a later PATCH release.
+
+**What changed, and what each said before.**
+- `SPEC.md`, `STANDARD.md` (three places), `GOVERNANCE.md`, `DPG-SCREENING.md`,
+  `crosswalks/CRLN-TRG-001-x-JTF.md` and the `validation_status` string in `crln-trg-001.json`: said
+  the site director "recorded a written rationale for each" mapping. They now say the reviewer
+  recorded agreement on all ten and a written rationale specific to nine of them (one rationale
+  duplicates another). Earlier CHANGELOG entries and dated correction notes are left as written.
+- `DPG-SCREENING.md`: dropped the count of declared learner countries (a figure that moves weekly and
+  is not what the registry asks; the section now says United States, declared conservatively);
+  adopters now read three, matching `ADOPTERS.md`, with the independence note extended; records the
+  DPG Standard version it was checked against (v1.1.6, 2026-11-22).
+- `ADOPT.md`: removed a learner count and percentage from 2026-09-23. The verified-jurisdiction
+  count now reads 41 of 200 (checked 2026-11-22; it said 45). `GOVERNANCE.md` said 39 and now says 41.
+
 ## 2026-11-12 (public files brought up to release 1.7.4 before the DPGA review)
 
 **Not a release.** No version number moves with this entry and no Zenodo record or frozen DOI

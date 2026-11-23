@@ -57,8 +57,8 @@ to endorse.
 
 The evidential basis for the crosswalk claim in the standard is the rationale-bearing review by
 one Founding Validator, confirmed by two further reviewers. In the words the standard uses: all
-ten canonical domain mappings were reviewed by a practicing site director who recorded a written
-rationale for each, and confirmed by two further reviewers.
+ten canonical domain mappings were reviewed by a practicing site director who recorded agreement on all ten and a
+written rationale specific to nine of them, and confirmed by two further reviewers.
 
 > **Correction, 2026-09-29.** Up to and including release 1.7.3, this section said: "Jeffrey
 > Smyth reviewed all ten competency domain mappings in the ICH E6(R3) crosswalk before
@@ -273,8 +273,8 @@ Listed because a governance document that only describes strengths is marketing.
   The next release corrects that sentence to point here.
 - **The custodian's commercial interest is structural**, not incidental, and is disclosed
   rather than resolved.
-- **The regulatory crosswalk is partly provisional.** Of 200 jurisdictions mapped, 39 are
-  confirmed against a named authority and 161 fall back to the ICH baseline. Provisional
+- **The regulatory crosswalk is partly provisional.** Of 200 jurisdictions mapped, 41 are
+  confirmed against a named authority (checked 2026-11-22) and 159 fall back to the ICH baseline. Provisional
   entries are flagged as such wherever they are surfaced.
 - **No adoption registry.** There is currently no published list of who has adopted the
   framework, so adoption cannot be independently verified.

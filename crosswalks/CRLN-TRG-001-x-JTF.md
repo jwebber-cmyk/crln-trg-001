@@ -2,7 +2,7 @@
 
 **Status: reviewed at the canonical-domain level, 2026-09-21. Description of the review
 corrected 2026-09-28.** All ten canonical domain mappings were reviewed by a practicing site
-director who recorded a written rationale for each, and confirmed by two further reviewers.
+director who recorded agreement on all ten and a written rationale specific to nine of them, and confirmed by two further reviewers.
 The first review took about two minutes per mapping. The two confirmations were recorded at
 about 7 and 12 seconds per mapping, without a rationale. Reviewers are named with their
 consent in `GOVERNANCE.md`.
