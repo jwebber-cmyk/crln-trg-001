@@ -1,6 +1,8 @@
 # DPG Standard screening answers — CRLN-TRG-001
 
 Prepared 2026-09-21 for nomination to the Digital Public Goods Alliance registry.
+Reviewed 2026-11-22 against the DPG Standard v1.1.6, the latest tagged release (published
+2024-09-04; checked 2026-11-22 at github.com/DPGAlliance/DPG-Standard/releases).
 
 **What is being nominated:** CRLN-TRG-001, the competency framework, as a
 **standard**. Type `standard` under the DPG schema.
@@ -103,9 +105,12 @@ asserted:
 
 - **ICH E6(R3) Annex 1** — section anchors verified against the adopted guideline.
   Crosswalk reviewed 2026-09-21: all ten canonical domain mappings were reviewed by a
-  practicing site director who recorded a written rationale for each, and confirmed by two
+  practicing site director who recorded agreement on all ten and a written rationale specific to nine of them, and confirmed by two
   further reviewers, named with consent in `GOVERNANCE.md`. (Corrected 2026-09-28. This
-  line previously said three independent reviewers agreed on all ten canonical domains.)
+  line previously said three independent reviewers agreed on all ten canonical domains.
+  Corrected 2026-11-22: "a written rationale for each" was true as a count of mappings with
+  a reviewer, but the written rationale for the third domain duplicates the second; it is
+  specific to nine of the ten.)
 - **Joint Task Force for Clinical Trial Competency Framework**
 - **TDR Global Competency Framework for Clinical Research** (UNICEF/UNDP/World Bank/WHO,
   2016) — crosswalk published 2026-09-22 in `crosswalks/`. PROVISIONAL and unreviewed
@@ -173,13 +178,11 @@ is by pull request or email to `standard@crln-learn.com`, governed by
 ## Locations
 
 - **Developed in:** United States
-- **Deployed in:** United States, declared conservatively. The standard is
-  applied inside the publisher's own platform, whose registered learners have
-  declared 32 countries where they work (the platform's own count of declared
-  countries, 2026-11-12; not inferred from IP address or time zone), but third-party adoption is unverifiable by design: CC BY permits
-  use with no notification. `ADOPTERS.md` is a voluntary register and
-  currently lists one adopter, in the United States. Listing countries we cannot
-  evidence would be the wrong answer to give a registry.
+- **Deployed in:** United States, declared conservatively. The standard is applied
+  inside the publisher's own platform, but third-party adoption is unverifiable by
+  design: CC BY permits use with no notification. `ADOPTERS.md` is a voluntary
+  register and lists the organizations that gave written permission. Listing countries
+  we cannot evidence would be the wrong answer to give a registry.
 
 ---
 
@@ -187,7 +190,7 @@ is by pull request or email to `standard@crln-learn.com`, governed by
 
 1. **Provisional status, and it is now more mixed than it was.** The competency crosswalk
    to ICH E6(R3) Annex 1 and the JTF framework has been reviewed, by one practicing site
-   director with a written rationale for each mapping and confirmed by two further reviewers,
+   director with a written rationale specific to nine of the ten mappings and confirmed by two further reviewers,
    but is not board-ratified.
    The three crosswalks added 2026-09-22 (TDR, ICH E6(R3) Annex 2, EU CTR 536/2014) are
    PROVISIONAL and have had NO review of any kind: they are the custodian's judgement
@@ -205,12 +208,16 @@ is by pull request or email to `standard@crln-learn.com`, governed by
 4. **Board below quorum.** One seated member. A chair and three further members
    are still required, including psychometric expertise and low- or
    middle-income country representation.
-5. **One adopter on the public register, as of 2026-09-22, and it is not independent.**
-   TrueBlue Clinical Research (United States) declared use of v1.7.2 for onboarding
+5. **Three adopters on the public register, as of 2026-11-22, and only one is independent
+   of the publisher by our own assessment.** `ADOPTERS.md` lists three organizations, all in
+   the United States. TrueBlue Clinical Research (United States) declared use of v1.7.2 for onboarding
    and ongoing competency education and assessment, with written permission asked
    twice and given. Its president, Jeffrey Smyth, holds the one seated Methodology
    Review Board seat and was one of the three crosswalk reviewers, so this is an
-   adoption by someone close to the framework, and is presented that way. One is a small number and is presented as one. Because the
+   adoption by someone close to the framework, and is presented that way. MI Skin
+   Innovations and Clinical Investigations of Texas are clinical research sites that
+   declared use under written permission; neither holds a board seat. Three is a small
+   number and is presented as three. Because the
    licence is CC BY, unlisted use is invisible to us, so the register is a floor
    rather than a count and `ADOPTERS.md` says so on its face.
 6. **The publisher sells a product built on the standard.** Addressed under
